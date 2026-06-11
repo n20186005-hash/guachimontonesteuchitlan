@@ -33,9 +33,9 @@
     "alsoKnownAs": {
       "title": "Aspectos destacados",
       "items": [
-        "Pirámides circulares: Las únicas pirámides circulares conocidas en Mesoamérica, una característica arquitectónica única.",
-        "Patrimonio cultural: Sitio arqueológico oficial reconocido por el INAH (Instituto Nacional de Antropología e Historia).",
-        "Historia viva: Explora las ruinas de una antigua civilización que data del período preclásico tardío.",
+        "Pirámides circulares: Uno de los complejos de pirámides escalonadas circulares más raros de Mesoamérica, que muestra las características arquitectónicas únicas de la cultura Teuchitlán.",
+        "Patrimonio cultural: Sitio arqueológico oficialmente reconocido y protegido por el INAH (Instituto Nacional de Antropología e Historia).",
+        "Historia viva: Explora las ruinas de una antigua civilización que data del año 300 a.C. (período Preclásico Tardío).",
         "Ubicación privilegiada: Situado en el estado de Jalisco, fácilmente accesible desde Guadalajara."
       ]
     }
@@ -78,21 +78,21 @@
   },
   "hours": {
     "title": "Horarios",
-    "outdoor": "Zona arqueológica",
-    "outdoorTime": "Abierto al público (verificar horarios oficiales)",
-    "lighthouse": "Mejor época para visitar",
-    "summer": "Temporada seca (noviembre-abril)",
-    "summerTime": "Clima más agradable, ideal para caminar y explorar",
-    "winter": "Temporada de lluvias (mayo-octubre)",
-    "winterTime": "Clima cálido con lluvias por la tarde, llevar paraguas",
+    "outdoor": "Martes a domingo",
+    "outdoorTime": "09:00–17:00",
+    "lighthouse": "Lunes",
+    "summer": "Lunes",
+    "summerTime": "Cerrado",
+    "winter": "Mejor época para visitar",
+    "winterTime": "La temporada seca (noviembre-abril) es ideal para caminar y explorar",
     "warning": "Notas importantes",
-    "warningTime": "Se recomienda verificar los horarios en el sitio oficial del INAH antes de visitar",
+    "warningTime": "Se recomienda dar prioridad a consultar por teléfono para verificar los arreglos especiales de días festivos antes de la visita.",
     "tip": "Llegar temprano para evitar el calor intenso y las multitudes"
   },
   "tickets": {
     "title": "Entradas",
     "outdoor": "Entrada general",
-    "outdoorPrice": "Consultar precios actualizados en el sitio oficial",
+    "outdoorPrice": "Los precios están sujetos a los últimos anuncios en el sitio; se recomienda llamar con anticipación para conocer los precios actuales y las políticas de descuento.",
     "lighthouse": "Estudiantes y maestros",
     "adults": "Entrada con credencial vigente",
     "adultsPrice": "Descuento disponible (verificar requisitos)",
@@ -123,8 +123,8 @@
     "overview": "Ruta sugerida para visitar Guachimontones",
     "steps": [
       "Llegar a la zona arqueológica y visitar el museo de sitio para obtener contexto histórico",
-      "Explorar las pirámides circulares y subir a la Pirámide Principal (Piramide circular)",
-      "Caminar por las plazas circulares y el juego de pelota prehispánico",
+      "Explorar y admirar de cerca la estructura única de la Pirámide Circular Principal (Piramide circular) (Nota: Para proteger las ruinas, está estrictamente prohibido escalar)",
+      "Caminar por las plazas circulares y visitar las ruinas del juego de pelota prehispánico",
       "Disfrutar de las vistas panorámicas hacia la Sierra de Tequila",
       "Visitar el pueblo mágico de Teuchitlán y probar la gastronomía local",
       "Regresar a Guadalajara y visitar el Centro Histórico o la Rotonda de los Jaliscienses Ilustres"
