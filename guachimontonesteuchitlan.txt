@@ -1,0 +1,152 @@
+
+
+我们网站是
+guachimontonesteuchitlan.com
+检查下有没有错误
+
+
+
+
+你正在用（Next.js开发）
+为一个新景点【 Zona Arqueológica Teuchitlán o Guachimontones 】构建静态/Next.js 单页指南网站。
+页面只需要支持中文和英文双语言
+
+zona-arqueologica-teuchitlan-o-guachimontones
+
+
+墨西哥哈利斯科州	Zona Arqueológica Teuchitlán o Guachimontones
+
+Zona Arqueológica Teuchitlán o Guachimontones
+4.7(6,641)
+考古博物馆
+
+Piramide circular, Carretera Estatal 604 Guadalajara-San Marcos Gral. Lucio Blanco, Estanzuela, 46762 Guachimontones, Jal., 墨西哥
+
++523841090388
+
+M5W7+5F Guachimontones, 哈利斯科州墨西哥
+
+https://maps.app.goo.gl/1WnrfR8J7z6EPdd17
+
+
+表单字段	填写内容（中文）	填写内容（英文 / 原地址）
+国家 / 地区 *	墨西哥  /	Mexico
+地址 *	Piramide circular, Carretera Estatal 604 Guadalajara-San Marcos Gral. Lucio Blanco, Estanzuela     /		Piramide circular, Carretera Estatal 604 Guadalajara-San Marcos Gral. Lucio Blanco, Estanzuela
+地址 2（选填）	（可留空，或补充景点名称）Zona Arqueológica Teuchitlán o Guachimontones    /   Zona Arqueológica Teuchitlán o Guachimontones
+市 / 自治市	Teuchitlán（特奇特兰）
+城市 *	瓜奇蒙托内斯 / 埃斯坦苏埃拉	Guachimontones / Estanzuela
+省 / 自治区 / 直辖市 *	哈利斯科州	Jalisco
+邮政编码 *	46762  /	46762
+
+
+层级	正确名称	说明
+国家 / 地区	Mexico（墨西哥）	最顶层，必填
+州 / 省	Jalisco（哈利斯科州）	墨西哥的一级行政区，必填
+市 / 自治市	Teuchitlán（特奇特兰）	地址的核心行政单位，也是邮编 46762 对应的正式城市
+社区 / 地点	Estanzuela（埃斯坦苏埃拉）	遗址所在的小社区 / 村落，不是正式城市名
+景点 / 地标	Guachimontones（瓜奇蒙托内斯）	考古遗址的俗称 / 别称，不是行政地名
+
+
+
+
+单景点注册.com 域名推荐
+
+首屏背景图要引用以下
+C:\Users\Administrator\Documents\GitHub\墨西哥\zona-arqueologica-teuchitlan-o-guachimontones\ponta-da-piedade\public\gallery\zona-arqueologica-teuchitlan-o-guachimontones (1).jpg
+
+
+
+删除原先友情链接，新增以下友情链接
+
+墨西哥联邦政府旅游部
+https://www.gob.mx/sectur
+哈利斯科州旅游局
+https://secturjal.jalisco.gob.mx/inicio
+特乌奇特兰市政府政务与透明度
+https://teuchitlan.jalisco.gob.mx/inicio
+墨西哥国家人类学与历史研究所
+https://www.inah.gob.mx/
+INAH 官方考古遗址名录
+https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1715-teuchitl%C3%A1n-o-guachimontones.html
+
+
+
+
+在Google地图上查看位置都跳转为 https://maps.app.goo.gl/1WnrfR8J7z6EPdd17
+页面一共四个链接每一个都需要修改
+
+照片画廊
+精彩照片 显示照片不全目前只显示8张，需要有显示完整照片显示功能
+检查照片名称是否正确并修正
+
+删除 探索更多 板块
+
+首屏谷歌地图位置跳转为 https://maps.app.goo.gl/1WnrfR8J7z6EPdd17
+
+照片画廊
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/1WnrfR8J7z6EPdd17
+
+游客评价
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/1WnrfR8J7z6EPdd17
+
+地图位置
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/1WnrfR8J7z6EPdd17
+
+首屏右侧切换中文的时候 网站没转为/zh
+
+
+新增
+西班牙语
+
+生成一个文件忽略不需要上传的文件
+
+
+
+墨西哥联邦政府旅游部
+https://www.gob.mx/sectur
+哈利斯科州旅游局
+https://secturjal.jalisco.gob.mx/inicio
+特乌奇特兰市政府政务与透明度
+https://teuchitlan.jalisco.gob.mx/inicio
+墨西哥国家人类学与历史研究所
+https://www.inah.gob.mx/
+INAH 官方考古遗址名录
+https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1715-teuchitl%C3%A1n-o-guachimontones.html
+
+
+
+
+1. 国家级宏观统筹 (National Level)
+墨西哥联邦政府旅游部 (Secretaría de Turismo del Gobierno de México - SECTUR)
+
+官方网址: https://www.gob.mx/sectur
+
+层级定位: 墨西哥国家最高级别的旅游及统筹管理机构，负责制定国家级宏观文旅资源的宣发政策与出入境旅游指导。
+
+2. 大区/省级行政管理 (State / Regional Level)
+哈利斯科州旅游局 (Secretaría de Turismo del Estado de Jalisco)
+
+官方网址: https://secturjal.jalisco.gob.mx/
+
+层级定位: 代表哈利斯科州政府负责全州文旅事务的官方行政部门，统筹辖区内（含 Valles 地区）文旅资源的规划、保护及配套公共资源调配。
+
+3. 市级地方行政管辖 (Municipal Level)
+特乌奇特兰市政府 (H. Ayuntamiento de Teuchitlán)
+
+官方网址: https://teuchitlan.gob.mx/
+
+层级定位: 遗址所在地的直接基层行政实体。负责该市属地内的日常政务、城市基建维护以及通往考古区属地道路的公共管理。
+
+4. 国家级专业遗产统筹 (National Heritage Administration)
+墨西哥国家人类学与历史研究所 (Instituto Nacional de Antropología e Historia - INAH)
+
+官方网址: https://www.inah.gob.mx/
+
+层级定位: 隶属于墨西哥联邦政府文化部，是墨西哥掌握最高学术及法律权威的官方文化遗产与考古遗迹保护机构，负责全国所有国家级古迹的勘探与定级。
+
+5. 专属专业遗产数据库 (Professional Heritage Database)
+INAH 官方考古遗址名录：Teuchitlán (Guachimontones) 专属档案
+
+官方网址: https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1715-teuchitl%C3%A1n-o-guachimontones.html
+
+层级定位: 国家级考古数据库网（Red de Zonas Arqueológicas）中针对该遗址设立的唯一官方权威档案主页，提供纯正的官方地理坐标、出入境游客开放政策、文物史料与学术解说背景。
