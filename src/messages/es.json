@@ -1,0 +1,384 @@
+{
+  "meta": {
+    "title": "Zona Arqueológica Teuchitlán o Guachimontones | Guachimontones",
+    "description": "Explora la Zona Arqueológica Teuchitlán o Guachimontones en Jalisco, México. Descubre las impresionantes pirámides circulares y la rica historia de esta zona arqueológica."
+  },
+  "header": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Reseñas",
+    "map": "Mapa",
+    "backToHome": "Volver al inicio"
+  },
+  "hero": {
+    "title": "Zona Arqueológica Teuchitlán o Guachimontones",
+    "subtitle": "Jalisco · México",
+    "rating": "4.7",
+    "reviewCount": "6,641",
+    "hours": "Abierto al público",
+    "openMaps": "Ver ubicación"
+  },
+  "intro": {
+    "title": "Explora Guachimontones",
+    "description": "La Zona Arqueológica Teuchitlán o Guachimontones está ubicada en el municipio de Teuchitlán, Jalisco, México. Es un sitio arqueológico único famoso por sus impresionantes pirámides circulares prehispánicas. Este sitio representa uno de los ejemplos más notables de la arquitectura circular precolombina en Mesoamérica, ofreciendo a los visitantes una ventana fascinante hacia la antigua cultura teuchitlán.",
+    "visitGuide": {
+      "title": "Consejos de visita",
+      "items": [
+        "El sitio está abierto al público, se recomienda verificar horarios antes de visitar",
+        "Contratar un guía local para obtener información detallada sobre la historia del sitio",
+        "Llevar sombrero, protector solar y agua, ya que hay poca sombra",
+        "Visitar el museo de sitio para ver artefactos arqueológicos y maquetas"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Aspectos destacados",
+      "items": [
+        "Pirámides circulares: Las únicas pirámides circulares conocidas en Mesoamérica, una característica arquitectónica única.",
+        "Patrimonio cultural: Sitio arqueológico oficial reconocido por el INAH (Instituto Nacional de Antropología e Historia).",
+        "Historia viva: Explora las ruinas de una antigua civilización que data del período preclásico tardío.",
+        "Ubicación privilegiada: Situado en el estado de Jalisco, fácilmente accesible desde Guadalajara."
+      ]
+    }
+  },
+  "knowledge": {
+    "title": "Descubre el encanto de Guachimontones",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Significado histórico",
+        "content": "Guachimontones es un sitio arqueológico de la cultura teuchitlán, que floreció entre los años 200 a.C. y 400 d.C. El sitio es famoso por sus distintivas estructuras circulares, incluyendo pirámides circulares con altares en la cima, plazas circulares y juegos de pelota."
+      },
+      {
+        "id": "nature",
+        "title": "Paisaje arqueológico",
+        "content": "El sitio se encuentra en un hermoso entorno natural con vista a la Sierra de Tequila. Las estructuras circulares están rodeadas de vegetación típica de Jalisco, creando una atmósfera única donde la historia y la naturaleza se encuentran."
+      },
+      {
+        "id": "experience",
+        "title": "Experiencia de visita",
+        "content": "Visitar Guachimontones es una experiencia fascinante. Puedes caminar entre las antiguas pirámides circulares, aprender sobre la cultura teuchitlán en el museo de sitio, y disfrutar de las impresionantes vistas del paisaje circundante."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Información básica",
+    "officialName": "Nombre oficial",
+    "officialNameValue": "Zona Arqueológica Teuchitlán o Guachimontones",
+    "type": "Tipo de sitio",
+    "typeValue": "Zona arqueológica",
+    "country": "País",
+    "countryValue": "México",
+    "city": "Ciudad",
+    "cityValue": "Teuchitlán, Jalisco",
+    "googleRating": "Calificación de Google",
+    "address": "Dirección",
+    "addressValue": "Piramide circular, Carretera Estatal 604 Guadalajara-San Marcos Gral. Lucio Blanco, Estanzuela, 46762 Guachimontones, Jal., México",
+    "plusCode": "Código Plus",
+    "plusCodeValue": "M5W7+5F Guachimontones, Jalisco, México"
+  },
+  "hours": {
+    "title": "Horarios",
+    "outdoor": "Zona arqueológica",
+    "outdoorTime": "Abierto al público (verificar horarios oficiales)",
+    "lighthouse": "Mejor época para visitar",
+    "summer": "Temporada seca (noviembre-abril)",
+    "summerTime": "Clima más agradable, ideal para caminar y explorar",
+    "winter": "Temporada de lluvias (mayo-octubre)",
+    "winterTime": "Clima cálido con lluvias por la tarde, llevar paraguas",
+    "warning": "Notas importantes",
+    "warningTime": "Se recomienda verificar los horarios en el sitio oficial del INAH antes de visitar",
+    "tip": "Llegar temprano para evitar el calor intenso y las multitudes"
+  },
+  "tickets": {
+    "title": "Entradas",
+    "outdoor": "Entrada general",
+    "outdoorPrice": "Consultar precios actualizados en el sitio oficial",
+    "lighthouse": "Estudiantes y maestros",
+    "adults": "Entrada con credencial vigente",
+    "adultsPrice": "Descuento disponible (verificar requisitos)",
+    "students": "Estacionamiento",
+    "studentsPrice": "Estacionamiento disponible en el sitio",
+    "children": "Recomendaciones",
+    "childrenPrice": "Contratar guía para una mejor experiencia",
+    "card": "Servicios adicionales",
+    "cardPrice": "Museo de sitio incluido en la entrada"
+  },
+  "transport": {
+    "title": "Cómo llegar",
+    "airport": "Desde el aeropuerto",
+    "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional de Guadalajara (GDL). Desde allí, rentar auto o tomar transporte terrestre hacia Teuchitlán.",
+    "selfDrive": "En automóvil",
+    "selfDriveDesc": "Desde Guadalajara, tomar la Carretera Estatal 604 hacia Teuchitlán. El sitio está bien señalizado.",
+    "bus": "Transporte público",
+    "busDesc": "Autobuses desde la Central de Autobuses de Guadalajara hacia Teuchitlán. Desde la central de autobuses local, tomar taxi hacia el sitio arqueológico.",
+    "intercity": "Tours organizados",
+    "intercityDesc": "Varios operadores turísticos ofrecen tours desde Guadalajara que incluyen transporte y guía.",
+    "cycling": "Otros medios",
+    "cyclingDesc": "Se recomienda visitar en automóvil particular o tour organizado para mayor comodidad.",
+    "tips": "Consejos de viaje",
+    "tipsDesc": "Jalisco es un estado maravilloso con rica cultura, historia y tradiciones. Guachimontones es una joya arqueológica que no te puedes perder."
+  },
+  "route": {
+    "title": "Ruta de visita",
+    "overview": "Ruta sugerida para visitar Guachimontones",
+    "steps": [
+      "Llegar a la zona arqueológica y visitar el museo de sitio para obtener contexto histórico",
+      "Explorar las pirámides circulares y subir a la Pirámide Principal (Piramide circular)",
+      "Caminar por las plazas circulares y el juego de pelota prehispánico",
+      "Disfrutar de las vistas panorámicas hacia la Sierra de Tequila",
+      "Visitar el pueblo mágico de Teuchitlán y probar la gastronomía local",
+      "Regresar a Guadalajara y visitar el Centro Histórico o la Rotonda de los Jaliscienses Ilustres"
+    ],
+    "supplements": [
+      "El sitio cuenta con estacionamiento y servicios básicos",
+      "Se recomienda contratar los servicios de un guía oficial para una experiencia más enriquecedora",
+      "Llevar suficiente agua y protector solar, especialmente en temporada de calor"
+    ],
+    "supplementsTitle": "Notas de visita"
+  },
+  "photoSpots": {
+    "title": "Puntos fotográficos",
+    "spots": [
+      {
+        "name": "Pirámide Principal",
+        "desc": "Captura la impresionante pirámide circular desde diferentes ángulos"
+      },
+      {
+        "name": "Plaza circular",
+        "desc": "Fotografía la distribución única de las estructuras circulares"
+      },
+      {
+        "name": "Vista panorámica",
+        "desc": "Captura las vistas hacia la Sierra de Tequila desde el sitio"
+      },
+      {
+        "name": "Detalles arquitectónicos",
+        "desc": "Acercamientos a la piedra labrada y la estructura circular"
+      },
+      {
+        "name": "Museo de sitio",
+        "desc": "Fotografía las maquetas y artefactos arqueológicos en el museo"
+      }
+    ],
+    "tips": "Consejos fotográficos",
+    "tipsContent": "La luz de la mañana temprano o tarde ofrece las mejores condiciones para fotografiar las pirámides sin sombras duras."
+  },
+  "gallery": {
+    "title": "Fotos impresionantes",
+    "subtitle": "El encanto de Guachimontones",
+    "captions": [
+      "Pirámide Principal",
+      "Vista aérea del sitio",
+      "Estructuras circulares",
+      "Detalles de la pirámide",
+      "Plaza circular",
+      "Entrada al sitio",
+      "Vista panorámica",
+      "Ruinas antiguas",
+      "Museo de sitio",
+      "Paisaje natural",
+      "Arquitectura única",
+      "Camino al sitio",
+      "Detalles arqueológicos",
+      "Vista de la sierra",
+      "Estructura circular",
+      "Restos arqueológicos",
+      "Paisaje de Jalisco",
+      "Ruinas circulares",
+      "Arte prehispánico",
+      "Vista del complejo",
+      "Naturaleza circundante",
+      "Paisaje arqueológico"
+    ],
+    "viewAll": "Ver más fotos en Google Maps",
+    "showAllPhotos": "Mostrar todas las fotos"
+  },
+  "reviews": {
+    "title": "Reseñas de visitantes",
+    "declaration": "La información de reseñas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver más reseñas en Google Maps",
+    "items": [
+      {
+        "name": "Carlos Mendoza",
+        "date": "Hace 2 meses",
+        "rating": 5,
+        "text": "Un lugar impresionante e único en el mundo. Las pirámides circulares son fascinantes y el museo de sitio es muy informativo. Altamente recomendado para amantes de la historia."
+      },
+      {
+        "name": "María González",
+        "date": "Hace 1 mes",
+        "rating": 5,
+        "text": "Visita fascinante. Nunca había visto pirámides circulares antes. El guía fue muy conocedor y nos explicó todo sobre la cultura teuchitlán. Una experiencia educativa excelente."
+      },
+      {
+        "name": "Juan Pérez",
+        "date": "Hace 3 meses",
+        "rating": 4,
+        "text": "Sitio arqueológico muy interesante, aunque hace falta más sombra y servicios. Las pirámides circulares son impresionantes. Llevar mucha agua y sombrero."
+      },
+      {
+        "name": "Ana Rodríguez",
+        "date": "Hace más de 6 meses",
+        "rating": 5,
+        "text": "Un lugar único en México. Las pirámides circulares son una maravilla arquitectónica. El personal del sitio muy amable y el museo está muy bien cuidado."
+      },
+      {
+        "name": "Roberto Silva",
+        "date": "Hace 1 año",
+        "rating": 4,
+        "text": "Muy buen sitio arqueológico. Un poco alejado de Guadalajara pero vale la pena el viaje. Las estructuras circulares son únicas en Mesoamérica."
+      },
+      {
+        "name": "Laura Martínez",
+        "date": "Hace más de 6 meses",
+        "rating": 5,
+        "text": "Hermoso sitio arqueológico. Me encantó la arquitectura circular y la vista hacia los alrededores. Ideal para ir con familia y aprender sobre la historia prehispánica."
+      },
+      {
+        "name": "Miguel Ángel",
+        "date": "Hace 3 meses",
+        "rating": 4,
+        "text": "Interesante sitio histórico. La pirámide circular principal es impresionante. Se necesita mejor señalización en el camino desde Guadalajara."
+      },
+      {
+        "name": "Sofía Herrera",
+        "date": "Hace 2 meses",
+        "rating": 5,
+        "text": "Una joya arqueológica escondida en Jalisco. Las pirámides circulares son únicas en el mundo. Una visita obligada si estás en Guadalajara o Teuchitlán."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación y mapa",
+    "subtitle": "Estanzuela, 46762 Guachimontones, Jal., México",
+    "openMaps": "Ver en Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Zona Arqueológica Teuchitlán o Guachimontones. Todos los derechos reservados.",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "cookies": "Configuración de cookies",
+    "officialResourcesTitle": "Recursos oficiales",
+    "officialLinks": {
+      "sectur": {
+        "name": "Secretaría de Turismo del Gobierno de México",
+        "url": "https://www.gob.mx/sectur"
+      },
+      "secturjal": {
+        "name": "Secretaría de Turismo de Jalisco",
+        "url": "https://secturjal.jalisco.gob.mx/inicio"
+      },
+      "teuchitlan": {
+        "name": "Ayuntamiento de Teuchitlán",
+        "url": "https://teuchitlan.jalisco.gob.mx/inicio"
+      },
+      "inah": {
+        "name": "INAH - Instituto Nacional de Antropología e Historia",
+        "url": "https://www.inah.gob.mx/"
+      },
+      "inahCatalogo": {
+        "name": "Catálogo de Zonas Arqueológicas del INAH",
+        "url": "https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1715-teuchitl%C3%A1n-o-guachimontones.html"
+      }
+    },
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdated": "Última actualización: junio 2026",
+    "sections": [
+      {
+        "heading": "1. Información que recopilamos",
+        "content": "Solo recopilamos los datos mínimos necesarios para proporcionar nuestros servicios. Estos datos pueden incluir: datos de navegación (dirección IP, tipo de navegador, páginas visitadas), cookies y tecnologías similares, y cualquier información que proporcione voluntariamente a través de formularios de contacto o correo electrónico."
+      },
+      {
+        "heading": "2. Cómo utilizamos su información",
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a consultas y cumplir con nuestras obligaciones legales."
+      },
+      {
+        "heading": "3. Servicios de terceros",
+        "content": "Nuestro sitio web puede utilizar servicios de terceros, como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+      },
+      {
+        "heading": "4. Sus derechos",
+        "content": "De acuerdo con el Reglamento General de Protección de Datos (GDPR) y regulaciones relacionadas, usted tiene derecho a: acceder a sus datos personales, solicitar corrección o eliminación, oponerse al procesamiento y presentar una queja ante una autoridad de control."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de servicio",
+    "lastUpdated": "Última actualización: junio 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de términos",
+        "content": "Al acceder y utilizar este sitio web, usted acepta quedar bound por estos términos de servicio."
+      },
+      {
+        "heading": "2. Uso del contenido",
+        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
+      },
+      {
+        "heading": "3. Precisión de la información",
+        "content": "Nos esforzamos por proporcionar información precisa y oportuna, pero no podemos garantizar su integridad o precisión. Los itinerarios, condiciones y servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar."
+      },
+      {
+        "heading": "4. Propiedad intelectual",
+        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple con los términos de servicio de Google."
+      },
+      {
+        "heading": "5. Limitación de responsabilidad",
+        "content": "Este sitio web se proporciona 'tal cual' sin ninguna garantía. No somos responsables de ninguna pérdida derivada del uso de la información en este sitio web, incluyendo pero no limitado a decisiones de viaje basadas en su contenido."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configuración de cookies",
+    "description": "Última actualización: junio 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
+    "essential": {
+      "title": "Cookies esenciales",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden desactivar.",
+      "badge": "Siempre activas"
+    },
+    "analytics": {
+      "title": "Cookies analíticas",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Activo",
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Cookies de marketing",
+      "description": "Se utilizan para mostrar anuncios relevantes y medir la efectividad de las campañas publicitarias.",
+      "items": [
+        {
+          "name": "Anuncios personalizados",
+          "status": "Inactivo",
+          "description": "Puede mostrarle anuncios relevantes basados en sus intereses."
+        }
+      ]
+    },
+    "save": "Guardar preferencias",
+    "saved": "¡Preferencias guardadas!",
+    "preferences": {
+      "items": [
+        {
+          "name": "Preferencias del usuario",
+          "status": "Activo",
+          "description": "Guarda sus preferencias de idioma y configuración del sitio web."
+        }
+      ],
+      "title": "Cookies de preferencias",
+      "description": "Recuerdan sus configuraciones, como preferencias de idioma y tema."
+    },
+    "consentManagement": "Gestión de consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que desactivar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "rejectAll": "Rechazar todo"
+  },
+  "officialManagement": {
+    "title": "Acerca de Guachimontones",
+    "text": "La Zona Arqueológica Teuchitlán o Guachimontones es un sitio administrado y preservado por el INAH (Instituto Nacional de Antropología e Historia) del Gobierno de México."
+  }
+}
