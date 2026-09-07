@@ -90,10 +90,10 @@
   },
   "hours": {
     "title": "Opening Hours",
-    "outdoor": "Thursday to Sunday",
+    "outdoor": "Tuesday to Sunday",
     "outdoorTime": "09:00–17:00",
     "lighthouse": "Closed",
-    "summer": "Monday to Wednesday",
+    "summer": "Monday",
     "summerTime": "Closed",
     "winter": "Best Time to Visit",
     "winterTime": "Dry Season (November-April) is ideal for walking and exploring",
@@ -383,7 +383,7 @@
       },
       {
         "q": "How much does the entrance cost and what are the opening hours?",
-        "a": "Admission is ticketed and the usual opening hours are Thursday to Sunday, 9:00 a.m. to 5:00 p.m.; the site is closed from Monday to Wednesday. Prices and discounts may change, so we recommend confirming by phone before your visit."
+        "a": "Admission is ticketed and the usual opening hours are Tuesday to Sunday, 9:00 a.m. to 5:00 p.m.; the site is closed on Mondays. Prices and discounts may change, so we recommend confirming by phone before your visit."
       },
       {
         "q": "Can you climb the main pyramid?",
@@ -449,10 +449,10 @@
     "blocks": [
       {
         "h": "Opening hours",
-        "p": "The archaeological zone is open from Thursday to Sunday; it closes from Monday to Wednesday for weekly maintenance.",
+        "p": "The archaeological zone is open from Tuesday to Sunday; it is closed on Mondays for weekly maintenance.",
         "items": [
-          "Thursday to Sunday: 9:00 a.m. - 5:00 p.m.",
-          "Monday to Wednesday: closed (except scheduled holiday openings)",
+          "Tuesday to Sunday: 9:00 a.m. - 5:00 p.m.",
+          "Monday: closed (except scheduled holiday openings)",
           "Arrive in the morning to avoid the heat and the crowds",
           "Before travelling, confirm special hours by phone with the site"
         ]
@@ -909,7 +909,7 @@
   },
   "itineraries": {
     "title": "Suggested Itineraries",
-    "subtitle": "Self-guided plans that adapt to your pace. Times are estimates — remember the site opens Thursday to Sunday and closes at 5 p.m.",
+    "subtitle": "Self-guided plans that adapt to your pace. Times are estimates — remember the site opens Tuesday to Sunday and closes at 5 p.m.",
     "halfDay": {
       "tag": "Half day · about 3 hours",
       "when": "Works well starting at 9–10 a.m., before the strongest sun.",

@@ -90,10 +90,10 @@
   },
   "hours": {
     "title": "Horarios",
-    "outdoor": "Jueves a domingo",
+    "outdoor": "Martes a domingo",
     "outdoorTime": "09:00–17:00",
     "lighthouse": "Cerrado",
-    "summer": "Lunes a miércoles",
+    "summer": "Lunes",
     "summerTime": "Cerrado",
     "winter": "Mejor época para visitar",
     "winterTime": "La temporada seca (noviembre-abril) es ideal para caminar y explorar",
@@ -410,7 +410,7 @@
       },
       {
         "q": "¿Cuánto cuesta la entrada y cuáles son los horarios?",
-        "a": "El acceso es de paga y el horario habitual es de jueves a domingo, de 09:00 a 17:00; de lunes a miércoles el sitio permanece cerrado. Los precios y descuentos pueden cambiar, por lo que recomendamos confirmar por teléfono antes de tu visita."
+        "a": "El acceso es de paga y el horario habitual es de martes a domingo, de 09:00 a 17:00; los lunes el sitio permanece cerrado. Los precios y descuentos pueden cambiar, por lo que recomendamos confirmar por teléfono antes de tu visita."
       },
       {
         "q": "¿Se puede subir a la pirámide principal?",
@@ -476,10 +476,10 @@
     "blocks": [
       {
         "h": "Horarios de apertura",
-        "p": "La zona arqueológica abre de jueves a domingo; de lunes a miércoles permanece cerrada por mantenimiento semanal.",
+        "p": "La zona arqueológica abre de martes a domingo; los lunes permanece cerrada por mantenimiento semanal.",
         "items": [
-          "Jueves a domingo: 09:00 - 17:00",
-          "Lunes a miércoles: cerrado (salvo festivos con horario especial)",
+          "Martes a domingo: 09:00 - 17:00",
+          "Lunes: cerrado (salvo festivos con horario especial)",
           "Llega por la mañana para evitar el calor y las multitudes",
           "Antes de viajar, confirma horarios especiales por teléfono con el sitio"
         ]
@@ -936,7 +936,7 @@
   },
   "itineraries": {
     "title": "Itinerarios sugeridos",
-    "subtitle": "Planes autoguiados que se adaptan a tu ritmo. Los tiempos son estimados: recuerda que el sitio abre de jueves a domingo y cierra a las 17:00.",
+    "subtitle": "Planes autoguiados que se adaptan a tu ritmo. Los tiempos son estimados: recuerda que el sitio abre de martes a domingo y cierra a las 17:00.",
     "halfDay": {
       "tag": "Medio día · unas 3 horas",
       "when": "Funciona bien empezando entre 9:00 y 10:00, antes del sol más fuerte.",

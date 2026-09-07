@@ -39,7 +39,7 @@ export function touristAttractionLd(messages: AnyMessages, locale: string, url: 
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Thursday', 'Friday', 'Saturday', 'Sunday'],
+        dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         opens: '09:00',
         closes: '17:00',
       },
