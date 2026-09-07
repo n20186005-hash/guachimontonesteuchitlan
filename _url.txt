@@ -1,1 +1,0 @@
-https://api.open-meteo.com/v1/forecast?latitude=20.6954&longitude=-103.8363

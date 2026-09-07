@@ -40,6 +40,7 @@ public/gallery/sarzhyn-yar*.jpg
 *.tmp
 *.log
 *.bak
+*.err
 
 # IDE
 .vscode/
@@ -59,3 +60,10 @@ Desktop.ini
 .wrangler
 .dev.vars*
 !.dev.vars.example
+
+# wrangler types 生成文件（npm run cf-typegen 产物）
+cloudflare-env.d.ts
+
+# 一次性本地辅助文件（不需要上传/提交到仓库）
+_url.txt
+_tools/
