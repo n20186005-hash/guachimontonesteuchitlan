@@ -4,5 +4,5 @@ import { redirect } from 'next/navigation';
 // For dynamic deployments, the middleware will intercept requests to `/`
 // and redirect to the default locale (e.g. `/zh`).
 export default function RootPage() {
-  redirect('/zh');
+  redirect('/es');
 }

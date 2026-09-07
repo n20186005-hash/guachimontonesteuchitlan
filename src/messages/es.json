@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Zona Arqueológica Teuchitlán o Guachimontones | Guachimontones",
-    "description": "Explora la Zona Arqueológica Teuchitlán o Guachimontones en Jalisco, México. Descubre las impresionantes pirámides circulares y la rica historia de esta zona arqueológica."
+    "title": "Zona Arqueológica Teuchitlán o Guachimontones (Teuchitlán) | Pirámides circulares y guía",
+    "description": "Guía de la Zona Arqueológica Teuchitlán o Guachimontones (Guachimontones), en Teuchitlán, Jalisco, México: pirámides circulares, horarios, entradas, cómo llegar desde Guadalajara y qué visitar cerca (Pueblo Mágico de Tequila, Laguna de La Vega)."
   },
   "header": {
     "home": "Inicio",
@@ -14,9 +14,10 @@
     "title": "Zona Arqueológica Teuchitlán o Guachimontones",
     "subtitle": "Jalisco · México",
     "rating": "4.7",
-    "reviewCount": "6,641",
+    "reviewCount": "6,707",
     "hours": "Abierto al público",
-    "openMaps": "Ver ubicación"
+    "openMaps": "Ver ubicación",
+    "imgAlt": "Zona Arqueológica Teuchitlán o Guachimontones: pirámides circulares en Teuchitlán, Jalisco, México"
   },
   "intro": {
     "title": "Explora Guachimontones",
@@ -37,6 +38,17 @@
         "Patrimonio cultural: Sitio arqueológico oficialmente reconocido y protegido por el INAH (Instituto Nacional de Antropología e Historia).",
         "Historia viva: Explora las ruinas de una antigua civilización que data del año 300 a.C. (período Preclásico Tardío).",
         "Ubicación privilegiada: Situado en el estado de Jalisco, fácilmente accesible desde Guadalajara."
+      ]
+    },
+    "equivalence": "La Zona Arqueológica Teuchitlán o Guachimontones, conocida popularmente como Guachimontones, se encuentra en el corazón de Teuchitlán, Jalisco, México, y es el punto de partida ideal para explorar el occidente de Jalisco.",
+    "geoChain": "Zona Arqueológica Teuchitlán o Guachimontones → Guachimontones / Estanzuela → Teuchitlán → Jalisco → México",
+    "surroundings": {
+      "title": "Lugares de interés alrededor de Guachimontones",
+      "text": "Al visitar la Zona Arqueológica Teuchitlán o Guachimontones, es fácil completar el día recorriendo otros puntos de interés cercanos, como el Pueblo Mágico de Tequila o la Laguna de La Vega.",
+      "items": [
+        "Tequila (Pueblo Mágico): a unos 30-40 km del sitio; destilerías tradicionales, plaza principal y vistas al Volcán de Tequila.",
+        "Laguna de La Vega: área natural y de esparcimiento a pocos minutos de Teuchitlán, ideal para descansar junto al agua.",
+        "Centro de Teuchitlán: iglesia, plazas y gastronomía local para comer después del recorrido arqueológico."
       ]
     }
   },
@@ -251,7 +263,8 @@
   "mapSection": {
     "title": "Ubicación y mapa",
     "subtitle": "Estanzuela, 46762 Guachimontones, Jal., México",
-    "openMaps": "Ver en Google Maps"
+    "openMaps": "Ver en Google Maps",
+    "officialTourism": "Para información oficial y turística de la región, visita el portal de turismo del Gobierno del Estado de Jalisco"
   },
   "footer": {
     "rights": "© 2026 Zona Arqueológica Teuchitlán o Guachimontones. Todos los derechos reservados.",
@@ -281,7 +294,8 @@
         "url": "https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1715-teuchitl%C3%A1n-o-guachimontones.html"
       }
     },
-    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales.",
+    "imageCredit": "Las fotografías mostradas en este sitio web son propiedad de sus respectivos autores y se exhiben únicamente con fines informativos."
   },
   "privacy": {
     "title": "Política de privacidad",
@@ -297,7 +311,7 @@
       },
       {
         "heading": "3. Servicios de terceros",
-        "content": "Nuestro sitio web puede utilizar servicios de terceros, como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+        "content": "Nuestro sitio web puede utilizar servicios de terceros, como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Google Fonts (para tipografía). Estos servicios tienen sus propias políticas de privacidad."
       },
       {
         "heading": "4. Sus derechos",
@@ -323,7 +337,7 @@
       },
       {
         "heading": "4. Propiedad intelectual",
-        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple con los términos de servicio de Google."
+        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes mostradas pertenecen a sus respectivos autores y se utilizan únicamente con fines informativos, tal como se indica en el aviso del pie de página. El uso de datos de Google Maps cumple con los términos de servicio de Google."
       },
       {
         "heading": "5. Limitación de responsabilidad",
@@ -376,6 +390,293 @@
     },
     "consentManagement": "Gestión de consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que desactivar ciertas cookies puede afectar la funcionalidad del sitio web.",
     "rejectAll": "Rechazar todo"
+  },
+  "faq": {
+    "title": "Preguntas frecuentes sobre Guachimontones",
+    "items": [
+      {
+        "q": "¿Qué son las pirámides circulares de Guachimontones?",
+        "a": "Son estructuras ceremoniales de planta circular propias de la cultura Teuchitlán. A diferencia de las pirámides rectangulares mayas o aztecas, aquí los templos escalonados forman círculos concéntricos alrededor de un altar central, un diseño prácticamente único en Mesoamérica."
+      },
+      {
+        "q": "¿Dónde está Guachimontones y cómo llego desde Guadalajara?",
+        "a": "El sitio está en el municipio de Teuchitlán, Jalisco, a unos 75 km al oeste de Guadalajara (alrededor de 1 h 30 en coche). Puedes llegar en vehículo particular, en autobús desde la central de Guadalajara hasta Teuchitlán, o en un tour organizado desde la ciudad."
+      },
+      {
+        "q": "¿Cuánto cuesta la entrada y cuáles son los horarios?",
+        "a": "El acceso es de paga y el horario habitual es de martes a domingo, de 09:00 a 17:00; el lunes el sitio permanece cerrado. Los precios y descuentos pueden cambiar, por lo que recomendamos confirmar por teléfono antes de tu visita."
+      },
+      {
+        "q": "¿Se puede subir a la pirámide principal?",
+        "a": "No. Para proteger las estructuras arqueológicas está estrictamente prohibido escalarlas. Existen miradores y senderos autorizados para apreciarlas de cerca."
+      },
+      {
+        "q": "¿Cuánto tiempo necesito para visitar Guachimontones?",
+        "a": "Con tranquilidad conviene reservar de 2 a 3 horas para recorrer el sitio y su museo. Si además planeas comer en Teuchitlán o combinar la visita con otro pueblo cercano, calcula medio día completo."
+      },
+      {
+        "q": "¿Qué servicios hay en el sitio?",
+        "a": "La zona arqueológica cuenta con estacionamiento, servicios sanitarios y un museo de sitio incluido en la visita. Los servicios son básicos: te recomendamos llevar agua, sombrero y calzado cómodo, pues la mayor parte del recorrido es al aire libre y con poca sombra."
+      },
+      {
+        "q": "¿Es recomendable visitar Guachimontones con niños?",
+        "a": "Sí. El museo de sitio y los senderos resultan muy didácticos para los más pequeños. Eso sí, el terreno es irregular y hay poca sombra, así que conviene llevar agua, sombrero, protector solar y calzado cerrado para toda la familia."
+      },
+      {
+        "q": "¿Cuál es la mejor época para visitar Guachimontones?",
+        "a": "La temporada seca, de noviembre a abril, es la más recomendable para recorrer el sitio con comodidad. En temporada de lluvias (junio-octubre) el paisaje es más verde, pero conviene consultar el pronóstico antes de salir."
+      }
+    ]
+  },
+  "clusters": {
+    "title": "Guías para planear tu visita a las pirámides circulares",
+    "intro": "Prepara tu viaje desde Guadalajara con estas guías: entradas y servicios, transporte, historia y combinaciones de excursión por la región de Tequila.",
+    "cta": "Ver guía",
+    "cards": [
+      {
+        "slug": "visitor-guide",
+        "title": "Guía del visitante: entradas, horarios y servicios",
+        "desc": "Todo sobre boletos, horarios, museo, estacionamiento y recomendaciones para tu visita a Guachimontones."
+      },
+      {
+        "slug": "getting-there",
+        "title": "Cómo llegar desde Guadalajara: en coche, autobús o tour",
+        "desc": "Rutas, tiempos y opciones de transporte desde Guadalajara hasta Teuchitlán y la zona arqueológica."
+      },
+      {
+        "slug": "history",
+        "title": "Historia de las pirámides circulares y la cultura Teuchitlán",
+        "desc": "Por qué estas pirámides son circulares, quiénes las construyeron y qué las hace únicas en Mesoamérica."
+      },
+      {
+        "slug": "day-trips",
+        "title": "Excursión de un día: Guachimontones y Tequila",
+        "desc": "Combina las pirámides con el Pueblo Mágico de Tequila: itinerarios por la mañana o la tarde desde Guadalajara."
+      }
+    ]
+  },
+  "guideCommon": {
+    "backHome": "Volver al inicio",
+    "openMap": "Abrir en Google Maps",
+    "homeLabel": "Inicio",
+    "relatedTitle": "Otras guías útiles"
+  },
+  "guideVisitor": {
+    "nav": "Guía del visitante",
+    "metaTitle": "Guía del visitante de Guachimontones: entradas, horarios y servicios",
+    "metaDescription": "Toda la información práctica para visitar Guachimontones, Teuchitlán: horarios, costo de entrada, servicios en el sitio, museo y recomendaciones.",
+    "h1": "Guachimontones: guía del visitante",
+    "lede": "Toda la información práctica para preparar tu visita a la Zona Arqueológica Teuchitlán o Guachimontones: cuándo ir, qué llevar y qué esperar en el sitio.",
+    "blocks": [
+      {
+        "h": "Horarios de apertura",
+        "p": "La zona arqueológica recibe visitantes casi todos los días del año, con un descanso semanal.",
+        "items": [
+          "Martes a domingo: 09:00 - 17:00",
+          "Lunes: cerrado (salvo festivos con horario especial)",
+          "Llega por la mañana para evitar el calor y las multitudes",
+          "Antes de viajar, confirma horarios especiales por teléfono con el sitio"
+        ]
+      },
+      {
+        "h": "Entradas y boletos",
+        "p": "El acceso tiene costo; existen descuentos para estudiantes y maestros con credencial vigente. Los montos pueden actualizarse, así que verifica los precios actuales antes de tu visita.",
+        "items": [
+          "Entrada general de pago (el precio se publica en taquilla)",
+          "Estudiantes y docentes con credencial: descuento vigente",
+          "El boleto incluye el acceso al museo de sitio"
+        ]
+      },
+      {
+        "h": "Qué ver durante la visita",
+        "items": [
+          "La Pirámide Principal (guachimontón central), la más grande del complejo",
+          "Las plazas circulares y el juego de pelota prehispánico",
+          "El museo de sitio: maquetas, piezas cerámicas y contexto histórico",
+          "Miradores hacia la Sierra de Tequila y el valle de Teuchitlán"
+        ]
+      },
+      {
+        "h": "Servicios disponibles en el sitio",
+        "items": [
+          "Estacionamiento en la entrada",
+          "Museo de sitio incluido en el boleto",
+          "Senderos señalizados (el terreno es irregular en varias zonas)",
+          "Servicios básicos; hay zonas con poca sombra: lleva agua y protección solar"
+        ]
+      },
+      {
+        "h": "Reglas y recomendaciones",
+        "items": [
+          "Está prohibido escalar las estructuras para proteger el patrimonio",
+          "Usa calzado cerrado, sombrero y protector solar",
+          "Lleva agua suficiente: el recorrido es al aire libre",
+          "Contratar un guía oficial enriquece la experiencia y apoya su labor",
+          "No dejes residuos: ayúdanos a conservar el sitio"
+        ]
+      }
+    ],
+    "contact": {
+      "h": "Información y contacto oficial",
+      "note": "La administración del sitio está a cargo del INAH. Teléfono oficial para confirmar horarios y precios:",
+      "phone": "+52 384 109 0388"
+    }
+  },
+  "guideGetting": {
+    "nav": "Cómo llegar",
+    "metaTitle": "Cómo llegar a Guachimontones desde Guadalajara: coche, autobús y tours",
+    "metaDescription": "Guía de transporte de Guadalajara a Guachimontones (Teuchitlán, Jalisco): rutas en coche, en autobús y con tour, con tiempos y consejos.",
+    "h1": "Cómo llegar a Guachimontones desde Guadalajara",
+    "lede": "Guachimontones se encuentra a unos 75 km al oeste de Guadalajara, en el municipio de Teuchitlán. Estas son las opciones para llegar por tu cuenta o con tour.",
+    "blocks": [
+      {
+        "h": "En coche particular (la opción más cómoda)",
+        "p": "Desde Guadalajara se toma la carretera hacia el oeste del estado y se sigue la señalización hacia Teuchitlán. El camino toma aproximadamente una hora y media y llega directo al estacionamiento del sitio.",
+        "items": [
+          "Distancia aproximada: 75 km desde Guadalajara",
+          "Tiempo estimado: 1 h 15 - 1 h 45 según el tráfico",
+          "Usa el estacionamiento en la entrada del sitio",
+          "El último tramo es carretera estatal con curvas: conduce con precaución en temporada de lluvias"
+        ]
+      },
+      {
+        "h": "En autobús (opción económica)",
+        "p": "Salen autobuses desde la Central de Autobuses de Guadalajara con destino a Teuchitlán. Una vez en el centro del pueblo, toma un taxi o transporte local hasta la entrada de la zona arqueológica.",
+        "items": [
+          "Salida: Central de Autobuses de Guadalajara (líneas con destino a Teuchitlán)",
+          "Bajada: centro de Teuchitlán",
+          "Último tramo: taxi o transporte local hasta el sitio (unos 10 minutos)",
+          "Verifica los horarios de regreso antes de salir del sitio"
+        ]
+      },
+      {
+        "h": "En tour organizado desde Guadalajara",
+        "p": "Varios operadores turísticos ofrecen excursiones de un día que incluyen transporte redondo y, en muchos casos, guía. Es la opción más sencilla si no quieres conducir.",
+        "items": [
+          "Recogida en hoteles o puntos céntricos de Guadalajara",
+          "Guía y entradas pueden estar incluidas (revisa al reservar)",
+          "Algunos tours combinan Guachimontones con Tequila o pueblos cercanos"
+        ]
+      },
+      {
+        "h": "En taxi o transporte por aplicación",
+        "items": [
+          "Disponible desde Guadalajara: cómodo para grupos pequeños, aunque el costo es mayor que el autobús",
+          "Desde Teuchitlán el servicio local es limitado: acuerda el regreso o contrata un transporte que te espere",
+          "Si viajas en fin de semana, reserva el regreso con anticipación"
+        ]
+      },
+      {
+        "h": "Consejos para el trayecto",
+        "items": [
+          "Sal temprano para llegar antes del calor del mediodía",
+          "Combina la visita con Teuchitlán, La Vega o Tequila si tienes medio día o un día completo",
+          "Lleva efectivo para compras en el pueblo o guías locales",
+          "La señal de celular puede ser irregular en tramos de la carretera"
+        ]
+      }
+    ]
+  },
+  "guideHistory": {
+    "nav": "Historia",
+    "metaTitle": "Historia de las pirámides circulares de Guachimontones y la cultura Teuchitlán",
+    "metaDescription": "La tradición Teuchitlán construyó pirámides circulares únicas en Mesoamérica: conoce su historia, su arquitectura circular y su significado.",
+    "h1": "Historia de las pirámides circulares y la cultura Teuchitlán",
+    "lede": "Guachimontones es la obra más conocida de la tradición Teuchitlán, una cultura poco difundida que desarrolló una arquitectura ceremonial circular sin paralelo en Mesoamérica.",
+    "blocks": [
+      {
+        "h": "¿Por qué las pirámides de Guachimontones son circulares?",
+        "p": "Mientras la mayoría de las culturas mesoamericanas construyó pirámides de base rectangular, la gente de la tradición Teuchitlán levantó plataformas escalonadas circulares alrededor de patios también circulares, con un altar en el centro. El conjunto se conoce como guachimontón y parece estar ligado a ceremonias comunitarias, ciclos agrícolas y al culto a las fuerzas de la naturaleza del occidente de México.",
+        "items": [
+          "Estructura característica: el guachimontón, una pirámide escalonada de planta circular",
+          "Los conjuntos combinan círculos concéntricos, plazas circulares y juegos de pelota",
+          "Es un desarrollo propio del occidente de México, no una influencia maya o azteca"
+        ]
+      },
+      {
+        "h": "La tradición Teuchitlán: quiénes la construyeron",
+        "p": "Entre los años 300 a.C. y 400 d.C., la cuenca del río Teuchitlán fue el centro de una sociedad agrícola organizada en torno a lagos y tierras volcánicas. Su cerámica y sus asentamientos muestran una cultura compleja con intercambios a larga distancia, reconocida por los arqueólogos como uno de los desarrollos más originales del México antiguo.",
+        "items": [
+          "Periodo de auge: del Preclásico Tardío al Clásico (aprox. 300 a.C. - 400 d.C.)",
+          "Base económica: agricultura, pesca y comercio regional",
+          "Se relaciona con las tumbas de tiro típicas del occidente de México"
+        ]
+      },
+      {
+        "h": "La zona arqueológica hoy",
+        "p": "El sitio fue documentado formalmente por investigadores desde la década de 1970 y es explorado y conservado por el INAH desde los años 1990. Hoy sus estructuras están abiertas al público y cuentan con un museo de sitio.",
+        "items": [
+          "Núcleo ceremonial con la Pirámide Principal como estructura mayor",
+          "Decenas de estructuras y conjuntos relacionados en el valle de Teuchitlán",
+          "Excavaciones y restauración a cargo del INAH",
+          "El museo de sitio exhibe piezas y explica la vida de la tradición Teuchitlán"
+        ]
+      },
+      {
+        "h": "Diferencias con otras civilizaciones mesoamericanas",
+        "p": "A diferencia de los centros mayas o del centro de México, organizados en torno a plazas y pirámides rectangulares, Guachimontones ordena su espacio en círculos. Tampoco muestra grandes estelas ni escritura monumental: su grandeza se expresa en la geometría circular y en la escala de sus conjuntos ceremoniales.",
+        "items": [
+          "Mayas y aztecas: templos de base rectangular o escalonada",
+          "Teotihuacán: grandes plataformas alineadas en torno a una calzada",
+          "Guachimontones: círculos concéntricos, altar central y plazas redondas"
+        ]
+      }
+    ]
+  },
+  "guideDaytrips": {
+    "nav": "Excursión de un día",
+    "metaTitle": "Excursión desde Guadalajara: Guachimontones y Tequila en un día",
+    "metaDescription": "Itinerario para combinar las pirámides de Guachimontones con el Pueblo Mágico de Tequila en una excursión de un día desde Guadalajara.",
+    "h1": "Guachimontones y Tequila: excursión de un día desde Guadalajara",
+    "lede": "Guachimontones y el Pueblo Mágico de Tequila se encuentran en la misma zona del occidente de Jalisco, por lo que combinarlos en un solo día es una de las excursiones más recomendadas desde Guadalajara.",
+    "blocks": [
+      {
+        "h": "¿Por qué combinar ambos destinos?",
+        "p": "La zona arqueológica y el pueblo de Tequila quedan a una distancia similar de Guadalajara, en dirección oeste. Visitar las pirámides por la mañana y pasar la tarde en Tequila (o a la inversa) aprovecha el día y muestra dos caras de Jalisco: su pasado prehispánico y su tradición más famosa.",
+        "items": [
+          "Guadalajara - Guachimontones: unos 75 km (1 h 15 - 1 h 45)",
+          "Guachimontones - Tequila: carretera regional, unos 30-40 km",
+          "Ambos pueden recorrerse de forma segura en un día largo"
+        ]
+      },
+      {
+        "h": "Itinerario sugerido: mañana en Guachimontones",
+        "items": [
+          "08:00 Salida desde Guadalajara en coche o tour",
+          "09:30 Llegada al sitio; visita al museo y a las pirámides",
+          "11:30 Salida hacia Tequila",
+          "12:30 Llegada al centro de Tequila: comida, plazas y destilerías tradicionales",
+          "Tarde: recorrido por el Pueblo Mágico",
+          "18:00-19:00 Regreso a Guadalajara"
+        ]
+      },
+      {
+        "h": "Itinerario alternativo: primero Tequila, después las pirámides",
+        "p": "Si prefieres evitar el calor del mediodía en el sitio o empezar con calma, visita Tequila por la mañana y llega a Guachimontones por la tarde, cuando la luz favorece la fotografía de las estructuras.",
+        "items": [
+          "09:30 Desayuno y recorrido por Tequila",
+          "13:00 Comida en la zona del pueblo",
+          "15:00 Llegada a Guachimontones (menos calor y menos gente)",
+          "17:00 Cierre del sitio; regreso a Guadalajara"
+        ]
+      },
+      {
+        "h": "Consejos para la ruta combinada",
+        "items": [
+          "Sal temprano: el trayecto redondo supera los 200 km",
+          "En Tequila, fin de semana: reserva con anticipación mesas y degustaciones",
+          "Designa a un conductor o contrata un tour: la ruta incluye tramos rurales",
+          "Lleva efectivo para entradas, guías y compras en los pueblos",
+          "Consulta el estado del tiempo antes de salir en temporada de lluvias"
+        ]
+      }
+    ]
+  },
+  "sources": {
+    "title": "Fuentes y referencias",
+    "lead": "Esta guía independiente se elaboró con datos verificados de fuentes oficiales y de la ficha pública de Google Maps de la Zona Arqueológica Teuchitlán o Guachimontones (valoración 4.7/5 con más de 6,700 reseñas).",
+    "eeat": "Revisamos periódicamente la información de horarios, precios y servicios. Antes de viajar, confirma siempre los datos vigentes directamente con el sitio o con las fuentes oficiales enlazadas.",
+    "linksTitle": "Fuentes oficiales consultadas"
   },
   "officialManagement": {
     "title": "Acerca de Guachimontones",

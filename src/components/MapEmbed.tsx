@@ -1,7 +1,13 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
+import { SITE } from '@/config';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const messages = useMessages() as any;
+  const locale = useLocale();
+  const getThere = messages?.clusters?.cards?.find(
+    (c: { slug: string }) => c.slug === 'getting-there'
+  );
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -25,19 +31,19 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Zona+Arqueológica+Teuchitlán+o+Guachimontones,+Jalisco,+México&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={SITE.mapsEmbedUrl}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Zona Arqueológica Teuchitlán o Guachimontones"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title={`Google Maps – ${SITE.officialName}, ${SITE.address.addressLocality}, ${SITE.address.addressRegion}, México`}
           />
         </div>
 
         {/* Open in Google Maps */}
-        <div className="mt-6 flex justify-center">
+        <div className="mt-6 flex flex-col items-center gap-4">
           <a
             href="https://maps.app.goo.gl/1WnrfR8J7z6EPdd17"
             target="_blank"
@@ -56,7 +62,34 @@ export default function MapEmbed() {
               <line x1="10" y1="14" x2="21" y2="3" />
             </svg>
           </a>
+          {getThere && (
+            <a
+              href={`/${locale}/getting-there`}
+              className="inline-flex items-center gap-1.5 text-sm font-medium underline-offset-4 hover:underline"
+              style={{ color: 'var(--accent)' }}
+            >
+              {getThere.title}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12 5 19 12 12 19" />
+              </svg>
+            </a>
+          )}
         </div>
+
+        {/* 权威出站链接 */}
+        <p className="mt-6 text-center text-xs leading-relaxed" style={{ color: 'var(--text-muted)' }}>
+          {t('officialTourism')}:{' '}
+          <a
+            href={SITE.officialLinks.secturJal}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-medium underline underline-offset-2 hover:opacity-80"
+            style={{ color: 'var(--accent)' }}
+          >
+            secturjal.jalisco.gob.mx
+          </a>
+        </p>
       </div>
     </section>
   );

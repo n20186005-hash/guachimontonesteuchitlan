@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Zona Arqueológica Teuchitlán o Guachimontones | Guachimontones",
-    "description": "Explore the Zona Arqueológica Teuchitlán o Guachimontones in Jalisco, Mexico. Discover the stunning pre-Hispanic circular pyramids and the rich history of this archaeological zone."
+    "title": "Zona Arqueológica Teuchitlán o Guachimontones (Teuchitlan, Jalisco) | Circular Pyramids Guide",
+    "description": "Visitor guide to the Zona Arqueológica Teuchitlán o Guachimontones (Guachimontones) in Teuchitlan, Jalisco, Mexico: circular pyramids, opening hours, tickets, how to get there from Guadalajara, and nearby landmarks such as the Pueblo Magico of Tequila and Laguna de La Vega."
   },
   "header": {
     "home": "Home",
@@ -14,9 +14,10 @@
     "title": "Zona Arqueológica Teuchitlán o Guachimontones",
     "subtitle": "Jalisco · Mexico",
     "rating": "4.7",
-    "reviewCount": "6,641",
+    "reviewCount": "6,707",
     "hours": "Open to public",
-    "openMaps": "View Location"
+    "openMaps": "View Location",
+    "imgAlt": "Zona Arqueológica Teuchitlán o Guachimontones: circular pyramids in Teuchitlan, Jalisco, Mexico"
   },
   "intro": {
     "title": "Explore Guachimontones",
@@ -37,6 +38,17 @@
         "Cultural heritage: An archaeological site officially recognized and protected by INAH (National Institute of Anthropology and History).",
         "Living history: Explore ruins of an ancient civilization dating back to 300 BCE (Late Preclassic period).",
         "Prime location: Located in Jalisco state, easily accessible from Guadalajara."
+      ]
+    },
+    "equivalence": "The Zona Arqueológica Teuchitlán o Guachimontones, widely known as Guachimontones, lies in the heart of Teuchitlan, Jalisco, Mexico, and is a great starting point for exploring western Jalisco.",
+    "geoChain": "Zona Arqueológica Teuchitlán o Guachimontones → Guachimontones / Estanzuela → Teuchitlan → Jalisco → Mexico",
+    "surroundings": {
+      "title": "Landmarks & attractions around Guachimontones",
+      "text": "When visiting the Zona Arqueológica Teuchitlán o Guachimontones, visitors can easily round out the day by exploring nearby landmarks and points of interest such as the Pueblo Magico of Tequila and Laguna de La Vega.",
+      "items": [
+        "Tequila (Pueblo Magico): about 30-40 km from the site; traditional distilleries, main square and views of the Tequila volcano.",
+        "Laguna de La Vega: a natural recreation area a few minutes from Teuchitlan, ideal for relaxing by the water.",
+        "Teuchitlan town center: church, plazas and local food for a meal after your archaeological visit."
       ]
     }
   },
@@ -224,7 +236,8 @@
   "mapSection": {
     "title": "Location & Map",
     "subtitle": "Estanzuela, 46762 Guachimontones, Jal., Mexico",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "officialTourism": "For official and regional tourism information, visit the tourism portal of the Government of the State of Jalisco"
   },
   "footer": {
     "rights": "© 2026 Zona Arqueológica Teuchitlán o Guachimontones. All rights reserved.",
@@ -254,7 +267,8 @@
         "url": "https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1715-teuchitl%C3%A1n-o-guachimontones.html"
       }
     },
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions.",
+    "imageCredit": "All images displayed on this website are the property of their respective photographers and are shown for informational purposes only."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -270,7 +284,7 @@
       },
       {
         "heading": "3. Third-Party Services",
-        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Google Fonts (for typography). These services have their own privacy policies."
       },
       {
         "heading": "4. Your Rights",
@@ -296,7 +310,7 @@
       },
       {
         "heading": "4. Intellectual Property",
-        "content": "The design and original content of this website are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
+        "content": "The design and original content of this website are protected by copyright. All images shown on this website belong to their respective photographers and are displayed for informational purposes only, as stated in the footer notice. The use of Google Maps data complies with Google's terms of service."
       },
       {
         "heading": "5. Limitation of Liability",
@@ -349,6 +363,293 @@
     },
     "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
     "rejectAll": "Reject All"
+  },
+  "faq": {
+    "title": "Frequently asked questions about Guachimontones",
+    "items": [
+      {
+        "q": "What are the circular pyramids of Guachimontones?",
+        "a": "They are ceremonial structures with a circular ground plan built by the Teuchitlán culture. Unlike the rectangular Maya or Aztec pyramids, the stepped temples here form concentric circles around a central altar - a design almost unique in Mesoamerica."
+      },
+      {
+        "q": "Where is Guachimontones and how do I get there from Guadalajara?",
+        "a": "The site lies in the municipality of Teuchitlán, Jalisco, about 75 km (46 mi) west of Guadalajara, roughly a 1.5-hour drive. You can reach it by private car, by bus from Guadalajara's bus station to Teuchitlán, or on an organized tour from the city."
+      },
+      {
+        "q": "How much does the entrance cost and what are the opening hours?",
+        "a": "Admission is ticketed and the usual opening hours are Tuesday to Sunday, 9:00 a.m. to 5:00 p.m.; the site is closed on Mondays. Prices and discounts may change, so we recommend confirming by phone before your visit."
+      },
+      {
+        "q": "Can you climb the main pyramid?",
+        "a": "No. Climbing is strictly forbidden to protect the archaeological structures. Viewpoints and marked trails let you appreciate them up close."
+      },
+      {
+        "q": "How much time do I need to visit Guachimontones?",
+        "a": "Allow 2 to 3 hours to comfortably explore the site and its museum. If you also plan to eat in Teuchitlán or combine the visit with a nearby town, set aside a full half day."
+      },
+      {
+        "q": "What facilities are available at the site?",
+        "a": "The archaeological zone has parking, restrooms and a site museum included in the visit. Facilities are basic: bring water, a hat and comfortable shoes, as most of the route is outdoors with little shade."
+      },
+      {
+        "q": "Is Guachimontones suitable for a visit with children?",
+        "a": "Yes. The site museum and the walking trails are very educational for children. The terrain is uneven and shade is limited, so bring water, a hat, sunscreen and closed shoes for the whole family."
+      },
+      {
+        "q": "What is the best time of year to visit Guachimontones?",
+        "a": "The dry season, from November to April, is the most comfortable time to explore the site. During the rainy season (June-October) the landscape is greener, but check the weather forecast before you go."
+      }
+    ]
+  },
+  "clusters": {
+    "title": "Guides to plan your visit to the circular pyramids",
+    "intro": "Prepare your trip from Guadalajara with these guides: tickets and services, transport, history and excursion ideas around the Tequila region.",
+    "cta": "Read guide",
+    "cards": [
+      {
+        "slug": "visitor-guide",
+        "title": "Visitor Guide: Tickets, Opening Hours & On-site Services",
+        "desc": "Everything about admission, hours, the museum, parking and practical tips for your visit to Guachimontones."
+      },
+      {
+        "slug": "getting-there",
+        "title": "How to Get to Guachimontones from Guadalajara: Car, Bus or Tour",
+        "desc": "Routes, travel times and transport options from Guadalajara to Teuchitlán and the archaeological zone."
+      },
+      {
+        "slug": "history",
+        "title": "History of the Circular Pyramids & the Teuchitlán Culture",
+        "desc": "Why these pyramids are circular, who built them and what makes them unique in Mesoamerica."
+      },
+      {
+        "slug": "day-trips",
+        "title": "Guachimontones + Tequila: Day Trip from Guadalajara",
+        "desc": "Combine the pyramids with the Pueblo Mágico of Tequila with morning or afternoon itineraries from Guadalajara."
+      }
+    ]
+  },
+  "guideCommon": {
+    "backHome": "Back to home",
+    "openMap": "Open in Google Maps",
+    "homeLabel": "Home",
+    "relatedTitle": "More useful guides"
+  },
+  "guideVisitor": {
+    "nav": "Visitor Guide",
+    "metaTitle": "Guachimontones Visitor Guide: Tickets, Opening Hours & Services",
+    "metaDescription": "Practical information for visiting Guachimontones, Teuchitlán: opening hours, admission, on-site services, the museum and travel recommendations.",
+    "h1": "Guachimontones: Visitor Guide",
+    "lede": "Everything you need to plan your visit to the Zona Arqueológica Teuchitlán o Guachimontones: when to go, what to bring and what to expect on site.",
+    "blocks": [
+      {
+        "h": "Opening hours",
+        "p": "The archaeological zone welcomes visitors almost every day of the year, with one weekly closing day.",
+        "items": [
+          "Tuesday to Sunday: 9:00 a.m. - 5:00 p.m.",
+          "Monday: closed (except scheduled holiday openings)",
+          "Arrive in the morning to avoid the heat and the crowds",
+          "Before travelling, confirm special hours by phone with the site"
+        ]
+      },
+      {
+        "h": "Tickets and admission",
+        "p": "Admission is ticketed; discounts are available for students and teachers with a valid ID. Fees may change, so check current prices before you go.",
+        "items": [
+          "General admission is paid (the current price is posted at the ticket office)",
+          "Students and teachers with ID: valid discount",
+          "The ticket includes access to the site museum"
+        ]
+      },
+      {
+        "h": "What to see during your visit",
+        "items": [
+          "The Main Pyramid (central guachimontón), the largest structure of the complex",
+          "The circular plazas and the pre-Hispanic ball court",
+          "The site museum: models, ceramic pieces and historical context",
+          "Viewpoints over the Sierra de Tequila and the Teuchitlán valley"
+        ]
+      },
+      {
+        "h": "Facilities on site",
+        "items": [
+          "Parking at the entrance",
+          "Site museum included in the ticket",
+          "Marked trails (the ground is uneven in several areas)",
+          "Basic facilities; large parts have little shade: bring water and sun protection"
+        ]
+      },
+      {
+        "h": "Rules and recommendations",
+        "items": [
+          "Climbing the structures is forbidden to protect the heritage",
+          "Wear closed shoes, a hat and sunscreen",
+          "Bring enough water: most of the walk is outdoors",
+          "Hiring an official guide enriches the experience and supports their work",
+          "Do not leave rubbish: help us preserve the site"
+        ]
+      }
+    ],
+    "contact": {
+      "h": "Official information and contact",
+      "note": "The site is administered by INAH. Official telephone to confirm hours and prices:",
+      "phone": "+52 384 109 0388"
+    }
+  },
+  "guideGetting": {
+    "nav": "Getting There",
+    "metaTitle": "How to Get to Guachimontones from Guadalajara: Bus, Car and Tours",
+    "metaDescription": "Transport guide from Guadalajara to Guachimontones (Teuchitlán, Jalisco): driving routes, buses and tours with times and practical tips.",
+    "h1": "How to Get to Guachimontones from Guadalajara",
+    "lede": "Guachimontones lies about 75 km (46 mi) west of Guadalajara, in the municipality of Teuchitlán. These are your options to reach it on your own or with a tour.",
+    "blocks": [
+      {
+        "h": "By private car (the most comfortable option)",
+        "p": "From Guadalajara, take the highway towards the west of the state and follow the signs to Teuchitlán. The drive takes about an hour and a half and leads straight to the site's parking lot.",
+        "items": [
+          "Approximate distance: 75 km (46 mi) from Guadalajara",
+          "Estimated time: 1 h 15 - 1 h 45 depending on traffic",
+          "Use the parking at the entrance of the site",
+          "The final stretch is a winding state road: drive carefully in the rainy season"
+        ]
+      },
+      {
+        "h": "By bus (the budget option)",
+        "p": "Buses run from the Central de Autobuses de Guadalajara to Teuchitlán. Once in the town centre, take a taxi or local transport to the entrance of the archaeological zone.",
+        "items": [
+          "Departure: Guadalajara bus station (lines to Teuchitlán)",
+          "Get off: Teuchitlán town centre",
+          "Last leg: taxi or local transport to the site (about 10 minutes)",
+          "Check return schedules before leaving the site"
+        ]
+      },
+      {
+        "h": "On an organized tour from Guadalajara",
+        "p": "Several tour operators run day trips with round-trip transport and, in many cases, a guide. This is the easiest option if you prefer not to drive.",
+        "items": [
+          "Hotel pick-up or central meeting points in Guadalajara",
+          "Guide and entrance may be included (check when booking)",
+          "Some tours combine Guachimontones with Tequila or nearby towns"
+        ]
+      },
+      {
+        "h": "By taxi or ride-hailing app",
+        "items": [
+          "Available from Guadalajara: convenient for small groups, though pricier than the bus",
+          "Local service in Teuchitlán is limited: arrange your return or hire transport that waits for you",
+          "If travelling on a weekend, book your return in advance"
+        ]
+      },
+      {
+        "h": "Tips for the journey",
+        "items": [
+          "Leave early to arrive before the midday heat",
+          "Combine the visit with Teuchitlán, La Vega or Tequila if you have half a day or a full day",
+          "Carry cash for the town or local guides",
+          "Mobile signal can be patchy along parts of the road"
+        ]
+      }
+    ]
+  },
+  "guideHistory": {
+    "nav": "History",
+    "metaTitle": "History of Guachimontones' Circular Pyramids & the Teuchitlán Culture",
+    "metaDescription": "The Teuchitlán tradition built circular pyramids unique in Mesoamerica: learn about their history, circular architecture and meaning.",
+    "h1": "History of the Circular Pyramids & the Teuchitlán Culture",
+    "lede": "Guachimontones is the best-known achievement of the Teuchitlán tradition, a little-known culture that developed a circular ceremonial architecture without parallel in Mesoamerica.",
+    "blocks": [
+      {
+        "h": "Why are the pyramids of Guachimontones circular?",
+        "p": "While most Mesoamerican cultures built pyramids with a rectangular base, the people of the Teuchitlán tradition raised stepped circular platforms around circular plazas, with an altar in the middle. The ensemble, known as a guachimontón, appears to be linked to community ceremonies, agricultural cycles and the worship of nature forces in western Mexico.",
+        "items": [
+          "Signature structure: the guachimontón, a stepped pyramid with a circular ground plan",
+          "The compounds combine concentric circles, circular plazas and ball courts",
+          "It is a development of western Mexico, not a Maya or Aztec influence"
+        ]
+      },
+      {
+        "h": "The Teuchitlán tradition: who built it",
+        "p": "Between 300 BCE and 400 CE, the Teuchitlán river basin was the centre of an agricultural society organised around lakes and volcanic lands. Its pottery and settlements reveal a complex culture with long-distance exchange, recognised by archaeologists as one of the most original developments of ancient Mexico.",
+        "items": [
+          "Peak period: Late Preclassic to Classic (c. 300 BCE - 400 CE)",
+          "Economic base: farming, fishing and regional trade",
+          "Linked to the shaft tombs typical of western Mexico"
+        ]
+      },
+      {
+        "h": "The archaeological zone today",
+        "p": "Researchers formally documented the site from the 1970s onwards, and INAH has explored and preserved it since the 1990s. Today its structures are open to the public and it has a site museum.",
+        "items": [
+          "Ceremonial core with the Main Pyramid as its largest structure",
+          "Dozens of related structures and compounds in the Teuchitlán valley",
+          "Excavation and restoration carried out by INAH",
+          "The site museum displays pieces and explains the life of the Teuchitlán tradition"
+        ]
+      },
+      {
+        "h": "Differences from other Mesoamerican civilisations",
+        "p": "Unlike Maya or Central-Mexican centres, which were organised around rectangular plazas and pyramids, Guachimontones orders its space in circles. It also lacks monumental stelae or hieroglyphic writing: its grandeur lies in circular geometry and the scale of its ceremonial compounds.",
+        "items": [
+          "Maya and Aztec: rectangular or stepped temple bases",
+          "Teotihuacan: great platforms aligned along a causeway",
+          "Guachimontones: concentric circles, a central altar and round plazas"
+        ]
+      }
+    ]
+  },
+  "guideDaytrips": {
+    "nav": "Day Trip",
+    "metaTitle": "Guachimontones + Tequila Day Trip from Guadalajara: Itinerary Ideas",
+    "metaDescription": "Itineraries to combine the Guachimontones pyramids with the Pueblo Mágico of Tequila on a day trip from Guadalajara, Jalisco.",
+    "h1": "Guachimontones and Tequila: a day trip from Guadalajara",
+    "lede": "Guachimontones and the Pueblo Mágico of Tequila lie in the same region of western Jalisco, so combining them in one day is one of the most recommended excursions from Guadalajara.",
+    "blocks": [
+      {
+        "h": "Why combine both destinations?",
+        "p": "The archaeological zone and the town of Tequila sit a similar distance from Guadalajara, to the west. Visiting the pyramids in the morning and spending the afternoon in Tequila (or the other way round) makes the most of the day and shows two sides of Jalisco: its pre-Hispanic past and its most famous tradition.",
+        "items": [
+          "Guadalajara - Guachimontones: about 75 km (1 h 15 - 1 h 45)",
+          "Guachimontones - Tequila: regional road, about 30-40 km",
+          "Both can be covered safely in one long day"
+        ]
+      },
+      {
+        "h": "Suggested itinerary: morning at Guachimontones",
+        "items": [
+          "08:00 Departure from Guadalajara by car or tour",
+          "09:30 Arrival at the site; visit the museum and the pyramids",
+          "11:30 Drive to Tequila",
+          "12:30 Arrival in central Tequila: lunch, plazas and traditional distilleries",
+          "Afternoon: walking tour of the Pueblo Mágico",
+          "18:00-19:00 Return to Guadalajara"
+        ]
+      },
+      {
+        "h": "Alternative itinerary: Tequila first, pyramids after",
+        "p": "If you prefer to avoid the midday heat at the site or start at a relaxed pace, visit Tequila in the morning and reach Guachimontones in the afternoon, when the light favours photography of the structures.",
+        "items": [
+          "09:30 Breakfast and stroll through Tequila",
+          "13:00 Lunch in the town area",
+          "15:00 Arrival at Guachimontones (less heat and fewer people)",
+          "17:00 Site closes; return to Guadalajara"
+        ]
+      },
+      {
+        "h": "Tips for the combined route",
+        "items": [
+          "Leave early: the round trip covers more than 200 km",
+          "In Tequila at the weekend, book tables and tastings in advance",
+          "Choose a designated driver or book a tour: the route includes rural stretches",
+          "Carry cash for tickets, guides and shopping in the towns",
+          "Check the weather before you set out during the rainy season"
+        ]
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources & References",
+    "lead": "This independent guide was compiled with data verified from official sources and from the public Google Maps listing of the Zona Arqueológica Teuchitlán o Guachimontones (rated 4.7/5 with over 6,700 reviews).",
+    "eeat": "We review opening hours, prices and services regularly. Before you travel, always confirm the latest details directly with the site or with the official sources linked below.",
+    "linksTitle": "Official sources consulted"
   },
   "officialManagement": {
     "title": "About Guachimontones",

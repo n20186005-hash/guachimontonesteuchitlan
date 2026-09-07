@@ -6,6 +6,7 @@ export default function Intro() {
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const surroundingsItems: string[] = messages?.intro?.surroundings?.items || [];
 
   return (
     <section className="section-padding">
@@ -18,6 +19,12 @@ export default function Intro() {
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
+        <p
+          className="text-lg sm:text-xl leading-relaxed mb-4 font-medium"
+          style={{ color: 'var(--text-primary)' }}
+        >
+          {t('equivalence')}
+        </p>
         <p
           className="text-lg leading-relaxed mb-12"
           style={{ color: 'var(--text-secondary)' }}
@@ -68,12 +75,42 @@ export default function Intro() {
         </div>
 
         <div className="mt-12 p-6 sm:p-8 rounded-xl border border-[var(--accent)]" style={{ background: 'var(--bg-tertiary)' }}>
-          <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
+          <h3 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
             {tOff('title')}
-          </h2>
+          </h3>
           <div className="text-base leading-relaxed whitespace-pre-wrap" style={{ color: 'var(--text-secondary)' }}>
             {tOff('text')}
           </div>
+        </div>
+
+        {/* Semantic cluster: nearby landmarks */}
+        <div className="mt-12 rounded-xl p-6 sm:p-8" style={{ background: 'var(--bg-tertiary)' }}>
+          <h3
+            className="font-display text-xl font-semibold mb-3"
+            style={{ color: 'var(--text-primary)' }}
+          >
+            {t('surroundings.title')}
+          </h3>
+          <p
+            className="text-base leading-relaxed mb-5"
+            style={{ color: 'var(--text-secondary)' }}
+          >
+            {t('surroundings.text')}
+          </p>
+          <ul className="space-y-3">
+            {surroundingsItems.map((item, i) => (
+              <li key={i} className="flex items-start gap-3">
+                <span className="mt-1.5 flex-shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />
+                <span style={{ color: 'var(--text-secondary)' }}>{item}</span>
+              </li>
+            ))}
+          </ul>
+          <p
+            className="mt-6 text-xs uppercase tracking-wide"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            {t('geoChain')}
+          </p>
         </div>
       </div>
     </section>

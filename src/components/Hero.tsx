@@ -9,7 +9,9 @@ export default function Hero() {
       <div className="absolute inset-0">
         <img
           src="/gallery/zona-arqueologica-teuchitlan-o-guachimontones (1).jpg"
-          alt="Zona Arqueológica Teuchitlán o Guachimontones"
+          alt={t('imgAlt')}
+          title="Zona Arqueológica Teuchitlán o Guachimontones – Guachimontones, Teuchitlán, Jalisco, México"
+          fetchPriority="high"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
