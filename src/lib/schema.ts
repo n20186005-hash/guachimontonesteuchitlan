@@ -23,6 +23,7 @@ export function touristAttractionLd(messages: AnyMessages, locale: string, url: 
       SITE.shortName,
       'Zona Arqueológica de Guachimontones',
       'Pirámides circulares de Guachimontones',
+      'Circular pyramids of Guachimontones (Guadalajara)',
       'Zona Arqueológica Teuchitlán o Guachimontones, Teuchitlán, Jalisco',
     ],
     url,
@@ -30,6 +31,7 @@ export function touristAttractionLd(messages: AnyMessages, locale: string, url: 
     image: imageList,
     isAccessibleForFree: false,
     publicAccess: true,
+    touristType: ['Archaeological site', 'Open-air museum'],
     telephone: SITE.telephone,
     address: { '@type': 'PostalAddress', ...SITE.address },
     geo: { '@type': 'GeoCoordinates', ...SITE.geo },
@@ -37,7 +39,7 @@ export function touristAttractionLd(messages: AnyMessages, locale: string, url: 
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        dayOfWeek: ['Thursday', 'Friday', 'Saturday', 'Sunday'],
         opens: '09:00',
         closes: '17:00',
       },

@@ -12,7 +12,7 @@
   },
   "hero": {
     "title": "Zona Arqueológica Teuchitlán o Guachimontones",
-    "subtitle": "Jalisco · México",
+    "subtitle": "Pirámides circulares en Teuchitlán, Jalisco: una excursión fácil de un día desde Guadalajara",
     "rating": "4.7",
     "reviewCount": "6,707",
     "hours": "Abierto al público",
@@ -90,10 +90,10 @@
   },
   "hours": {
     "title": "Horarios",
-    "outdoor": "Martes a domingo",
+    "outdoor": "Jueves a domingo",
     "outdoorTime": "09:00–17:00",
-    "lighthouse": "Lunes",
-    "summer": "Lunes",
+    "lighthouse": "Cerrado",
+    "summer": "Lunes a miércoles",
     "summerTime": "Cerrado",
     "winter": "Mejor época para visitar",
     "winterTime": "La temporada seca (noviembre-abril) es ideal para caminar y explorar",
@@ -262,9 +262,15 @@
   },
   "mapSection": {
     "title": "Ubicación y mapa",
-    "subtitle": "Estanzuela, 46762 Guachimontones, Jal., México",
+    "subtitle": "Cerca de Estanzuela · municipio de Teuchitlán, Jalisco · a unos 75 km (46 mi) al oeste de Guadalajara",
     "openMaps": "Ver en Google Maps",
-    "officialTourism": "Para información oficial y turística de la región, visita el portal de turismo del Gobierno del Estado de Jalisco"
+    "officialTourism": "Para información oficial y turística de la región, visita el portal de turismo del Gobierno del Estado de Jalisco",
+    "quickHeading": "Cómo llegar de un vistazo",
+    "qCar": "En coche",
+    "qBus": "En autobús",
+    "qTour": "Con tour guiado",
+    "qTaxi": "Taxi o app de transporte",
+    "allOptions": "Ver todas las opciones de transporte"
   },
   "footer": {
     "rights": "© 2026 Zona Arqueológica Teuchitlán o Guachimontones. Todos los derechos reservados.",
@@ -404,7 +410,7 @@
       },
       {
         "q": "¿Cuánto cuesta la entrada y cuáles son los horarios?",
-        "a": "El acceso es de paga y el horario habitual es de martes a domingo, de 09:00 a 17:00; el lunes el sitio permanece cerrado. Los precios y descuentos pueden cambiar, por lo que recomendamos confirmar por teléfono antes de tu visita."
+        "a": "El acceso es de paga y el horario habitual es de jueves a domingo, de 09:00 a 17:00; de lunes a miércoles el sitio permanece cerrado. Los precios y descuentos pueden cambiar, por lo que recomendamos confirmar por teléfono antes de tu visita."
       },
       {
         "q": "¿Se puede subir a la pirámide principal?",
@@ -470,10 +476,10 @@
     "blocks": [
       {
         "h": "Horarios de apertura",
-        "p": "La zona arqueológica recibe visitantes casi todos los días del año, con un descanso semanal.",
+        "p": "La zona arqueológica abre de jueves a domingo; de lunes a miércoles permanece cerrada por mantenimiento semanal.",
         "items": [
-          "Martes a domingo: 09:00 - 17:00",
-          "Lunes: cerrado (salvo festivos con horario especial)",
+          "Jueves a domingo: 09:00 - 17:00",
+          "Lunes a miércoles: cerrado (salvo festivos con horario especial)",
           "Llega por la mañana para evitar el calor y las multitudes",
           "Antes de viajar, confirma horarios especiales por teléfono con el sitio"
         ]
@@ -620,7 +626,25 @@
           "Teotihuacán: grandes plataformas alineadas en torno a una calzada",
           "Guachimontones: círculos concéntricos, altar central y plazas redondas"
         ]
-      }
+      },
+      {
+        "h": "Orígenes profundos en el valle (desde c. 1000 a.C.)",
+      "p": "El INAH describe a Guachimontones como el primer gran centro de población del occidente de México. Su fase más temprana, marcada por tumbas de tiro de estilo El Opeño, se desarrolló junto a otras sociedades mesoamericanas antes de que los círculos ceremoniales tomaran su forma clásica.",
+      "items": [
+        "Inicios alrededor del 1000 a.C. en las tierras altas lacustres y volcánicas de Jalisco",
+        "Un patrón disperso de asentamientos alrededor de un núcleo ceremonial, más que una sola ciudad densa",
+        "El fin de la tradición se vincula con la llegada de nuevos horizontes culturales del occidente, como la metalurgia y el arco y la flecha"
+      ]
+    },
+    {
+      "h": "Nombres, memoria y paisaje",
+      "p": "Oficialmente la zona se conoce como Guachimontones o Teuchitlán, nombre que comparte con el pueblo cercano. En torno al sitio, la tradición oral mantiene vivo el paisaje antiguo: los visitantes pueden escuchar distintas versiones de historias locales de boca de guías o en el pueblo, mejor entendidas como patrimonio vivo que como registro científico.",
+      "items": [
+        "Conviven dos nombres oficiales: la zona arqueológica y el municipio cercano",
+        "Los guías y el personal del museo pueden compartir las historias mejor fundamentadas de la región",
+        "Los relatos locales conectan los montículos redondos, el volcán y el lago con el pasado prehispánico"
+      ]
+    }
     ]
   },
   "guideDaytrips": {
@@ -677,6 +701,318 @@
     "lead": "Esta guía independiente se elaboró con datos verificados de fuentes oficiales y de la ficha pública de Google Maps de la Zona Arqueológica Teuchitlán o Guachimontones (valoración 4.7/5 con más de 6,700 reseñas).",
     "eeat": "Revisamos periódicamente la información de horarios, precios y servicios. Antes de viajar, confirma siempre los datos vigentes directamente con el sitio o con las fuentes oficiales enlazadas.",
     "linksTitle": "Fuentes oficiales consultadas"
+  },
+  "weather": {
+    "title": "Clima en vivo y pronóstico",
+    "subtitle": "Condiciones actuales y panorama de los próximos días cerca de la zona arqueológica.",
+    "currentTitle": "Ahora mismo",
+    "feelsLike": "Sensación térmica",
+    "humidity": "Humedad",
+    "wind": "Viento",
+    "rainChance": "Probabilidad de lluvia",
+    "sunrise": "Amanecer",
+    "sunset": "Atardecer",
+    "forecastTitle": "Pronóstico a 7 días",
+    "today": "Hoy",
+    "advOut": "Para salir",
+    "advPlay": "Durante la visita",
+    "advWhatToBring": "Qué llevar",
+    "advRisk": "Avisos de seguridad",
+    "uvLabel": "UV",
+    "uvLow": "Bajo",
+    "uvModerate": "Moderado",
+    "uvHigh": "Alto",
+    "uvVeryHigh": "Muy alto",
+    "uvExtreme": "Extremo",
+    "advItems": [
+      {
+        "id": "rHeavy",
+        "kind": "risk",
+        "text": "Lluvia fuerte: los senderos y escalones estarán resbalosos; espera a que amaine bajo techo."
+      },
+      {
+        "id": "rThunder",
+        "kind": "risk",
+        "text": "Tormenta eléctrica: evita las zonas altas abiertas y los árboles aislados; refúgiate si el trueno se acerca."
+      },
+      {
+        "id": "rFog",
+        "kind": "risk",
+        "text": "Poca visibilidad: los miradores y las vistas lejanas estarán limitados; maneja con precaución en los caminos de acceso."
+      },
+      {
+        "id": "rWind",
+        "kind": "risk",
+        "text": "Viento fuerte: hay ráfagas en los miradores expuestos; sujeta tus cosas y ten cuidado en las escalinatas."
+      },
+      {
+        "id": "rainProb",
+        "kind": "out",
+        "text": "Es probable que llueva en algún momento: lleva protección para la lluvia y deja el plan flexible."
+      },
+      {
+        "id": "heat",
+        "kind": "out",
+        "text": "Hace calor: evita el sol del mediodía y descansa a la sombra."
+      },
+      {
+        "id": "uv",
+        "kind": "out",
+        "text": "El sol es fuerte: protege tu piel y tus ojos aunque la sensación sea templada."
+      },
+      {
+        "id": "bigDiff",
+        "kind": "out",
+        "text": "Hay gran diferencia entre el calor del día y el frío de la noche: lleva una capa extra."
+      },
+      {
+        "id": "cold",
+        "kind": "out",
+        "text": "Ahora hace frío: abrígate bien antes de subir."
+      },
+      {
+        "id": "clearPlay",
+        "kind": "play",
+        "text": "Cielo despejado: un gran día para caminar al aire libre y fotografiar."
+      },
+      {
+        "id": "cloudyPlay",
+        "kind": "play",
+        "text": "Luz suave entre nubes: cómodo para un paseo largo y fotos."
+      },
+      {
+        "id": "mildRainPlay",
+        "kind": "play",
+        "text": "Lluvia ligera: los senderos se ponen resbalosos; camina despacio y con calzado con agarre."
+      },
+      {
+        "id": "heatPlay",
+        "kind": "play",
+        "text": "Camina temprano o al atardecer y haz pausas a la sombra en las horas de más calor."
+      },
+      {
+        "id": "windMidPlay",
+        "kind": "play",
+        "text": "Hace viento en los miradores abiertos: sujeta el sombrero y cuida tus pasos."
+      },
+      {
+        "id": "gRain",
+        "kind": "gear",
+        "text": "Paraguas plegable"
+      },
+      {
+        "id": "gRaincoat",
+        "kind": "gear",
+        "text": "Impermeable o capa (más seguro que un paraguas con viento)"
+      },
+      {
+        "id": "gUV",
+        "kind": "gear",
+        "text": "Protector solar, sombrero de ala ancha y gafas de sol"
+      },
+      {
+        "id": "gWater",
+        "kind": "gear",
+        "text": "Agua en abundancia"
+      },
+      {
+        "id": "gLayer",
+        "kind": "gear",
+        "text": "Chamarra ligera o capa abrigadora"
+      }
+    ],
+    "note": "El pronóstico es solo una referencia — el clima de montaña cambia rápido. Confírmalo en el lugar antes de salir.",
+    "unavailableTitle": "El clima en vivo no está disponible temporalmente.",
+    "unavailableText": "Consulta la guía por temporadas más abajo al planear tu visita.",
+    "cond": {
+      "clear": "Cielo despejado",
+      "mainlyClear": "Mayormente despejado",
+      "partly": "Parcialmente nublado",
+      "overcast": "Nublado",
+      "fog": "Niebla",
+      "drizzle": "Llovizna ligera",
+      "rain": "Lluvia",
+      "freezingRain": "Lluvia helada",
+      "snow": "Nieve",
+      "showers": "Chubascos",
+      "snowShowers": "Chubascos de nieve",
+      "thunder": "Tormenta eléctrica",
+      "unknown": "Condiciones variadas"
+    }
+  },
+  "facilities": {
+    "title": "Servicios al visitante y alrededores",
+    "subtitle": "Un panorama neutral por tipos de servicio — no promocionamos negocios concretos. Los servicios y sus horarios cambian a menudo; confírmalo siempre en el sitio o en el pueblo.",
+    "groups": [
+      {
+        "title": "En la zona arqueológica",
+        "items": [
+          {
+            "t": "Sanitarios (WC)",
+            "d": "Suele haber baños cerca de la entrada o de la zona de visitantes. Lleva tu propio papel y gel antibacterial; la disponibilidad puede variar."
+          },
+          {
+            "t": "Estacionamiento",
+            "d": "Hay un área de estacionamiento junto a la entrada (a veces el piso no está pavimentado). El acceso puede ser gratuito o con una cuota menor según la temporada."
+          },
+          {
+            "t": "Información y orientación",
+            "d": "El personal de entrada y los guías oficiales pueden resolver dudas prácticas. Pregunta por un recorrido guiado para conocer mejor el sitio."
+          },
+          {
+            "t": "Ten en cuenta las reglas del sitio",
+            "d": "Por lo general no se permite entrar con alimentos, mascotas ni fumar dentro de la zona. Deja la comida para fuera y conserva una botella de agua en tu vehículo."
+          }
+        ]
+      },
+      {
+        "title": "Teuchitlán y alrededores (1–5 km)",
+        "items": [
+          {
+            "t": "Dónde comer",
+            "d": "El pueblo ofrece opciones locales sencillas: fondas familiares, puestos de tacos y pequeños cafés con comida regional de Jalisco. Entre semana abren menos días."
+          },
+          {
+            "t": "Tiendas y abarrotes",
+            "d": "Mercados pequeños, panaderías y tiendas de conveniencia del pueblo cubren agua, snacks y lo básico. Para supermercados más grandes, ve a los pueblos mayores de la carretera."
+          },
+          {
+            "t": "Dónde dormir",
+            "d": "Hay hoteles sencillos, casas de huéspedes y cabañas rurales en la zona, con más opciones en Tala o Guadalajara. Los fines de semana se llenan rápido: reserva con tiempo."
+          },
+          {
+            "t": "Gasolina y carga eléctrica",
+            "d": "Hay estaciones de servicio en las carreteras de acceso y en los pueblos más grandes. La carga para vehículos eléctricos es escasa cerca del sitio: carga antes de salir de la ciudad."
+          },
+          {
+            "t": "Efectivo, farmacias y salud",
+            "d": "Los cajeros automáticos son escasos: lleva efectivo. En el pueblo suele haber farmacia. Para emergencias marca 911 y dirígete al pueblo más grande o a Guadalajara."
+          }
+        ]
+      }
+    ],
+    "note": "Los puntos anteriores describen disponibilidad y tipos de servicio típicos únicamente — no negocios concretos."
+  },
+  "seasons": {
+    "title": "Cuándo visitar: guía por temporadas",
+    "subtitle": "Guachimontones se ubica en las tierras altas templadas de Jalisco (unos 1,300 m). El clima tiene una clara temporada seca y otra de lluvias; así suele verse el año.",
+    "cols": {
+      "colSeason": "Temporada · meses",
+      "colWeather": "Clima típico",
+      "colHighlights": "Qué disfrutar",
+      "colTips": "Consejos prácticos"
+    },
+    "rows": [
+      {
+        "season": "Temporada seca y fresca",
+        "months": "Noviembre – marzo",
+        "weather": "Cielos despejados, días templados y noches frescas; casi sin lluvia.",
+        "highlights": "Los meses más cómodos para caminar por el sitio y tomar fotografías; las vistas permanecen abiertas.",
+        "tips": "Lleva una chamarra ligera para las primeras horas. Los fines de semana puede haber más gente."
+      },
+      {
+        "season": "Temporada seca y cálida",
+        "months": "Abril – mayo",
+        "weather": "Las semanas más secas y calurosas; sol intenso y temperaturas diurnas cercanas a 30 °C.",
+        "highlights": "Luz nítida para fotografiar las estructuras circulares frente al valle.",
+        "tips": "Llega a la hora de apertura, busca la sombra y toma agua durante todo el día."
+      },
+      {
+        "season": "Inicio de lluvias",
+        "months": "Junio – agosto",
+        "weather": "Cálido y húmedo; la lluvia llega sobre todo en tormentas de tarde o noche y el paisaje se vuelve verde intenso.",
+        "highlights": "Campos verdes, nubes dramáticas y más aves alrededor del sitio.",
+        "tips": "Lleva impermeable o paraguas; los senderos pueden estar resbalosos tras la lluvia: usa calzado con agarre."
+      },
+      {
+        "season": "Final de lluvias",
+        "months": "Septiembre – octubre",
+        "weather": "Las lluvias van disminuyendo, la vegetación luce muy viva y regresan las mañanas frescas.",
+        "highlights": "Vistas en verde intenso y luz más suave durante el día.",
+        "tips": "Revisa el pronóstico y mantén un plan flexible por si pasa alguna tormenta."
+      }
+    ],
+    "note": "Son promedios de largo plazo de la región, no una garantía para un día o año específico."
+  },
+  "itineraries": {
+    "title": "Itinerarios sugeridos",
+    "subtitle": "Planes autoguiados que se adaptan a tu ritmo. Los tiempos son estimados: recuerda que el sitio abre de jueves a domingo y cierra a las 17:00.",
+    "halfDay": {
+      "tag": "Medio día · unas 3 horas",
+      "when": "Funciona bien empezando entre 9:00 y 10:00, antes del sol más fuerte.",
+      "steps": [
+        "Llega, estaciona y usa los servicios; revisa las reglas del día en la entrada.",
+        "Visita breve opcional del museo o del área interpretativa para el contexto.",
+        "Recorre el conjunto circular principal y lee los paneles del sitio.",
+        "Descansa a la sombra y disfruta el panorama hacia el volcán y el valle.",
+        "Regresa a media tarde y, si quieres, come en el pueblo."
+      ]
+    },
+    "fullDay": {
+      "tag": "Día completo · unas 5–6 horas en el sitio",
+      "when": "Ideal en la temporada seca y fresca; combina la visita con la comida y los alrededores.",
+      "steps": [
+        "Mañana: paseo tranquilo por los círculos ceremoniales y los miradores.",
+        "Visita con calma el museo y el área interpretativa; pregunta por los trabajos de arqueología actuales.",
+        "Almuerza o haz un picnic fuera de la zona (no se permite comida dentro).",
+        "Opcional: explora los conjuntos circulares secundarios abiertos al público (verifica el acceso actual).",
+        "Tarde: disfruta las vistas del valle y del paisaje de agave antes del cierre."
+      ]
+    },
+    "addNote": "Si te sobra tiempo, la plaza de Teuchitlán, el embalse de La Vega y el paisaje de agave son añadidos sencillos y no comerciales para la misma salida."
+  },
+  "audience": {
+    "title": "Planes según el tipo de viajero",
+    "subtitle": "Elige el ritmo adecuado para tu grupo. Todos los planes se mantienen dentro de las rutas marcadas.",
+    "plans": [
+      {
+        "tag": "Familias con niños",
+        "who": "Mantenlo ameno y breve: las pirámides circulares intrigan a los niños, así que prepara preguntas sencillas de antemano.",
+        "points": [
+          "Empieza temprano para evitar el calor y el cansancio.",
+          "Lleva agua, gorras y snacks para disfrutar fuera de la zona.",
+          "Usa primero el museo para el contexto y limita la caminata a los círculos principales."
+        ]
+      },
+      {
+        "tag": "Fotógrafos y amantes de la naturaleza",
+        "who": "La luz y las nubes crean las mejores imágenes; el sitio mira hacia el volcán de Tequila y el valle.",
+        "points": [
+          "La apertura o la tarde dan la luz más cálida sobre la piedra.",
+          "En temporada de lluvias las nubes dramáticas aportan ambiente: protege tu equipo de las lluvias repentinas.",
+          "Respeta las vallas y nunca vueles drones sin permiso previo."
+        ]
+      },
+      {
+        "tag": "Ritmo tranquilo y accesibilidad",
+        "who": "Gran parte del sitio puede disfrutarse a nivel del suelo, pero el terreno es irregular y los descansos con sombra son limitados.",
+        "points": [
+          "Habla con el personal de entrada sobre tus necesidades: algunos visitantes usan bastón o andador con cuidado.",
+          "Concéntrate en el mirador principal, el área interpretativa y el museo.",
+          "Si es posible, ven acompañado; las opciones de acceso cambian con frecuencia, así que llama antes."
+        ]
+      }
+    ]
+  },
+  "science": {
+    "title": "Ciencia y responsabilidad del visitante",
+    "subtitle": "Un poco de contexto sobre por qué este sitio importa y las reglas simples que lo protegen.",
+    "scienceTitle": "Por qué Guachimontones importa",
+    "science": [
+      "Fue uno de los primeros grandes centros de población del occidente de Mesoamérica, con orígenes hacia el 1000 a.C. y tempranas tradiciones de tumbas de tiro.",
+      "Sus estructuras cónicas escalonadas y sus patios circulares elevados son únicos — sin influencia olmeca y con pocos vínculos con el centro de México.",
+      "El núcleo documentado abarca unas 20 hectáreas, con dos juegos de pelota monumentales, cinco plazas exteriores y unas cuarenta construcciones circulares residenciales a su alrededor.",
+      "Círculos como El Guachimontón (125 m), La Iguana y El Azquelite (115 m) revelan geometría sofisticada y una gran organización del trabajo.",
+      "La tradición Teuchitlán influyó en una amplia región — a lo largo del río Lerma, hacia el sur de Zacatecas, el Bajío y las costas de Nayarit y Colima."
+    ],
+    "respectTitle": "Durante tu visita",
+    "respect": [
+      "Camina solo por los senderos marcados y nunca subas, toques ni te apoyes en las estructuras.",
+      "No tomes nada del suelo: por ley, los restos arqueológicos pertenecen a la nación.",
+      "Respeta las reglas del sitio: no entrar con alimentos, no fumar y no llevar mascotas.",
+      "Pregunta antes de usar drones o equipo fotográfico profesional; pueden aplicar permisos o cuotas.",
+      "Lleva tu basura contigo y mantén el volumen bajo, por respeto a los demás visitantes."
+    ]
   },
   "officialManagement": {
     "title": "Acerca de Guachimontones",

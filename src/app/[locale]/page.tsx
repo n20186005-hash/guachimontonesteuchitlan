@@ -10,9 +10,15 @@ import Intro from '@/components/Intro';
 import GuidesHub from '@/components/GuidesHub';
 import BasicInfo from '@/components/BasicInfo';
 import HoursSection from '@/components/HoursSection';
+import WeatherSection from '@/components/WeatherSection';
+import SeasonsSection from '@/components/SeasonsSection';
 import TicketsSection from '@/components/TicketsSection';
 import TransportSection from '@/components/TransportSection';
+import FacilitiesSection from '@/components/FacilitiesSection';
 import RouteSection from '@/components/RouteSection';
+import ItinerariesSection from '@/components/ItinerariesSection';
+import AudienceSection from '@/components/AudienceSection';
+import ScienceSection from '@/components/ScienceSection';
 import Gallery from '@/components/Gallery';
 import Reviews from '@/components/Reviews';
 import FaqSection from '@/components/FaqSection';
@@ -20,6 +26,10 @@ import MapEmbed from '@/components/MapEmbed';
 import SourcesSection from '@/components/SourcesSection';
 import JsonLd from '@/components/JsonLd';
 import Footer from '@/components/Footer';
+
+/* The home page renders a live weather module, so it is server-rendered on
+   each request instead of being pre-rendered as a static snapshot. */
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({
   params,
@@ -74,9 +84,15 @@ export default async function HomePage({
         <GuidesHub />
         <BasicInfo />
         <HoursSection />
+        <WeatherSection />
+        <SeasonsSection />
         <TicketsSection />
         <TransportSection />
+        <FacilitiesSection />
         <RouteSection />
+        <ItinerariesSection />
+        <AudienceSection />
+        <ScienceSection />
         <Gallery />
         <Reviews />
         <FaqSection />
