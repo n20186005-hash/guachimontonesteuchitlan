@@ -29,7 +29,7 @@ export function touristAttractionLd(messages: AnyMessages, locale: string, url: 
     url,
     description: messages?.meta?.description || SITE.description,
     image: imageList,
-    isAccessibleForFree: false,
+    isAccessibleForFree: true,
     publicAccess: true,
     touristType: ['Archaeological site', 'Open-air museum'],
     telephone: SITE.telephone,
@@ -39,7 +39,7 @@ export function touristAttractionLd(messages: AnyMessages, locale: string, url: 
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        dayOfWeek: ['Thursday', 'Friday', 'Saturday', 'Sunday'],
         opens: '09:00',
         closes: '17:00',
       },

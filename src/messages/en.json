@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Guachimontones Pyramids Guadalajara: Visiting Teuchitlán Ruins (2026 Guide)",
-    "description": "Explore the unique circular pyramids of Guachimontones in Teuchitlán, Jalisco. Complete guide on how to get there from Guadalajara, tickets, hours & history."
+    "title": "Guachimontones Pyramids – Hours & Guadalajara Travel Guide",
+    "description": "Explore Guachimontones in Teuchitlán, Jalisco. Plan your trip from Guadalajara with current opening hours, free admission information, directions and circular pyramid history."
   },
   "header": {
     "home": "Home",
@@ -11,11 +11,11 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Zona Arqueológica Teuchitlán o Guachimontones",
+    "title": "Guachimontones Pyramids: Teuchitlán Archaeological Site",
     "subtitle": "Circular pyramids in Teuchitlán, Jalisco — an easy day trip from Guadalajara",
     "rating": "4.7",
-    "reviewCount": "6,707",
-    "hours": "Open to public",
+    "reviewCount": "6,730",
+    "hours": "Thu–Sun · Free",
     "openMaps": "View Location",
     "imgAlt": "Zona Arqueológica Teuchitlán o Guachimontones: circular pyramids in Teuchitlan, Jalisco, Mexico"
   },
@@ -90,10 +90,10 @@
   },
   "hours": {
     "title": "Opening Hours",
-    "outdoor": "Tuesday to Sunday",
+    "outdoor": "Thursday to Sunday",
     "outdoorTime": "09:00–17:00",
     "lighthouse": "Closed",
-    "summer": "Monday",
+    "summer": "Monday to Wednesday",
     "summerTime": "Closed",
     "winter": "Best Time to Visit",
     "winterTime": "Dry Season (November-April) is ideal for walking and exploring",
@@ -103,17 +103,17 @@
   },
   "tickets": {
     "title": "Ticket Information",
-    "outdoor": "General Admission",
-    "outdoorPrice": "Prices are subject to the latest on-site announcements; it is recommended to call ahead for current ticket prices and discount policies.",
-    "lighthouse": "Students and Teachers",
-    "adults": "Entry with valid credential",
-    "adultsPrice": "Discount available (verify requirements)",
-    "students": "Parking",
-    "studentsPrice": "Parking available on site",
-    "children": "Recommendations",
-    "childrenPrice": "Hire guide for better experience",
-    "card": "Additional Services",
-    "cardPrice": "Site museum included in admission"
+    "outdoor": "General admission",
+    "outdoorPrice": "Free. Per the current INAH listing, general entry to the archaeological zone is free of charge. Guided tours and the site museum may have a separate cost.",
+    "lighthouse": "Guided tours & services",
+    "adults": "Official guided tours",
+    "adultsPrice": "Offered on site; a separate fee may apply — confirm before visiting.",
+    "students": "Site museum",
+    "studentsPrice": "May have a separate admission; sometimes included with a guided visit.",
+    "children": "Parking",
+    "childrenPrice": "Available on site (may be free or a small fee by season).",
+    "card": "Good to know",
+    "cardPrice": "Hours follow the INAH schedule; confirm any paid services before you travel."
   },
   "transport": {
     "title": "Transportation",
@@ -182,56 +182,7 @@
     "title": "Visitor Reviews",
     "declaration": "Review information can be viewed via Google Maps (external link).",
     "moreReviews": "View More Reviews on Google Maps",
-    "items": [
-      {
-        "name": "Carlos Mendoza",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "An impressive and unique place in the world. The circular pyramids are fascinating and the site museum is very informative. Highly recommended for history lovers."
-      },
-      {
-        "name": "María González",
-        "date": "1 month ago",
-        "rating": 5,
-        "text": "Fascinating visit. I had never seen circular pyramids before. The guide was very knowledgeable and explained everything about the Teuchitlán culture. An excellent educational experience."
-      },
-      {
-        "name": "Juan Pérez",
-        "date": "3 months ago",
-        "rating": 4,
-        "text": "Very interesting archaeological site, although more shade and services are needed. The circular pyramids are impressive. Bring plenty of water and hat."
-      },
-      {
-        "name": "Ana Rodríguez",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "A unique place in Mexico. The circular pyramids are an architectural marvel. The site staff very friendly and the museum is very well maintained."
-      },
-      {
-        "name": "Roberto Silva",
-        "date": "1 year ago",
-        "rating": 4,
-        "text": "Very good archaeological site. A bit far from Guadalajara but worth the trip. The circular structures are unique in Mesoamerica."
-      },
-      {
-        "name": "Laura Martínez",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "Beautiful archaeological site. I loved the circular architecture and the views of the surroundings. Ideal to go with family and learn about pre-Hispanic history."
-      },
-      {
-        "name": "Miguel Ángel",
-        "date": "3 months ago",
-        "rating": 4,
-        "text": "Interesting historical site. The main circular pyramid is impressive. Better signage is needed on the road from Guadalajara."
-      },
-      {
-        "name": "Sofía Herrera",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "A hidden archaeological gem in Jalisco. The circular pyramids are unique in the world. A must-visit if you are in Guadalajara or Teuchitlán."
-      }
-    ]
+    "items": []
   },
   "mapSection": {
     "title": "Location & Map",
@@ -383,7 +334,7 @@
       },
       {
         "q": "How much does the entrance cost and what are the opening hours?",
-        "a": "Admission is ticketed and the usual opening hours are Tuesday to Sunday, 9:00 a.m. to 5:00 p.m.; the site is closed on Mondays. Prices and discounts may change, so we recommend confirming by phone before your visit."
+        "a": "General admission to the archaeological zone is free. The site is open Thursday to Sunday, 9:00 a.m. to 5:00 p.m. (closed Monday to Wednesday). Opening arrangements can change, so confirm with INAH before travelling."
       },
       {
         "q": "Can you climb the main pyramid?",
@@ -395,7 +346,7 @@
       },
       {
         "q": "What facilities are available at the site?",
-        "a": "The archaeological zone has parking, restrooms and a site museum included in the visit. Facilities are basic: bring water, a hat and comfortable shoes, as most of the route is outdoors with little shade."
+        "a": "The archaeological zone has parking, restrooms and a site museum included with admission. Facilities are basic: bring water, a hat and comfortable shoes, as most of the route is outdoors with little shade."
       },
       {
         "q": "Is Guachimontones suitable for a visit with children?",
@@ -449,21 +400,21 @@
     "blocks": [
       {
         "h": "Opening hours",
-        "p": "The archaeological zone is open from Tuesday to Sunday; it is closed on Mondays for weekly maintenance.",
+        "p": "The archaeological zone is open from Thursday to Sunday; it is closed Monday to Wednesday.",
         "items": [
-          "Tuesday to Sunday: 9:00 a.m. - 5:00 p.m.",
-          "Monday: closed (except scheduled holiday openings)",
+          "Thursday to Sunday: 9:00 a.m. - 5:00 p.m.",
+          "Monday to Wednesday: closed",
           "Arrive in the morning to avoid the heat and the crowds",
           "Before travelling, confirm special hours by phone with the site"
         ]
       },
       {
         "h": "Tickets and admission",
-        "p": "Admission is ticketed; discounts are available for students and teachers with a valid ID. Fees may change, so check current prices before you go.",
+        "p": "General admission to the archaeological zone is free. Guided tours and the site museum may have a separate cost.",
         "items": [
-          "General admission is paid (the current price is posted at the ticket office)",
-          "Students and teachers with ID: valid discount",
-          "The ticket includes access to the site museum"
+          "General admission: free (per the current INAH listing)",
+          "Official guided tours: a separate fee may apply",
+          "The site museum may have a separate admission"
         ]
       },
       {
@@ -479,7 +430,7 @@
         "h": "Facilities on site",
         "items": [
           "Parking at the entrance",
-          "Site museum included in the ticket",
+          "Site museum included with admission (free)",
           "Marked trails (the ground is uneven in several areas)",
           "Basic facilities; large parts have little shade: bring water and sun protection"
         ]
@@ -671,7 +622,7 @@
   },
   "sources": {
     "title": "Sources & References",
-    "lead": "This independent guide was compiled with data verified from official sources and from the public Google Maps listing of the Zona Arqueológica Teuchitlán o Guachimontones (rated 4.7/5 with over 6,700 reviews).",
+    "lead": "This independent guide was compiled with data verified from official sources and from the public Google Maps listing of the Zona Arqueológica Teuchitlán o Guachimontones (rated 4.7/5 across 6,730 reviews, checked October 2026).",
     "eeat": "We review opening hours, prices and services regularly. Before you travel, always confirm the latest details directly with the site or with the official sources linked below.",
     "linksTitle": "Official sources consulted"
   },
@@ -909,7 +860,7 @@
   },
   "itineraries": {
     "title": "Suggested Itineraries",
-    "subtitle": "Self-guided plans that adapt to your pace. Times are estimates — remember the site opens Tuesday to Sunday and closes at 5 p.m.",
+    "subtitle": "Self-guided plans that adapt to your pace. Times are estimates — remember the site opens Thursday to Sunday and closes at 5 p.m.",
     "halfDay": {
       "tag": "Half day · about 3 hours",
       "when": "Works well starting at 9–10 a.m., before the strongest sun.",

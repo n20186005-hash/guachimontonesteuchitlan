@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Zona Arqueológica Teuchitlán o Guachimontones (Teuchitlán) | Pirámides circulares y guía",
-    "description": "Guía de la Zona Arqueológica Teuchitlán o Guachimontones (Guachimontones), en Teuchitlán, Jalisco, México: pirámides circulares, horarios, entradas, cómo llegar desde Guadalajara y qué visitar cerca (Pueblo Mágico de Tequila, Laguna de La Vega)."
+    "title": "Guachimontones Teuchitlán: Horarios, Entrada y Cómo Llegar",
+    "description": "Visita la Zona Arqueológica de Guachimontones en Jalisco. Consulta los horarios del INAH, información de entrada gratuita, ubicación y cómo llegar desde Guadalajara."
   },
   "header": {
     "home": "Inicio",
@@ -11,11 +11,11 @@
     "backToHome": "Volver al inicio"
   },
   "hero": {
-    "title": "Zona Arqueológica Teuchitlán o Guachimontones",
+    "title": "Guachimontones: Zona Arqueológica de Teuchitlán, Jalisco",
     "subtitle": "Pirámides circulares en Teuchitlán, Jalisco: una excursión fácil de un día desde Guadalajara",
     "rating": "4.7",
-    "reviewCount": "6,707",
-    "hours": "Abierto al público",
+    "reviewCount": "6,730",
+    "hours": "Jue–dom · Gratis",
     "openMaps": "Ver ubicación",
     "imgAlt": "Zona Arqueológica Teuchitlán o Guachimontones: pirámides circulares en Teuchitlán, Jalisco, México"
   },
@@ -90,10 +90,10 @@
   },
   "hours": {
     "title": "Horarios",
-    "outdoor": "Martes a domingo",
+    "outdoor": "Jueves a domingo",
     "outdoorTime": "09:00–17:00",
     "lighthouse": "Cerrado",
-    "summer": "Lunes",
+    "summer": "Lunes a miércoles",
     "summerTime": "Cerrado",
     "winter": "Mejor época para visitar",
     "winterTime": "La temporada seca (noviembre-abril) es ideal para caminar y explorar",
@@ -104,16 +104,16 @@
   "tickets": {
     "title": "Entradas",
     "outdoor": "Entrada general",
-    "outdoorPrice": "Los precios están sujetos a los últimos anuncios en el sitio; se recomienda llamar con anticipación para conocer los precios actuales y las políticas de descuento.",
-    "lighthouse": "Estudiantes y maestros",
-    "adults": "Entrada con credencial vigente",
-    "adultsPrice": "Descuento disponible (verificar requisitos)",
-    "students": "Estacionamiento",
-    "studentsPrice": "Estacionamiento disponible en el sitio",
-    "children": "Recomendaciones",
-    "childrenPrice": "Contratar guía para una mejor experiencia",
-    "card": "Servicios adicionales",
-    "cardPrice": "Museo de sitio incluido en la entrada"
+    "outdoorPrice": "Gratuita. Según el listado actual del INAH, la entrada general a la zona arqueológica es gratuita. Las visitas guiadas y el museo de sitio pueden tener un costo aparte.",
+    "lighthouse": "Visitas guiadas y servicios",
+    "adults": "Visitas guiadas oficiales",
+    "adultsPrice": "Se ofrecen en el sitio; puede aplicar una cuota aparte — confirma antes de visitar.",
+    "students": "Museo de sitio",
+    "studentsPrice": "Puede tener entrada aparte; a veces incluido con la visita guiada.",
+    "children": "Estacionamiento",
+    "childrenPrice": "Disponible en el sitio (puede ser gratuito o con una cuota menor según temporada).",
+    "card": "A tener en cuenta",
+    "cardPrice": "El horario sigue el calendario del INAH; confirma cualquier servicio de pago antes de viajar."
   },
   "transport": {
     "title": "Cómo llegar",
@@ -209,56 +209,7 @@
     "title": "Reseñas de visitantes",
     "declaration": "La información de reseñas se puede ver a través de Google Maps (enlace externo).",
     "moreReviews": "Ver más reseñas en Google Maps",
-    "items": [
-      {
-        "name": "Carlos Mendoza",
-        "date": "Hace 2 meses",
-        "rating": 5,
-        "text": "Un lugar impresionante e único en el mundo. Las pirámides circulares son fascinantes y el museo de sitio es muy informativo. Altamente recomendado para amantes de la historia."
-      },
-      {
-        "name": "María González",
-        "date": "Hace 1 mes",
-        "rating": 5,
-        "text": "Visita fascinante. Nunca había visto pirámides circulares antes. El guía fue muy conocedor y nos explicó todo sobre la cultura teuchitlán. Una experiencia educativa excelente."
-      },
-      {
-        "name": "Juan Pérez",
-        "date": "Hace 3 meses",
-        "rating": 4,
-        "text": "Sitio arqueológico muy interesante, aunque hace falta más sombra y servicios. Las pirámides circulares son impresionantes. Llevar mucha agua y sombrero."
-      },
-      {
-        "name": "Ana Rodríguez",
-        "date": "Hace más de 6 meses",
-        "rating": 5,
-        "text": "Un lugar único en México. Las pirámides circulares son una maravilla arquitectónica. El personal del sitio muy amable y el museo está muy bien cuidado."
-      },
-      {
-        "name": "Roberto Silva",
-        "date": "Hace 1 año",
-        "rating": 4,
-        "text": "Muy buen sitio arqueológico. Un poco alejado de Guadalajara pero vale la pena el viaje. Las estructuras circulares son únicas en Mesoamérica."
-      },
-      {
-        "name": "Laura Martínez",
-        "date": "Hace más de 6 meses",
-        "rating": 5,
-        "text": "Hermoso sitio arqueológico. Me encantó la arquitectura circular y la vista hacia los alrededores. Ideal para ir con familia y aprender sobre la historia prehispánica."
-      },
-      {
-        "name": "Miguel Ángel",
-        "date": "Hace 3 meses",
-        "rating": 4,
-        "text": "Interesante sitio histórico. La pirámide circular principal es impresionante. Se necesita mejor señalización en el camino desde Guadalajara."
-      },
-      {
-        "name": "Sofía Herrera",
-        "date": "Hace 2 meses",
-        "rating": 5,
-        "text": "Una joya arqueológica escondida en Jalisco. Las pirámides circulares son únicas en el mundo. Una visita obligada si estás en Guadalajara o Teuchitlán."
-      }
-    ]
+    "items": []
   },
   "mapSection": {
     "title": "Ubicación y mapa",
@@ -410,7 +361,7 @@
       },
       {
         "q": "¿Cuánto cuesta la entrada y cuáles son los horarios?",
-        "a": "El acceso es de paga y el horario habitual es de martes a domingo, de 09:00 a 17:00; los lunes el sitio permanece cerrado. Los precios y descuentos pueden cambiar, por lo que recomendamos confirmar por teléfono antes de tu visita."
+        "a": "La entrada general a la zona arqueológica es gratuita. El sitio abre de jueves a domingo, de 9:00 a 17:00 (cerrado de lunes a miércoles). Los horarios pueden cambiar, así que confirma con el INAH antes de viajar."
       },
       {
         "q": "¿Se puede subir a la pirámide principal?",
@@ -422,7 +373,7 @@
       },
       {
         "q": "¿Qué servicios hay en el sitio?",
-        "a": "La zona arqueológica cuenta con estacionamiento, servicios sanitarios y un museo de sitio incluido en la visita. Los servicios son básicos: te recomendamos llevar agua, sombrero y calzado cómodo, pues la mayor parte del recorrido es al aire libre y con poca sombra."
+        "a": "La zona arqueológica cuenta con estacionamiento, servicios sanitarios y un museo de sitio incluido con la entrada (gratuita). Los servicios son básicos: te recomendamos llevar agua, sombrero y calzado cómodo, pues la mayor parte del recorrido es al aire libre y con poca sombra."
       },
       {
         "q": "¿Es recomendable visitar Guachimontones con niños?",
@@ -476,21 +427,21 @@
     "blocks": [
       {
         "h": "Horarios de apertura",
-        "p": "La zona arqueológica abre de martes a domingo; los lunes permanece cerrada por mantenimiento semanal.",
+        "p": "La zona arqueológica abre de jueves a domingo; permanece cerrada de lunes a miércoles.",
         "items": [
-          "Martes a domingo: 09:00 - 17:00",
-          "Lunes: cerrado (salvo festivos con horario especial)",
+          "Jueves a domingo: 09:00 - 17:00",
+          "Lunes a miércoles: cerrado",
           "Llega por la mañana para evitar el calor y las multitudes",
           "Antes de viajar, confirma horarios especiales por teléfono con el sitio"
         ]
       },
       {
         "h": "Entradas y boletos",
-        "p": "El acceso tiene costo; existen descuentos para estudiantes y maestros con credencial vigente. Los montos pueden actualizarse, así que verifica los precios actuales antes de tu visita.",
+        "p": "La entrada general a la zona arqueológica es gratuita. Las visitas guiadas y el museo de sitio pueden tener un costo aparte.",
         "items": [
-          "Entrada general de pago (el precio se publica en taquilla)",
-          "Estudiantes y docentes con credencial: descuento vigente",
-          "El boleto incluye el acceso al museo de sitio"
+          "Entrada general: gratuita (según el listado actual del INAH)",
+          "Visitas guiadas oficiales: puede aplicar una cuota aparte",
+          "El museo de sitio puede tener entrada aparte"
         ]
       },
       {
@@ -506,7 +457,7 @@
         "h": "Servicios disponibles en el sitio",
         "items": [
           "Estacionamiento en la entrada",
-          "Museo de sitio incluido en el boleto",
+          "Museo de sitio incluido con la entrada (gratuita)",
           "Senderos señalizados (el terreno es irregular en varias zonas)",
           "Servicios básicos; hay zonas con poca sombra: lleva agua y protección solar"
         ]
@@ -698,7 +649,7 @@
   },
   "sources": {
     "title": "Fuentes y referencias",
-    "lead": "Esta guía independiente se elaboró con datos verificados de fuentes oficiales y de la ficha pública de Google Maps de la Zona Arqueológica Teuchitlán o Guachimontones (valoración 4.7/5 con más de 6,700 reseñas).",
+    "lead": "Esta guía independiente se elaboró con datos verificados de fuentes oficiales y de la ficha pública de Google Maps de la Zona Arqueológica Teuchitlán o Guachimontones (valoración 4.7/5 con 6,730 reseñas, verificado octubre 2026).",
     "eeat": "Revisamos periódicamente la información de horarios, precios y servicios. Antes de viajar, confirma siempre los datos vigentes directamente con el sitio o con las fuentes oficiales enlazadas.",
     "linksTitle": "Fuentes oficiales consultadas"
   },
@@ -936,7 +887,7 @@
   },
   "itineraries": {
     "title": "Itinerarios sugeridos",
-    "subtitle": "Planes autoguiados que se adaptan a tu ritmo. Los tiempos son estimados: recuerda que el sitio abre de martes a domingo y cierra a las 17:00.",
+    "subtitle": "Planes autoguiados que se adaptan a tu ritmo. Los tiempos son estimados: recuerda que el sitio abre de jueves a domingo y cierra a las 17:00.",
     "halfDay": {
       "tag": "Medio día · unas 3 horas",
       "when": "Funciona bien empezando entre 9:00 y 10:00, antes del sol más fuerte.",

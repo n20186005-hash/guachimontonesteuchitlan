@@ -3,7 +3,7 @@
  * 单一数据源：供 Metadata、JSON-LD、地图/联系方式等复用。
  */
 export const SITE = {
-  baseUrl: 'https://guachimontonesteuchitlan.com',
+  baseUrl: 'https://www.guachimontonesteuchitlan.com',
   officialName: 'Zona Arqueológica Teuchitlán o Guachimontones',
   shortName: 'Guachimontones',
   description:
