@@ -25,6 +25,11 @@ export default function GuideContent({ ns, slug }: { ns: string; slug: string })
   const cards: Card[] = messages?.clusters?.cards || [];
   const related = cards.filter((c) => c.slug !== slug);
   const backHref = `/${locale}`;
+  const facts = {
+    es: { title: 'Datos prácticos y gestión del sitio', location: 'Zona Arqueológica Guachimontones, Teuchitlán, Jalisco 46762, México', owner: 'La zona arqueológica se encuentra bajo la competencia del Instituto Nacional de Antropología e Historia (INAH); las condiciones de visita deben consultarse en su información oficial.', hours: 'Confirma el horario y los días de acceso en el INAH antes de viajar.', fee: 'Consulta las tarifas y posibles exenciones vigentes en el INAH.', transport: 'Desde Guadalajara toma la ruta hacia Teuchitlán y verifica el último tramo hasta la entrada arqueológica; el transporte regional puede requerir traslado adicional.', reviews: 'Las valoraciones y el número de reseñas cambian. Consulta la ficha de Google Maps para ver las cifras actuales.', map: 'Ubicación y reseñas en Google Maps', source: 'Datos oficiales del INAH' },
+    en: { title: 'Essential details and site management', location: 'Guachimontones archaeological area, Teuchitlán, Jalisco 46762, Mexico', owner: 'The archaeological area falls under the authority of the National Institute of Anthropology and History (INAH). Refer to its official visitor guidance.', hours: 'Check current opening days and hours with INAH before visiting.', fee: 'Check current admission prices and exemptions with INAH.', transport: 'From Guadalajara travel toward Teuchitlán and confirm the final transfer to the archaeological entrance; regional transport may not stop at the gate.', reviews: 'Ratings and review counts change. Open Google Maps for the current figures.', map: 'Location and visitor reviews on Google Maps', source: 'Official INAH information' },
+    zh: { title: '基本信息与管理主体', location: 'Guachimontones 考古区，Teuchitlán, Jalisco 46762, México', owner: '考古遗址属于墨西哥国家人类学与历史研究所（INAH）管辖范围，参观规则以官方说明为准。', hours: '出发前通过 INAH 核对开放日及开放时间。', fee: '通过 INAH 核对门票及优惠规定。', transport: '从瓜达拉哈拉前往特乌奇特兰后，确认前往考古区入口的最后一段交通；区域交通不一定直达入口。', reviews: '评分与评价数量会变化，请在 Google 地图查看实时数据。', map: '在 Google 地图查看位置及评价', source: 'INAH 官方信息' },
+  }[locale as 'es' | 'en' | 'zh'];
 
   return (
     <>
@@ -85,6 +90,21 @@ export default function GuideContent({ ns, slug }: { ns: string; slug: string })
               </div>
             ))}
           </div>
+
+          {facts && <section className="mt-12 p-6 sm:p-8 rounded-xl" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+            <h2 className="font-display text-2xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>{facts.title}</h2>
+            <dl className="space-y-4" style={{ color: 'var(--text-secondary)' }}>
+              <div><dt className="font-semibold">{facts.location}</dt><dd>{facts.owner}</dd></div>
+              <div><dt className="font-semibold">{locale === 'zh' ? '开放时间' : locale === 'es' ? 'Horarios' : 'Opening hours'}</dt><dd>{facts.hours}</dd></div>
+              <div><dt className="font-semibold">{locale === 'zh' ? '门票' : locale === 'es' ? 'Boletos' : 'Admission'}</dt><dd>{facts.fee}</dd></div>
+              <div><dt className="font-semibold">{locale === 'zh' ? '交通' : locale === 'es' ? 'Transporte' : 'Transport'}</dt><dd>{facts.transport}</dd></div>
+              <div><dt className="font-semibold">{locale === 'zh' ? '游客评价' : locale === 'es' ? 'Reseñas' : 'Visitor reviews'}</dt><dd>{facts.reviews}</dd></div>
+            </dl>
+            <div className="flex flex-wrap gap-5 mt-6 text-sm font-semibold" style={{ color: 'var(--accent)' }}>
+              <a className="underline" href={SITE.mapsShortUrl} target="_blank" rel="noopener noreferrer">{facts.map}</a>
+              <a className="underline" href={SITE.officialLinks.inahCatalogo} target="_blank" rel="noopener noreferrer">{facts.source}</a>
+            </div>
+          </section>}
 
           {/* Optional official contact box */}
           {contact && (

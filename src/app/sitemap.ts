@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next';
 import { SITE } from '@/config';
 import { exploreSlugs } from '@/lib/explore';
+import { nearbySlugs } from '@/lib/nearby';
 
 export const dynamic = 'force-static';
 
@@ -37,6 +38,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.8,
       });
+    }
+    for (const slug of nearbySlugs) {
+      sitemap.push({ url: `${baseUrl}/${locale}/nearby/${slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 });
     }
     // 法律页
     for (const route of legalRoutes) {
