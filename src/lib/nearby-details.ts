@@ -1,8 +1,10 @@
 import type { NearbySlug } from './nearby';
+import { extraDetails } from './nearby-expansion';
 
 type Detail = { culture: string; experience: string; checklist: string[]; photoSpots: string[]; questions: { q: string; a: string }[] };
 export const nearbyDetails: Record<'es' | 'en' | 'zh', Record<NearbySlug, Detail>> = {
   es: {
+    ...extraDetails.es,
     'phil-weigand-center': {
       culture: 'El centro ayuda a reconocer una tradición cultural del occidente de México a menudo menos conocida que los grandes centros de otras regiones. La presentación de objetos, investigación y modelos ofrece contexto para leer la organización social y ceremonial del paisaje.',
       experience: 'Dedica una primera etapa a la sala y después sal al terreno: el contraste entre un modelo a escala y el conjunto monumental real es uno de los aprendizajes más útiles de esta parada.',
@@ -26,6 +28,7 @@ export const nearbyDetails: Record<'es' | 'en' | 'zh', Record<NearbySlug, Detail
     },
   },
   en: {
+    ...extraDetails.en,
     'phil-weigand-center': {
       culture: 'The center presents a western Mexican cultural tradition that receives less attention than the monumental sites of other regions. Objects, research and interpretive models help visitors understand the ceremonial landscape.',
       experience: 'Explore the displays first, then compare a scale model with the full-sized circular complexes outside. The shift in perspective is a useful part of the visit.',
@@ -49,6 +52,7 @@ export const nearbyDetails: Record<'es' | 'en' | 'zh', Record<NearbySlug, Detail
     },
   },
   zh: {
+    ...extraDetails.zh,
     'phil-weigand-center': {
       culture: '特乌奇特兰文化是墨西哥西部的重要考古传统。通过展品、研究介绍与复原模型，游客可以理解圆形祭仪空间的社会与文化背景，而不只停留在建筑外观。',
       experience: '建议先看室内模型和展板，再到户外对照真实圆形建筑群；模型与实景之间的尺度差异，是解说中心最有价值的观察体验之一。',

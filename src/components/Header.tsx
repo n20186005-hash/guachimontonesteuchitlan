@@ -34,7 +34,7 @@ export default function Header() {
         </a>
 
         <nav className="hidden md:flex items-center gap-6">
-          {(['gallery', 'reviews', 'map'] as const).map((section) => (
+          {(['nearby', 'gallery', 'reviews', 'map'] as const).map((section) => (
             <a
               key={section}
               href={`/${locale}/#${section}`}
@@ -47,6 +47,7 @@ export default function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <a href={`/${locale}/#nearby`} className="md:hidden text-xs font-semibold px-2 py-2 rounded-md whitespace-nowrap" style={{ color: scrolled ? 'var(--text-primary)' : '#fff', background: scrolled ? 'var(--bg-tertiary)' : 'rgba(255,255,255,0.15)' }}>{t('nearby')}</a>
           <ThemeToggle />
           <LanguageToggle />
         </div>

@@ -4,6 +4,7 @@
     "description": "Visita la Zona Arqueológica de Guachimontones en Jalisco. Consulta los horarios del INAH, información de entrada gratuita, ubicación y cómo llegar desde Guadalajara."
   },
   "header": {
+    "nearby": "Lugares cercanos",
     "home": "Inicio",
     "gallery": "Galería",
     "reviews": "Reseñas",

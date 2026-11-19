@@ -1,8 +1,11 @@
-export const nearbySlugs = ['phil-weigand-center', 'teuchitlan-main-plaza', 'presa-la-vega'] as const;
+import { extraSlugs, extraFacts, extraContent } from './nearby-expansion';
+
+export const nearbySlugs = ['phil-weigand-center', 'teuchitlan-main-plaza', 'presa-la-vega', ...extraSlugs] as const;
 export type NearbySlug = (typeof nearbySlugs)[number];
 type Language = 'es' | 'en' | 'zh';
-type Item = { name: string; tagline: string; intro: string; about: string; history: string; architecture: string; visitTips: string[]; features: string[]; route: string[]; photoTip: string; faq: string; transport: string; address: string; management: string; time: string; price: string; stay: string };
+export type Item = { name: string; tagline: string; intro: string; about: string; history: string; architecture: string; visitTips: string[]; features: string[]; route: string[]; photoTip: string; faq: string; transport: string; address: string; management: string; time: string; price: string; stay: string };
 export const nearbyFacts: Record<NearbySlug, { image: string; photoSource: string; mapQuery: string; official: string }> = {
+  ...extraFacts,
   'phil-weigand-center': {
     image: '/nearby/phil-weigand-museum.jpg',
     photoSource: 'https://commons.wikimedia.org/wiki/File:Recorrido_Museo_Guachimontones_02.jpg',
@@ -24,6 +27,7 @@ export const nearbyFacts: Record<NearbySlug, { image: string; photoSource: strin
 };
 export const nearbyContent: Record<Language, Record<NearbySlug, Item>> = {
   es: {
+    ...extraContent.es,
     'presa-la-vega': {
       name: 'Presa de la Vega', tagline: 'Paisaje lacustre y observación del entorno de Teuchitlán',
       intro: 'La Presa de la Vega es un cuerpo de agua próximo a Teuchitlán, conocido por su paisaje, aves y restaurantes de la ribera. Es una visita de naturaleza diferente a los conjuntos arqueológicos de Guachimontones.',
@@ -74,6 +78,7 @@ export const nearbyContent: Record<Language, Record<NearbySlug, Item>> = {
     },
   },
   en: {
+    ...extraContent.en,
     'presa-la-vega': {
       name: 'Presa de la Vega', tagline: 'Lakeside scenery and nature near Teuchitlán',
       intro: 'Presa de la Vega is a reservoir near Teuchitlán known for its waterside scenery, birdlife and lakeside dining. It offers a different outing from the Guachimontones ruins.',
@@ -124,6 +129,7 @@ export const nearbyContent: Record<Language, Record<NearbySlug, Item>> = {
     },
   },
   zh: {
+    ...extraContent.zh,
     'presa-la-vega': {
       name: '拉维加水库 Presa de la Vega', tagline: '特乌奇特兰附近的湖光山色与自然观察',
       intro: '拉维加水库位于特乌奇特兰附近，以水面景观、鸟类和岸边餐饮区闻名，是与 Guachimontones 考古建筑不同的自然游览地点。',
