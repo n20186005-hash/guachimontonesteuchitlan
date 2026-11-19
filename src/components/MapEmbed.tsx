@@ -38,7 +38,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title={`Google Maps – ${SITE.officialName}, ${SITE.address.addressLocality}, ${SITE.address.addressRegion}, México`}
+            title={t('iframeTitle')}
           />
         </div>
 

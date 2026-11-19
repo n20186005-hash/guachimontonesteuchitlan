@@ -10,6 +10,11 @@
     "map": "Mapa",
     "backToHome": "Volver al inicio"
   },
+  "ui": {
+    "toggleTheme": "Cambiar tema",
+    "switchLanguage": "Cambiar idioma",
+    "breadcrumb": "Ruta de navegación"
+  },
   "hero": {
     "title": "Guachimontones: Zona Arqueológica de Teuchitlán, Jalisco",
     "subtitle": "Pirámides circulares en Teuchitlán, Jalisco: una excursión fácil de un día desde Guadalajara",
@@ -203,7 +208,10 @@
       "Paisaje arqueológico"
     ],
     "viewAll": "Ver más fotos en Google Maps",
-    "showAllPhotos": "Mostrar todas las fotos"
+    "showAllPhotos": "Mostrar todas las fotos",
+    "closeLightbox": "Cerrar galería ampliada",
+    "previousPhoto": "Foto anterior",
+    "nextPhoto": "Foto siguiente"
   },
   "reviews": {
     "title": "Reseñas de visitantes",
@@ -212,6 +220,7 @@
     "items": []
   },
   "mapSection": {
+    "iframeTitle": "Google Maps: Zona Arqueológica Guachimontones, Teuchitlán, Jalisco, México",
     "title": "Ubicación y mapa",
     "subtitle": "Cerca de Estanzuela · municipio de Teuchitlán, Jalisco · a unos 75 km (46 mi) al oeste de Guadalajara",
     "openMaps": "Ver en Google Maps",
@@ -303,6 +312,7 @@
     ]
   },
   "cookieSettings": {
+    "toggleLabel": "Cambiar preferencia",
     "title": "Configuración de cookies",
     "description": "Última actualización: junio 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
     "essential": {

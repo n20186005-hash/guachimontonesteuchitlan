@@ -10,6 +10,11 @@
     "map": "地图",
     "backToHome": "返回首页"
   },
+  "ui": {
+    "toggleTheme": "切换主题",
+    "switchLanguage": "切换语言",
+    "breadcrumb": "面包屑导航"
+  },
   "hero": {
     "title": "Zona Arqueológica Teuchitlán o Guachimontones",
     "subtitle": "位于哈利斯科州特乌奇特兰的圆形金字塔遗址——从瓜达拉哈拉出发即可轻松一日往返",
@@ -148,6 +153,18 @@
     ],
     "supplementsTitle": "游览须知"
   },
+  "photoSpots": {
+    "title": "推荐拍摄机位",
+    "spots": [
+      { "name": "主金字塔", "desc": "从不同角度拍摄圆形金字塔" },
+      { "name": "圆形广场", "desc": "记录圆形建筑群的独特布局" },
+      { "name": "全景观景点", "desc": "拍摄遗址向特基拉山脉延伸的景观" },
+      { "name": "建筑细节", "desc": "近距离观察石构细节和环形结构" },
+      { "name": "遗址博物馆", "desc": "仅在允许摄影的区域拍摄模型与考古展品" }
+    ],
+    "tips": "拍摄建议",
+    "tipsContent": "清晨或傍晚的光线通常更柔和，适合拍摄圆形金字塔并减少强烈阴影。"
+  },
   "gallery": {
     "title": "精彩照片",
     "subtitle": "Guachimontones 的魅力风光",
@@ -176,7 +193,10 @@
       "考古景观"
     ],
     "viewAll": "在 Google Maps 查看更多照片",
-    "showAllPhotos": "显示全部照片"
+    "showAllPhotos": "显示全部照片",
+    "closeLightbox": "关闭图片大图",
+    "previousPhoto": "上一张照片",
+    "nextPhoto": "下一张照片"
   },
   "reviews": {
     "title": "游客评价",
@@ -185,6 +205,7 @@
     "items": []
   },
   "mapSection": {
+    "iframeTitle": "Google 地图：墨西哥哈利斯科州特乌奇特兰 Guachimontones 考古区",
     "title": "交通指南",
     "subtitle": "埃斯坦苏埃拉（Estanzuela）附近 · 哈利斯科州特乌奇特兰市 · 距瓜达拉哈拉约 75 公里",
     "openMaps": "在 Google Maps 查看",
@@ -276,6 +297,7 @@
     ]
   },
   "cookieSettings": {
+    "toggleLabel": "切换偏好设置",
     "title": "Cookie 设置",
     "description": "最后更新时间：2026年6月\n\n我们使用 Cookie 来改善您的浏览体验。您可以在下方管理您的偏好设置。",
     "essential": {

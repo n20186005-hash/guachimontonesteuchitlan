@@ -10,6 +10,7 @@ function CookieToggle({
   onToggle,
   locked,
   badge,
+  toggleLabel,
 }: {
   label: string;
   description: string;
@@ -17,6 +18,7 @@ function CookieToggle({
   onToggle: () => void;
   locked?: boolean;
   badge?: string;
+  toggleLabel: string;
 }) {
   return (
     <div
@@ -42,7 +44,7 @@ function CookieToggle({
       <button
         onClick={locked ? undefined : onToggle}
         className={`cookie-toggle flex-shrink-0 ${enabled ? 'active' : ''} ${locked ? 'opacity-60 cursor-not-allowed' : ''}`}
-        aria-label={`Toggle ${label}`}
+        aria-label={`${toggleLabel}: ${label}`}
         disabled={locked}
       />
     </div>
@@ -112,6 +114,7 @@ export default function CookieSettingsClient() {
             enabled={true}
             onToggle={() => {}}
             locked={true}
+            toggleLabel={t('toggleLabel')}
             badge={t('essential.badge')}
           />
           
@@ -124,6 +127,7 @@ export default function CookieSettingsClient() {
                 enabled={analytics}
                 onToggle={() => setAnalytics(!analytics)}
                 badge={item.status}
+                toggleLabel={t('toggleLabel')}
               />
             ))
           }
@@ -137,6 +141,7 @@ export default function CookieSettingsClient() {
                 enabled={preferences}
                 onToggle={() => setPreferences(!preferences)}
                 badge={item.status}
+                toggleLabel={t('toggleLabel')}
               />
             ))
           }
@@ -150,6 +155,7 @@ export default function CookieSettingsClient() {
                 enabled={marketing}
                 onToggle={() => setMarketing(!marketing)}
                 badge={item.status}
+                toggleLabel={t('toggleLabel')}
               />
             ))
           }

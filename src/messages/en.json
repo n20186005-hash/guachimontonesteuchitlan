@@ -10,6 +10,11 @@
     "map": "Map",
     "backToHome": "Back to Home"
   },
+  "ui": {
+    "toggleTheme": "Toggle theme",
+    "switchLanguage": "Switch language",
+    "breadcrumb": "Breadcrumb navigation"
+  },
   "hero": {
     "title": "Guachimontones Pyramids: Teuchitlán Archaeological Site",
     "subtitle": "Circular pyramids in Teuchitlán, Jalisco — an easy day trip from Guadalajara",
@@ -148,6 +153,18 @@
     ],
     "supplementsTitle": "Visiting Notes"
   },
+  "photoSpots": {
+    "title": "Photography viewpoints",
+    "spots": [
+      { "name": "Main pyramid", "desc": "Photograph the circular pyramid from different angles" },
+      { "name": "Circular plaza", "desc": "Capture the distinctive arrangement of the circular structures" },
+      { "name": "Panoramic viewpoint", "desc": "Photograph the views toward the Tequila mountain range" },
+      { "name": "Architectural details", "desc": "Look closely at the stonework and circular layout" },
+      { "name": "Site museum", "desc": "Photograph models and archaeological objects only where permitted" }
+    ],
+    "tips": "Photography tips",
+    "tipsContent": "Early morning or late afternoon light can help avoid harsh shadows when photographing the pyramids."
+  },
   "gallery": {
     "title": "Stunning Photos",
     "subtitle": "The Charm of Guachimontones",
@@ -176,7 +193,10 @@
       "Archaeological landscape"
     ],
     "viewAll": "View more photos on Google Maps",
-    "showAllPhotos": "Show All Photos"
+    "showAllPhotos": "Show All Photos",
+    "closeLightbox": "Close enlarged gallery",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo"
   },
   "reviews": {
     "title": "Visitor Reviews",
@@ -185,6 +205,7 @@
     "items": []
   },
   "mapSection": {
+    "iframeTitle": "Google Maps: Guachimontones archaeological area, Teuchitlán, Jalisco, Mexico",
     "title": "Location & Map",
     "subtitle": "Near Estanzuela · municipality of Teuchitlán, Jalisco · about 75 km (46 mi) west of Guadalajara",
     "openMaps": "View on Google Maps",
@@ -276,6 +297,7 @@
     ]
   },
   "cookieSettings": {
+    "toggleLabel": "Toggle preference",
     "title": "Cookie Settings",
     "description": "Last Updated: June 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
     "essential": {

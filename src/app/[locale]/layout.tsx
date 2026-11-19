@@ -57,7 +57,7 @@ export async function generateMetadata({
       siteName: SITE.officialName,
       locale: localeMap[locale] || 'es_MX',
       type: 'website',
-      images: [{ url: SITE.ogImage, alt: SITE.ogImageAlt }],
+      images: [{ url: SITE.ogImage, alt: messages.hero.imgAlt }],
     },
     twitter: {
       card: 'summary_large_image',

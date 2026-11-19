@@ -10,7 +10,7 @@ export default function Hero() {
         <img
           src="/gallery/zona-arqueologica-teuchitlan-o-guachimontones (1).jpg"
           alt={t('imgAlt')}
-          title="Zona Arqueológica Teuchitlán o Guachimontones – Guachimontones, Teuchitlán, Jalisco, México"
+          title={t('imgAlt')}
           fetchPriority="high"
           className="w-full h-full object-cover"
         />

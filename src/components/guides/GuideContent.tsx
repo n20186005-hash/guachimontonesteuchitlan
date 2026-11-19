@@ -39,7 +39,7 @@ export default function GuideContent({ ns, slug }: { ns: string; slug: string })
         style={{ background: 'var(--color-nature-900)' }}
       >
         <div className="max-w-4xl mx-auto">
-          <nav aria-label="Breadcrumb" className="text-xs sm:text-sm mb-6 flex items-center gap-2 text-white/70">
+          <nav aria-label={messages.ui.breadcrumb} className="text-xs sm:text-sm mb-6 flex items-center gap-2 text-white/70">
             <a href={backHref} className="hover:underline">
               {homeLabel}
             </a>
