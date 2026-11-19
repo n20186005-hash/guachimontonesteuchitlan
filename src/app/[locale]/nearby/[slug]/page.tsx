@@ -14,6 +14,11 @@ const labels = {
   en: { home: 'Home', near: 'Nearby places', info: 'Essential information', about: 'About the place', admin: 'About this place and its management', history: 'History and context', architecture: 'Landscape and architecture', planning: 'Plan your visit', hours: 'Opening hours', tickets: 'Admission', discover: 'What to see', route: 'Suggested visit route', tips: 'Visitor and photography tips', stay: 'Where to stay', faq: 'Frequently asked questions', transport: 'Getting there', reviews: 'Visitor reviews', reviewsText: 'Google Maps updates ratings and review totals. Open its place listing for the latest figures.', map: 'Location and reviews on Google Maps', source: 'Information source', photo: 'Photograph source', more: 'More nearby places' },
   zh: { home: '首页', near: '周边景点', info: '基本信息', about: '关于景点', admin: '关于景点与管理主体', history: '历史背景', architecture: '建筑与地景特色', planning: '出发前游览建议', hours: '开放时间', tickets: '门票', discover: '观察重点', route: '建议游览路线', tips: '游览与拍照建议', stay: '住宿建议', faq: '常见问题', transport: '交通方式', reviews: '游客评价', reviewsText: 'Google 地图会更新评分及评价总数，请通过景点专属地点页面查看最近数据。', map: '查看 Google 地图位置及评价', source: '信息来源', photo: '照片来源', more: '更多周边景点' },
 };
+const attractionTypes = {
+  es: { 'phil-weigand-center': 'Museo de interpretación arqueológica', 'teuchitlan-main-plaza': 'Plaza municipal', 'presa-la-vega': 'Embalse y paisaje natural', 'tequila-main-plaza': 'Plaza cívica e histórica', 'tequila-santiago-church': 'Templo histórico en uso', 'tequila-national-museum': 'Museo de historia y cultura', 'tequila-lavaderos': 'Lavaderos históricos comunitarios', 'tequila-volcano': 'Volcán y área natural', 'amatitan-parish': 'Templo histórico en uso', 'ahualulco-landmark': 'Monumento urbano y letras' },
+  en: { 'phil-weigand-center': 'Archaeological interpretation museum', 'teuchitlan-main-plaza': 'Municipal square', 'presa-la-vega': 'Reservoir and natural landscape', 'tequila-main-plaza': 'Historic town square', 'tequila-santiago-church': 'Active historic church', 'tequila-national-museum': 'History and culture museum', 'tequila-lavaderos': 'Historic communal washhouses', 'tequila-volcano': 'Volcano and natural landscape', 'amatitan-parish': 'Active historic church', 'ahualulco-landmark': 'Painted town-name monument' },
+  zh: { 'phil-weigand-center': '考古解说博物馆', 'teuchitlan-main-plaza': '市镇公共广场', 'presa-la-vega': '水库与自然地景', 'tequila-main-plaza': '历史市民广场', 'tequila-santiago-church': '仍在使用的历史教堂', 'tequila-national-museum': '历史文化博物馆', 'tequila-lavaderos': '历史公共洗衣设施', 'tequila-volcano': '火山与自然地景', 'amatitan-parish': '仍在使用的历史教堂', 'ahualulco-landmark': '彩绘地名城市地标' },
+} satisfies Record<(typeof locales)[number], Record<NearbySlug, string>>;
 function entry(locale: string, slug: string) {
   if (!locales.includes(locale as typeof locales[number]) || !nearbySlugs.includes(slug as NearbySlug)) return null;
   return nearbyContent[locale as keyof typeof nearbyContent][slug as NearbySlug];
@@ -49,7 +54,7 @@ export default async function NearbyPage({ params }: Props) {
     </div></section>
     <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}><div className="max-w-5xl mx-auto">
       <div className="max-w-4xl p-6 sm:p-9 rounded-xl" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
-        <h2 className="font-display text-2xl sm:text-3xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>{t.admin}</h2>
+        <h2 className="font-display text-2xl sm:text-3xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>{item.name} · {t.admin}</h2>
         <p className="text-lg leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>{item.about}</p>
         <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{item.management}</p>
       </div>
@@ -63,7 +68,7 @@ export default async function NearbyPage({ params }: Props) {
         <dl className="grid grid-cols-1 sm:grid-cols-2 gap-4" style={{ color: 'var(--text-secondary)' }}>
           {[
             [locale === 'zh' ? '景点名称' : locale === 'es' ? 'Nombre' : 'Name', item.name],
-            [locale === 'zh' ? '类型' : locale === 'es' ? 'Tipo' : 'Type', slug === 'phil-weigand-center' ? (locale === 'zh' ? '考古解说中心' : locale === 'es' ? 'Museo de interpretación' : 'Interpretive museum') : slug === 'presa-la-vega' ? (locale === 'zh' ? '水库与自然地景' : locale === 'es' ? 'Embalse y paisaje natural' : 'Reservoir and natural landscape') : (locale === 'zh' ? '市镇公共广场' : locale === 'es' ? 'Plaza pública municipal' : 'Municipal public square')],
+            [locale === 'zh' ? '类型' : locale === 'es' ? 'Tipo' : 'Type', attractionTypes[locale as keyof typeof attractionTypes][slug as NearbySlug]],
             [locale === 'zh' ? '详细地点' : locale === 'es' ? 'Ubicación' : 'Location', item.address],
             [t.hours, item.time], [t.tickets, item.price],
           ].map(([key, value]) => <div key={key} className="p-4 rounded-lg" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}><dt className="text-sm font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>{key}</dt><dd className="text-base leading-relaxed">{value}</dd></div>)}
