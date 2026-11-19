@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { SITE } from '@/config';
+import { exploreSlugs } from '@/lib/explore';
 
 export const dynamic = 'force-static';
 
@@ -26,6 +27,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${baseUrl}/${locale}${route}`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
+        priority: 0.8,
+      });
+    }
+    for (const slug of exploreSlugs) {
+      sitemap.push({
+        url: `${baseUrl}/${locale}/explore/${slug}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
         priority: 0.8,
       });
     }

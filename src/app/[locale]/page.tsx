@@ -8,6 +8,7 @@ import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Intro from '@/components/Intro';
 import GuidesHub from '@/components/GuidesHub';
+import ExploreHub from '@/components/ExploreHub';
 import BasicInfo from '@/components/BasicInfo';
 import HoursSection from '@/components/HoursSection';
 import WeatherSection from '@/components/WeatherSection';
@@ -82,6 +83,7 @@ export default async function HomePage({
         <Hero />
         <Intro />
         <GuidesHub />
+        <ExploreHub />
         <BasicInfo />
         <HoursSection />
         <WeatherSection />
