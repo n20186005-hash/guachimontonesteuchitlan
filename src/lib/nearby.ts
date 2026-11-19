@@ -25,6 +25,20 @@ export const nearbyFacts: Record<NearbySlug, { image: string; photoSource: strin
     official: 'https://www.rutadeltequila.mx/home/teuchitlan',
   },
 };
+// IDs cross-referenced against named Waze/Google-linked listings. Unconfirmed places
+// deliberately retain name-based search navigation until independently verified.
+export const nearbyPlaceIds: Partial<Record<NearbySlug, string>> = {
+  'phil-weigand-center': 'ChIJmyZMtbkNJoQRG73a1hAQjKo',
+  'tequila-main-plaza': 'ChIJiX5MJuoVJoQR_GsPNcEt52o',
+  'tequila-santiago-church': 'ChIJ-UzQS90VJoQR6SSSeXirgIk',
+  'tequila-lavaderos': 'ChIJty-omL8VJoQRCv7biOX1o9s',
+};
+export const nearbyVerifiedAddresses: Partial<Record<NearbySlug, string>> = {
+  'phil-weigand-center': 'Camino al Sitio Arqueológico Guachimontones s/n, 46760 Teuchitlán, Jalisco, México',
+  'tequila-santiago-church': 'Sixto Gorjón 16, Centro, 46400 Tequila, Jalisco, México',
+  'tequila-national-museum': 'José Cuervo 33, Centro, 46400 Tequila, Jalisco, México',
+  'tequila-lavaderos': 'Tabasco 200, Tequila, Jalisco, México',
+};
 export const nearbyContent: Record<Language, Record<NearbySlug, Item>> = {
   es: {
     ...extraContent.es,
