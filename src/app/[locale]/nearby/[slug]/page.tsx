@@ -9,9 +9,9 @@ import { nearbyContent, nearbyFacts, nearbySlugs, type NearbySlug } from '@/lib/
 type Props = { params: Promise<{ locale: string; slug: string }> };
 const locales = ['es', 'en', 'zh'] as const;
 const labels = {
-  es: { home: 'Inicio', near: 'Lugares cercanos', info: 'Información básica', about: 'Sobre el lugar', admin: 'Gestión y mantenimiento', hours: 'Horarios', tickets: 'Entradas', discover: 'Qué observar', route: 'Recorrido sugerido', tips: 'Consejos de visita y fotografía', stay: 'Alojamiento', faq: 'Preguntas frecuentes', transport: 'Cómo llegar', reviews: 'Opiniones de visitantes', reviewsText: 'Consulta las puntuaciones y el número de reseñas actuales directamente en la ficha de Google Maps; no se muestra aquí una cifra sin verificar.', map: 'Ver ubicación y reseñas en Google Maps', source: 'Fuente de información', photo: 'Fuente de la fotografía', more: 'Más lugares cercanos' },
-  en: { home: 'Home', near: 'Nearby places', info: 'Essential information', about: 'About the place', admin: 'Management and upkeep', hours: 'Opening hours', tickets: 'Admission', discover: 'What to see', route: 'Suggested visit route', tips: 'Visitor and photography tips', stay: 'Where to stay', faq: 'Frequently asked questions', transport: 'Getting there', reviews: 'Visitor reviews', reviewsText: 'Check the current rating and review count directly on Google Maps. No unverified rating is reproduced here.', map: 'Location and reviews on Google Maps', source: 'Information source', photo: 'Photograph source', more: 'More nearby places' },
-  zh: { home: '首页', near: '周边景点', info: '基本信息', about: '关于景点', admin: '管理主体', hours: '开放时间', tickets: '门票', discover: '观察重点', route: '建议游览路线', tips: '游览与拍照建议', stay: '住宿建议', faq: '常见问题', transport: '交通方式', reviews: '游客评价', reviewsText: '请在 Google 地图地点页面查看最新评分与评价数量；本站不展示无法核实的数字。', map: '查看 Google 地图位置及评价', source: '信息来源', photo: '照片来源', more: '更多周边景点' },
+  es: { home: 'Inicio', near: 'Lugares cercanos', info: 'Información básica', about: 'Sobre el lugar', admin: 'Sobre este lugar y quién lo gestiona', history: 'Historia y contexto', architecture: 'Paisaje y rasgos distintivos', planning: 'Consejos para preparar la visita', hours: 'Horarios', tickets: 'Entradas', discover: 'Qué observar', route: 'Recorrido sugerido', tips: 'Consejos de visita y fotografía', stay: 'Alojamiento', faq: 'Preguntas frecuentes', transport: 'Cómo llegar', reviews: 'Opiniones de visitantes', reviewsText: 'Las puntuaciones y los recuentos de reseñas se actualizan en Google Maps. Consulta allí las cifras recientes.', map: 'Ver ubicación y reseñas en Google Maps', source: 'Fuente de información', photo: 'Fuente de la fotografía', more: 'Más lugares cercanos' },
+  en: { home: 'Home', near: 'Nearby places', info: 'Essential information', about: 'About the place', admin: 'About this place and its management', history: 'History and context', architecture: 'Landscape and architecture', planning: 'Plan your visit', hours: 'Opening hours', tickets: 'Admission', discover: 'What to see', route: 'Suggested visit route', tips: 'Visitor and photography tips', stay: 'Where to stay', faq: 'Frequently asked questions', transport: 'Getting there', reviews: 'Visitor reviews', reviewsText: 'Google Maps updates ratings and review totals. Open its place listing for the latest figures.', map: 'Location and reviews on Google Maps', source: 'Information source', photo: 'Photograph source', more: 'More nearby places' },
+  zh: { home: '首页', near: '周边景点', info: '基本信息', about: '关于景点', admin: '关于景点与管理主体', history: '历史背景', architecture: '建筑与地景特色', planning: '出发前游览建议', hours: '开放时间', tickets: '门票', discover: '观察重点', route: '建议游览路线', tips: '游览与拍照建议', stay: '住宿建议', faq: '常见问题', transport: '交通方式', reviews: '游客评价', reviewsText: 'Google 地图会更新评分及评价总数，请通过景点专属地点页面查看最近数据。', map: '查看 Google 地图位置及评价', source: '信息来源', photo: '照片来源', more: '更多周边景点' },
 };
 function entry(locale: string, slug: string) {
   if (!locales.includes(locale as typeof locales[number]) || !nearbySlugs.includes(slug as NearbySlug)) return null;
@@ -42,13 +42,21 @@ export default async function NearbyPage({ params }: Props) {
       <p className="text-sm text-white/75 mb-5">{item.address} · {item.time}</p>
       <a href={mapUrl} target="_blank" rel="noopener noreferrer" className="inline-flex px-5 py-3 rounded-full font-semibold text-white" style={{ background: 'var(--accent)' }}>{t.map}</a>
     </div></section>
+    <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}><div className="max-w-5xl mx-auto">
+      <div className="max-w-4xl p-6 sm:p-9 rounded-xl" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}>
+        <h2 className="font-display text-2xl sm:text-3xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>{t.admin}</h2>
+        <p className="text-lg leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>{item.about}</p>
+        <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{item.management}</p>
+      </div>
+    </div></section>
     <section className="section-padding"><div className="max-w-5xl mx-auto">
       <figure className="mb-10"><img src={facts.image} alt={item.name} className="w-full max-h-[530px] object-cover rounded-xl"/><figcaption className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}><a href={facts.photoSource} target="_blank" rel="noopener noreferrer" className="underline">{t.photo}</a></figcaption></figure>
       <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>{item.intro}</p>
-      {section(t.admin, item.management)}
-      {section(t.about, item.about)}
+      {section(t.history, item.history)}
+      {section(t.architecture, item.architecture)}
       <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t.info}</h2><dl className="grid grid-cols-1 sm:grid-cols-2 gap-4" style={{ color: 'var(--text-secondary)' }}><div><dt className="font-semibold">{t.transport}</dt><dd>{item.address}</dd></div><div><dt className="font-semibold">{t.hours}</dt><dd>{item.time}</dd></div><div><dt className="font-semibold">{t.tickets}</dt><dd>{item.price}</dd></div></dl></section>
       {section(t.transport, item.transport)}
+      <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t.planning}</h2><ul className="list-disc pl-6 space-y-3" style={{ color: 'var(--text-secondary)' }}>{item.visitTips.map(x => <li key={x}>{x}</li>)}</ul></section>
       <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t.discover}</h2><ul className="list-disc pl-6 space-y-3" style={{ color: 'var(--text-secondary)' }}>{item.features.map(x => <li key={x}>{x}</li>)}</ul></section>
       <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t.route}</h2><ol className="list-decimal pl-6 space-y-3" style={{ color: 'var(--text-secondary)' }}>{item.route.map(x => <li key={x}>{x}</li>)}</ol></section>
       {section(t.tips, item.photoTip)}{section(t.stay, item.stay)}{section(t.faq, item.faq)}{section(t.reviews, t.reviewsText)}
