@@ -5,6 +5,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { SITE } from '@/config';
 import { nearbyContent, nearbyFacts, nearbySlugs, type NearbySlug } from '@/lib/nearby';
+import { nearbyDetails } from '@/lib/nearby-details';
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 const locales = ['es', 'en', 'zh'] as const;
@@ -32,6 +33,7 @@ export default async function NearbyPage({ params }: Props) {
   setRequestLocale(locale);
   const facts = nearbyFacts[slug as NearbySlug];
   const t = labels[locale as keyof typeof labels];
+  const detail = nearbyDetails[locale as keyof typeof nearbyDetails][slug as NearbySlug];
   const mapUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(facts.mapQuery)}`;
   const section = (title: string, body: string) => <section className="mb-10"><h2 className="font-display text-2xl sm:text-3xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{title}</h2><p className="text-base sm:text-lg leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{body}</p></section>;
   return <><Header /><main>
@@ -39,7 +41,10 @@ export default async function NearbyPage({ params }: Props) {
       <nav className="text-sm text-white/70 mb-6"><a href={`/${locale}`} className="hover:underline">{t.home}</a> / {t.near}</nav>
       <h1 className="font-display text-3xl sm:text-5xl font-bold text-white mb-4">{item.name}</h1>
       <p className="text-lg text-white/85 mb-4">{item.tagline}</p>
-      <p className="text-sm text-white/75 mb-5">{item.address} · {item.time}</p>
+      <div className="flex flex-wrap gap-x-5 gap-y-2 text-sm text-white/85 mb-5">
+        <span>{item.address}</span><span>{item.time}</span>
+        <a href={mapUrl} target="_blank" rel="noopener noreferrer" className="underline">{t.reviews} · Google Maps</a>
+      </div>
       <a href={mapUrl} target="_blank" rel="noopener noreferrer" className="inline-flex px-5 py-3 rounded-full font-semibold text-white" style={{ background: 'var(--accent)' }}>{t.map}</a>
     </div></section>
     <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}><div className="max-w-5xl mx-auto">
@@ -51,15 +56,34 @@ export default async function NearbyPage({ params }: Props) {
     </div></section>
     <section className="section-padding"><div className="max-w-5xl mx-auto">
       <figure className="mb-10"><img src={facts.image} alt={item.name} className="w-full max-h-[530px] object-cover rounded-xl"/><figcaption className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}><a href={facts.photoSource} target="_blank" rel="noopener noreferrer" className="underline">{t.photo}</a></figcaption></figure>
-      <p className="text-lg leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>{item.intro}</p>
-      {section(t.history, item.history)}
-      {section(t.architecture, item.architecture)}
-      <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t.info}</h2><dl className="grid grid-cols-1 sm:grid-cols-2 gap-4" style={{ color: 'var(--text-secondary)' }}><div><dt className="font-semibold">{t.transport}</dt><dd>{item.address}</dd></div><div><dt className="font-semibold">{t.hours}</dt><dd>{item.time}</dd></div><div><dt className="font-semibold">{t.tickets}</dt><dd>{item.price}</dd></div></dl></section>
-      {section(t.transport, item.transport)}
+      {section(locale === 'zh' ? '探索与景点介绍' : locale === 'es' ? 'Descubre este lugar' : 'Discover this place', item.intro)}
       <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t.planning}</h2><ul className="list-disc pl-6 space-y-3" style={{ color: 'var(--text-secondary)' }}>{item.visitTips.map(x => <li key={x}>{x}</li>)}</ul></section>
       <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t.discover}</h2><ul className="list-disc pl-6 space-y-3" style={{ color: 'var(--text-secondary)' }}>{item.features.map(x => <li key={x}>{x}</li>)}</ul></section>
+      <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>{t.info}</h2>
+        <dl className="grid grid-cols-1 sm:grid-cols-2 gap-4" style={{ color: 'var(--text-secondary)' }}>
+          {[
+            [locale === 'zh' ? '景点名称' : locale === 'es' ? 'Nombre' : 'Name', item.name],
+            [locale === 'zh' ? '类型' : locale === 'es' ? 'Tipo' : 'Type', slug === 'phil-weigand-center' ? (locale === 'zh' ? '考古解说中心' : locale === 'es' ? 'Museo de interpretación' : 'Interpretive museum') : slug === 'presa-la-vega' ? (locale === 'zh' ? '水库与自然地景' : locale === 'es' ? 'Embalse y paisaje natural' : 'Reservoir and natural landscape') : (locale === 'zh' ? '市镇公共广场' : locale === 'es' ? 'Plaza pública municipal' : 'Municipal public square')],
+            [locale === 'zh' ? '详细地点' : locale === 'es' ? 'Ubicación' : 'Location', item.address],
+            [t.hours, item.time], [t.tickets, item.price],
+          ].map(([key, value]) => <div key={key} className="p-4 rounded-lg" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}><dt className="text-sm font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>{key}</dt><dd className="text-base leading-relaxed">{value}</dd></div>)}
+        </dl>
+      </section>
+      {section(t.hours, item.time)}
+      {section(t.tickets, item.price)}
+      {section(t.transport, item.transport)}
+      {section(t.history, item.history)}
+      {section(t.architecture, item.architecture)}
+      {section(locale === 'zh' ? '文化特色' : locale === 'es' ? 'Cultura local' : 'Local culture', detail.culture)}
+      {section(locale === 'zh' ? '核心体验' : locale === 'es' ? 'Experiencia principal' : 'Main experience', detail.experience)}
       <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{t.route}</h2><ol className="list-decimal pl-6 space-y-3" style={{ color: 'var(--text-secondary)' }}>{item.route.map(x => <li key={x}>{x}</li>)}</ol></section>
-      {section(t.tips, item.photoTip)}{section(t.stay, item.stay)}{section(t.faq, item.faq)}{section(t.reviews, t.reviewsText)}
+      <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{locale === 'zh' ? '游览须知' : locale === 'es' ? 'Antes de recorrer' : 'Before you explore'}</h2><ul className="list-disc pl-6 space-y-3" style={{ color: 'var(--text-secondary)' }}>{detail.checklist.map(x => <li key={x}>{x}</li>)}</ul></section>
+      {section(t.tips, item.photoTip)}
+      <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{locale === 'zh' ? '推荐拍摄机位' : locale === 'es' ? 'Puntos para fotografiar' : 'Photography viewpoints'}</h2><ul className="list-disc pl-6 space-y-3" style={{ color: 'var(--text-secondary)' }}>{detail.photoSpots.map(x => <li key={x}>{x}</li>)}</ul></section>
+      {section(t.stay, item.stay)}
+      {section(t.reviews, t.reviewsText)}
+      <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-5" style={{ color: 'var(--text-primary)' }}>{t.faq}</h2><div className="space-y-5">{detail.questions.map(({ q, a }) => <div key={q} className="p-5 rounded-xl" style={{ background: 'var(--bg-tertiary)' }}><h3 className="font-semibold text-lg mb-2" style={{ color: 'var(--text-primary)' }}>{q}</h3><p style={{ color: 'var(--text-secondary)' }}>{a}</p></div>)}</div><p className="mt-5" style={{ color: 'var(--text-secondary)' }}>{item.faq}</p></section>
+      <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>{locale === 'zh' ? '交通指南与地图' : locale === 'es' ? 'Guía de transporte y mapa' : 'Transport guide and map'}</h2><p className="mb-4" style={{ color: 'var(--text-secondary)' }}>{item.address}</p><p className="mb-4" style={{ color: 'var(--text-secondary)' }}>{item.transport}</p><a className="underline font-semibold" style={{ color: 'var(--accent)' }} href={mapUrl} target="_blank" rel="noopener noreferrer">{t.map}</a></section>
       <div className="flex flex-wrap gap-5 text-sm font-semibold" style={{ color: 'var(--accent)' }}><a href={mapUrl} target="_blank" rel="noopener noreferrer" className="underline">{t.map}</a><a href={facts.official} target="_blank" rel="noopener noreferrer" className="underline">{t.source}</a></div>
     </div></section>
     <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}><div className="max-w-5xl mx-auto"><h2 className="font-display text-2xl font-semibold mb-6" style={{ color: 'var(--text-primary)' }}>{t.more}</h2><div className="grid grid-cols-1 sm:grid-cols-2 gap-4">{nearbySlugs.filter(s => s !== slug).map(s => <a className="p-5 rounded-xl hover:underline" style={{ background: 'var(--bg-tertiary)', color: 'var(--text-primary)', border: '1px solid var(--border-color)' }} key={s} href={`/${locale}/nearby/${s}`}>{nearbyContent[locale as keyof typeof nearbyContent][s].name}</a>)}</div></div></section>
