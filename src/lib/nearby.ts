@@ -1,4 +1,4 @@
-export const nearbySlugs = ['phil-weigand-center', 'teuchitlan-main-plaza'] as const;
+export const nearbySlugs = ['phil-weigand-center', 'teuchitlan-main-plaza', 'presa-la-vega'] as const;
 export type NearbySlug = (typeof nearbySlugs)[number];
 type Language = 'es' | 'en' | 'zh';
 type Item = { name: string; tagline: string; intro: string; about: string; features: string[]; route: string[]; photoTip: string; faq: string; transport: string; address: string; management: string; time: string; price: string; stay: string };
@@ -15,9 +15,28 @@ export const nearbyFacts: Record<NearbySlug, { image: string; photoSource: strin
     mapQuery: 'Plaza Principal Teuchitlan Jalisco Mexico',
     official: 'https://www.rutadeltequila.mx/home/teuchitlan',
   },
+  'presa-la-vega': {
+    image: '/nearby/presa-la-vega-landscape.jpg',
+    photoSource: 'https://commons.wikimedia.org/wiki/File:Laguna_de_Teuchitl%C3%A1n.jpg',
+    mapQuery: 'Presa de la Vega Teuchitlan Jalisco Mexico',
+    official: 'https://www.rutadeltequila.mx/home/teuchitlan',
+  },
 };
 export const nearbyContent: Record<Language, Record<NearbySlug, Item>> = {
   es: {
+    'presa-la-vega': {
+      name: 'Presa de la Vega', tagline: 'Paisaje lacustre y observación del entorno de Teuchitlán',
+      intro: 'La Presa de la Vega es un cuerpo de agua próximo a Teuchitlán, conocido por su paisaje, aves y restaurantes de la ribera. Es una visita de naturaleza diferente a los conjuntos arqueológicos de Guachimontones.',
+      about: 'La presa forma parte del paisaje acuático de los Valles de Jalisco. La Ruta del Tequila la incluye entre los atractivos de Teuchitlán y menciona su zona gastronómica junto al agua.',
+      features: ['Observar la amplitud del embalse y las colinas del horizonte', 'Buscar aves desde zonas públicas seguras sin acercarse a nidos', 'Reconocer el contraste entre el paisaje lacustre y el sitio arqueológico cercano'],
+      route: ['Llegar a un acceso público señalizado junto a la presa', 'Elegir un punto seguro para observar el agua', 'Caminar únicamente por accesos permitidos', 'Combinar la parada con el centro de Teuchitlán o Guachimontones'],
+      photoTip: 'Para captar el paisaje, incluye el agua y las montañas del fondo; la imagen de esta página fue tomada desde Guachimontones hacia la laguna.',
+      faq: '¿Es parte de la zona arqueológica? No, es un embalse diferente. ¿Se puede nadar? No presupongas que el baño está permitido: revisa restricciones y condiciones locales.',
+      transport: 'Desde el centro de Teuchitlán utiliza la ruta hacia la ribera de Presa de la Vega. Confirma el punto exacto de acceso público porque la presa tiene varios tramos de orilla.',
+      address: 'Presa de la Vega, municipio de Teuchitlán, Jalisco, México',
+      management: 'La presa es infraestructura y entorno hídrico; las competencias de operación del embalse y el uso turístico de la ribera pueden corresponder a autoridades distintas. Para avisos vigentes consulta las autoridades locales y del agua.',
+      time: 'Paisaje exterior; accesos, servicios y restaurantes con horarios propios', price: 'No se identifica una tarifa única de ingreso a todo el embalse; servicios pueden tener costo', stay: 'Combínala con Guachimontones y el centro de Teuchitlán; hay opciones regionales de alojamiento.',
+    },
     'phil-weigand-center': {
       name: 'Centro Interpretativo Phil Weigand', tagline: 'Comprender la tradición Teuchitlán antes de recorrer los círculos',
       intro: 'El centro interpretativo junto a la zona arqueológica introduce el paisaje, la arqueología y los conjuntos circulares de Guachimontones. Es una parada útil para entender lo que se observa al aire libre.',
@@ -46,6 +65,19 @@ export const nearbyContent: Record<Language, Record<NearbySlug, Item>> = {
     },
   },
   en: {
+    'presa-la-vega': {
+      name: 'Presa de la Vega', tagline: 'Lakeside scenery and nature near Teuchitlán',
+      intro: 'Presa de la Vega is a reservoir near Teuchitlán known for its waterside scenery, birdlife and lakeside dining. It offers a different outing from the Guachimontones ruins.',
+      about: 'The reservoir belongs to the aquatic landscape of the Jalisco valleys. La Ruta del Tequila lists it among Teuchitlán attractions and describes the dining area by the water.',
+      features: ['Take in the water and distant hills', 'Watch birds from safe public viewpoints without disturbing them', 'Compare the lakeside setting with the nearby archaeological landscape'],
+      route: ['Choose a clearly accessible public lakeside approach', 'Stop at a safe viewpoint over the water', 'Keep to permitted paths and facilities', 'Combine the visit with Teuchitlán town or Guachimontones'],
+      photoTip: 'Include the water and distant hills for context. The photograph here looks toward the lagoon from Guachimontones.',
+      faq: 'Is the reservoir part of the archaeological zone? No, it is a separate destination. Is swimming allowed? Do not assume so; check local restrictions and conditions.',
+      transport: 'From central Teuchitlán travel toward the Presa de la Vega lakeshore. Confirm your intended public access point because the shoreline extends beyond a single entrance.',
+      address: 'Presa de la Vega, Teuchitlán municipality, Jalisco, Mexico',
+      management: 'Reservoir operation and visitor use of its shores may fall under different water and local authorities. Check current local notices before recreational activities.',
+      time: 'Outdoor landscape; access points and businesses set their own hours', price: 'No single admission fee identified for the entire reservoir; individual services may charge', stay: 'Combine with Guachimontones and Teuchitlán; regional lodging is available.',
+    },
     'phil-weigand-center': {
       name: 'Phil Weigand Interpretive Center', tagline: 'Understand the Teuchitlán tradition before exploring the circular monuments',
       intro: 'The interpretive center by the archaeological area introduces the landscape, archaeological research and circular complexes of Guachimontones.',
@@ -74,6 +106,19 @@ export const nearbyContent: Record<Language, Record<NearbySlug, Item>> = {
     },
   },
   zh: {
+    'presa-la-vega': {
+      name: '拉维加水库 Presa de la Vega', tagline: '特乌奇特兰附近的湖光山色与自然观察',
+      intro: '拉维加水库位于特乌奇特兰附近，以水面景观、鸟类和岸边餐饮区闻名，是与 Guachimontones 考古建筑不同的自然游览地点。',
+      about: '水库属于哈利斯科州山谷地带的水域景观。La Ruta del Tequila 旅游资料将其列为特乌奇特兰的游览地点，并介绍了沿岸餐饮特色。',
+      features: ['观察开阔水面与远处山丘', '在安全公共区域观鸟，不干扰栖地', '比较水域地景与附近考古遗址的环境'],
+      route: ['选择有明确开放标示的公共岸边入口', '到安全观景点观察水面', '沿允许通行的步道活动', '与特乌奇特兰镇中心或 Guachimontones 连游'],
+      photoTip: '拍摄时可纳入水面与远山。本页照片是在 Guachimontones 朝向特乌奇特兰湖区拍摄。',
+      faq: '水库属于考古遗址吗？不是，两者为不同地点。可以游泳吗？不要默认可以入水，应先查看当地规定与环境条件。',
+      transport: '从特乌奇特兰镇中心前往 Presa de la Vega 岸边。水库沿岸范围广，导航前应确认计划前往的公共入口或观景位置。',
+      address: 'Presa de la Vega, Teuchitlán, Jalisco, México',
+      management: '水库运行与岸边旅游活动可能分别由水务及地方机构管理；参与水上或岸边活动前，请查看当地最新公告。',
+      time: '户外景观；各岸边入口及商家时间不同', price: '未见整个水库统一入场门票；个别服务可能收费', stay: '适合与 Guachimontones 和特乌奇特兰镇中心安排同日游览，可考虑区域住宿。',
+    },
     'phil-weigand-center': {
       name: 'Phil Weigand 考古解说中心', tagline: '从展览认识特乌奇特兰文化与圆形建筑',
       intro: '解说中心位于 Guachimontones 考古区域附近，以展览介绍当地地景、考古研究和环形建筑群，适合在户外参观前了解背景。',
