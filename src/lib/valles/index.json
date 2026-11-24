@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "calle-jose-cuervo",
+    "names": {
+      "es": "Calle José Cuervo, entre plaza y destilería",
+      "en": "José Cuervo Street, from square to distillery",
+      "zh": "何塞·奎尔沃街，从广场到酒厂"
+    },
+    "town": "Tequila",
+    "query": "Calle José Cuervo, Tequila, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/tequila",
+    "source": "https://www.rutadeltequila.mx/home/tequila"
+  },
+  {
+    "slug": "magdalena-plaza",
+    "names": {
+      "es": "Plaza de Armas de Magdalena",
+      "en": "Magdalena’s Plaza de Armas",
+      "zh": "马格达莱纳中央广场"
+    },
+    "town": "Magdalena",
+    "query": "Plaza de Armas de Magdalena, Magdalena, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/magdalena",
+    "source": "https://www.rutadeltequila.mx/home/magdalena"
+  },
+  {
+    "slug": "laguna-magdalena",
+    "names": {
+      "es": "Laguna de Magdalena",
+      "en": "Lake Magdalena",
+      "zh": "马格达莱纳湖"
+    },
+    "town": "Magdalena",
+    "query": "Laguna de Magdalena, Magdalena, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/magdalena",
+    "source": "https://www.rutadeltequila.mx/home/magdalena"
+  },
+  {
+    "slug": "cielo-tejido",
+    "names": {
+      "es": "Cielo Tejido de Etzatlán",
+      "en": "Etzatlán’s crocheted canopy",
+      "zh": "埃察特兰的钩织天幕"
+    },
+    "town": "Etzatlán",
+    "query": "Cielo Tejido de Etzatlán, Etzatlán, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/etzatlan",
+    "source": "https://www.cielotejido.com/about"
+  },
+  {
+    "slug": "etzatlan-convento",
+    "names": {
+      "es": "Templo y convento de la Purísima Concepción",
+      "en": "Purísima Concepción church and convent",
+      "zh": "埃察特兰圣母无染原罪教堂与修院"
+    },
+    "town": "Etzatlán",
+    "query": "Templo y Convento de la Purísima Concepción, Etzatlán, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/etzatlan",
+    "source": "https://www.rutadeltequila.mx/home/etzatlan"
+  },
+  {
+    "slug": "cruz-quezada",
+    "names": {
+      "es": "Mirador Cruz de Quezada",
+      "en": "Cruz de Quezada lookout",
+      "zh": "克鲁斯德克萨达观景点"
+    },
+    "town": "Etzatlán",
+    "query": "Mirador Cruz de Quezada, Etzatlán, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/etzatlan",
+    "source": "https://www.rutadeltequila.mx/home/etzatlan"
+  },
+  {
+    "slug": "palacio-ocomo",
+    "names": {
+      "es": "Palacio de Ocomo en Oconahua",
+      "en": "Ocomo archaeological complex in Oconahua",
+      "zh": "奥科纳瓦的奥科莫遗址"
+    },
+    "town": "Etzatlán",
+    "query": "Palacio de Ocomo, Etzatlán, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/etzatlan",
+    "source": "https://etzatlan.gob.mx/wp-content/uploads/2022/01/gaceta1.pdf"
+  },
+  {
+    "slug": "gruta-aves",
+    "names": {
+      "es": "Gruta Jardín de las Aves en Amatitán",
+      "en": "Jardín de las Aves grotto, Amatitán",
+      "zh": "阿马蒂坦飞鸟花园洞穴"
+    },
+    "town": "Amatitán",
+    "query": "Gruta Jardín de las Aves, Amatitán, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/amatitan-2",
+    "source": "https://www.rutadeltequila.mx/home/amatitan-2"
+  },
+  {
+    "slug": "presa-santa-rosa",
+    "names": {
+      "es": "Presa de Santa Rosa",
+      "en": "Santa Rosa reservoir",
+      "zh": "圣罗莎水库"
+    },
+    "town": "Amatitán",
+    "query": "Presa de Santa Rosa, Amatitán, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/amatitan-2",
+    "source": "https://files.conagua.gob.mx/conagua/riosprioritarios/Diagn%C3%B3stico_R%C3%ADo_Lerma-Santiago_2012-2024.pdf"
+  },
+  {
+    "slug": "barranca-achio",
+    "names": {
+      "es": "Barranca de Achío",
+      "en": "Achío canyon",
+      "zh": "阿奇奥峡谷"
+    },
+    "town": "Amatitán",
+    "query": "Barranca de Achío, Amatitán, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/amatitan-2",
+    "source": "https://www.rutadeltequila.mx/home/amatitan-2"
+  },
+  {
+    "slug": "museo-calavera",
+    "names": {
+      "es": "Museo del Paisaje Agavero en La Calavera",
+      "en": "Agave landscape museum at La Calavera",
+      "zh": "拉卡拉韦拉龙舌兰地景博物馆"
+    },
+    "town": "El Arenal",
+    "query": "Museo Interpretativo del Paisaje Agavero, El Arenal, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/elarenal",
+    "source": "https://sic.cultura.gob.mx/ficha.php?disciplina=&table=museo&table_id=2147"
+  },
+  {
+    "slug": "el-arenal-plaza",
+    "names": {
+      "es": "Plaza Principal de El Arenal",
+      "en": "El Arenal main square",
+      "zh": "埃尔阿雷纳尔中央广场"
+    },
+    "town": "El Arenal",
+    "query": "Plaza Principal de El Arenal, El Arenal, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/elarenal",
+    "source": "https://www.rutadeltequila.mx/home/elarenal"
+  },
+  {
+    "slug": "piedras-bola",
+    "names": {
+      "es": "Piedras Bola de Ahualulco",
+      "en": "Piedras Bola rock spheres",
+      "zh": "阿瓦卢尔科球形巨石"
+    },
+    "town": "Ahualulco de Mercado",
+    "query": "Piedras Bola, Ahualulco de Mercado, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/ahualulco",
+    "source": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-27682018000200071"
+  },
+  {
+    "slug": "ahualulco-plaza",
+    "names": {
+      "es": "Plaza Principal de Ahualulco de Mercado",
+      "en": "Ahualulco de Mercado main square",
+      "zh": "阿瓦卢尔科德梅尔卡多中央广场"
+    },
+    "town": "Ahualulco de Mercado",
+    "query": "Plaza Principal de Ahualulco de Mercado, Ahualulco de Mercado, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/ahualulco",
+    "source": "https://www.rutadeltequila.mx/home/ahualulco"
+  },
+  {
+    "slug": "hacienda-el-carmen",
+    "names": {
+      "es": "Hacienda El Carmen",
+      "en": "Hacienda El Carmen estate",
+      "zh": "埃尔卡门庄园"
+    },
+    "town": "Ahualulco de Mercado",
+    "query": "Hacienda El Carmen, Ahualulco de Mercado, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/ahualulco",
+    "source": "https://www.haciendaelcarmen.mx/"
+  },
+  {
+    "slug": "providencia-ruinas",
+    "names": {
+      "es": "Ruinas de la Hacienda La Providencia",
+      "en": "La Providencia hacienda ruins",
+      "zh": "拉普罗维登西亚庄园遗址"
+    },
+    "town": "San Juanito de Escobedo",
+    "query": "Ruinas de la Hacienda La Providencia, San Juanito de Escobedo, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/san-juanito-de-escobedo",
+    "source": "https://sanjuanitodeescobedo.jalisco.gob.mx/turismo/haciendas"
+  },
+  {
+    "slug": "laguna-colorada",
+    "names": {
+      "es": "Laguna Colorada de San Juanito",
+      "en": "Laguna Colorada, San Juanito",
+      "zh": "圣华尼托科洛拉达湖"
+    },
+    "town": "San Juanito de Escobedo",
+    "query": "Laguna Colorada, San Juanito de Escobedo, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/san-juanito-de-escobedo",
+    "source": "https://www.rutadeltequila.mx/home/san-juanito-de-escobedo"
+  },
+  {
+    "slug": "parroquia-pueblito",
+    "names": {
+      "es": "Parroquia de Nuestra Señora del Pueblito",
+      "en": "Nuestra Señora del Pueblito parish church",
+      "zh": "圣华尼托小镇圣母堂"
+    },
+    "town": "San Juanito de Escobedo",
+    "query": "Parroquia de Nuestra Señora del Pueblito, San Juanito de Escobedo, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/san-juanito-de-escobedo",
+    "source": "https://www.rutadeltequila.mx/home/san-juanito-de-escobedo"
+  },
+  {
+    "slug": "hacienda-gavilana",
+    "names": {
+      "es": "Hacienda La Gavilana en La Estancita",
+      "en": "La Gavilana hacienda in La Estancita",
+      "zh": "拉埃斯坦西塔的加维拉纳庄园"
+    },
+    "town": "San Juanito de Escobedo",
+    "query": "Hacienda La Gavilana, San Juanito de Escobedo, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/san-juanito-de-escobedo",
+    "source": "https://sanjuanitodeescobedo.jalisco.gob.mx/turismo/haciendas"
+  },
+  {
+    "slug": "estancia-ayllones",
+    "names": {
+      "es": "Estancia de Ayllones",
+      "en": "Estancia de Ayllones estate",
+      "zh": "艾约内斯庄园"
+    },
+    "town": "San Juanito de Escobedo",
+    "query": "Hacienda de la Estancia de Ayllones, San Juanito de Escobedo, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/san-juanito-de-escobedo",
+    "source": "https://sanjuanitodeescobedo.jalisco.gob.mx/turismo/haciendas"
+  },
+  {
+    "slug": "teuchitlan-parroquia",
+    "names": {
+      "es": "Parroquia del Señor de la Ascensión, Teuchitlán",
+      "en": "Señor de la Ascensión parish church, Teuchitlán",
+      "zh": "特乌奇特兰耶稣升天教堂"
+    },
+    "town": "Teuchitlán",
+    "query": "Parroquia del Señor de la Ascensión, Teuchitlán, Jalisco, México",
+    "photoSource": "https://www.rutadeltequila.mx/home/teuchitlan",
+    "source": "https://catequesisespecialvicentina.org/directorio/"
+  }
+]

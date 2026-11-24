@@ -1,3 +1,5 @@
+import ValleyPlace, { valleyMetadata } from '@/components/ValleyPlace';
+import valleyPlaces from '@/lib/valles/index.json';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
@@ -25,19 +27,25 @@ function entry(locale: string, slug: string) {
   if (!locales.includes(locale as typeof locales[number]) || !nearbySlugs.includes(slug as NearbySlug)) return null;
   return nearbyContent[locale as keyof typeof nearbyContent][slug as NearbySlug];
 }
-export function generateStaticParams() { return locales.flatMap(locale => nearbySlugs.map(slug => ({ locale, slug }))); }
+export function generateStaticParams() { return locales.flatMap(locale => [...nearbySlugs, ...valleyPlaces.map(p => p.slug)].map(slug => ({ locale, slug }))); }
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const item = entry(locale, slug);
-  if (!item) return {};
+  if (!locales.includes(locale as typeof locales[number])) return {};
+  if (!item) return valleyMetadata(locale as typeof locales[number], slug) ?? {};
   const url = `${SITE.baseUrl}/${locale}/nearby/${slug}`;
   return { title: `${item.name} | Guachimontones`, description: item.intro, alternates: { canonical: url, languages: Object.fromEntries([...locales.map(l => [l, `${SITE.baseUrl}/${l}/nearby/${slug}`]), ['x-default', `${SITE.baseUrl}/es/nearby/${slug}`]]) }, openGraph: { title: item.name, description: item.intro, url, images: [nearbyFacts[slug as NearbySlug].image] } };
 }
 export default async function NearbyPage({ params }: Props) {
   const { locale, slug } = await params;
   const item = entry(locale, slug);
-  if (!item) notFound();
+  if (!locales.includes(locale as typeof locales[number])) notFound();
   setRequestLocale(locale);
+  if (!item) {
+    const place = valleyPlaces.find(p => p.slug === slug);
+    if (!place) notFound();
+    return <ValleyPlace locale={locale as typeof locales[number]} place={place} />;
+  }
   const facts = nearbyFacts[slug as NearbySlug];
   const address = nearbyVerifiedAddresses[slug as NearbySlug] ?? item.address;
   const t = labels[locale as keyof typeof labels];

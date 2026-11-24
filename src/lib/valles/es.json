@@ -1,0 +1,401 @@
+{
+  "calle-jose-cuervo": {
+    "body": "La calle reúne dos maneras de contar la historia del tequila. El museo en el número 33 presenta la bebida y sus oficios; más adelante, las fachadas industriales recuerdan que el centro también fue un lugar de trabajo. Fíjate en la escala de los portones frente a las puertas de las casas.",
+    "route": "Sal de la plaza hacia la calle José Cuervo. Localiza el museo y continúa a pie hasta la entrada señalizada de La Rojeña. Vuelve por la misma calle para mirar la fachada opuesta.",
+    "management": "El municipio atiende la vía pública; la taquilla de La Rojeña organiza sus visitas de fábrica y el museo tiene acceso propio.",
+    "faq": [
+      {
+        "q": "¿Necesito reservar para recorrer la calle?",
+        "a": "La caminata exterior es libre. Reserva por separado si quieres ver la elaboración dentro de la fábrica."
+      },
+      {
+        "q": "¿Dónde está el museo?",
+        "a": "Busca el número 33. La entrada de la fábrica es otro acceso en la zona."
+      },
+      {
+        "q": "¿Qué detalle muestra el antiguo uso industrial?",
+        "a": "Compara el ancho de las entradas de carga con el de las puertas domésticas."
+      }
+    ]
+  },
+  "magdalena-plaza": {
+    "body": "En una población conocida por sus ópalos, la plaza une el comercio de piedra pulida con la vida religiosa y municipal. Desde el jardín puedes identificar el templo del Señor de los Milagros antes de buscar los talleres en las calles del centro. Las joyas que ves en sus vitrinas ya han pasado por corte y pulido.",
+    "route": "Empieza junto al templo, cruza al jardín y recorre su perímetro. Elige una tienda identificada como taller para comparar material en bruto y joyería; vuelve al jardín para orientarte.",
+    "management": "El ayuntamiento de Magdalena gestiona el espacio cívico. Los talleres son negocios independientes y fijan su propio horario.",
+    "faq": [
+      {
+        "q": "¿Hay una mina en el jardín?",
+        "a": "El jardín permite conocer el comercio local. Para entrar en una mina hace falta concertar otra visita fuera del centro."
+      },
+      {
+        "q": "¿Dónde comienzo el paseo?",
+        "a": "El templo del Señor de los Milagros es una referencia reconocible junto al recorrido del jardín."
+      },
+      {
+        "q": "¿Dónde pregunto por el pulido del ópalo?",
+        "a": "Busca talleres identificados en las calles comerciales del centro y pregunta si muestran piezas en distintas fases."
+      }
+    ]
+  },
+  "laguna-magdalena": {
+    "body": "La depresión lacustre ayuda a leer el relieve que rodea el pueblo minero. El agua visible y la vegetación de orilla varían con las lluvias; una zona seca en la fotografía de otra temporada puede quedar inundada cuando llegues. Mira primero el contorno del valle para distinguir el vaso de las parcelas vecinas.",
+    "route": "Pregunta en Magdalena qué acceso de ribera está abierto. Desde el desembarque camina por la orilla firme hasta una vista despejada del valle. Vuelve por tus pasos antes de que el sendero entre en cultivos.",
+    "management": "Turismo municipal orienta sobre accesos desde Magdalena; el paso por parcelas corresponde a sus titulares.",
+    "faq": [
+      {
+        "q": "¿Se puede dar la vuelta completa a pie?",
+        "a": "No hay que contar con una servidumbre continua; planea un tramo de ida y vuelta por la entrada habilitada ese día."
+      },
+      {
+        "q": "¿Por qué cambia la vista entre fotos?",
+        "a": "La extensión del agua responde a las lluvias y al momento del año."
+      },
+      {
+        "q": "¿Qué conviene llevar para observar?",
+        "a": "Unos prismáticos permiten seguir la orilla opuesta sin atravesar parcelas."
+      }
+    ]
+  },
+  "cielo-tejido": {
+    "body": "Las tejedoras de Etzatlán convierten motivos de ganchillo en una cubierta suspendida entre edificios. En 2019 su colectivo consiguió un récord con un pabellón de 2.850 metros cuadrados. Mira de cerca cómo se unen los módulos; al alejarte aparecen bandas de color que una sola pieza no permite ver.",
+    "route": "Desde la Plaza de Armas localiza el tramo instalado. Camina bajo su borde para comparar el tejido con su sombra y regresa por la acera opuesta para verlo de perfil.",
+    "management": "El colectivo Cielo Tejido realiza las piezas; Turismo de Etzatlán informa sobre las calles y fechas de montaje.",
+    "faq": [
+      {
+        "q": "¿Está instalado todo el año el pabellón récord?",
+        "a": "El récord corresponde a 2019. Consulta el montaje actual antes de ir; también puedes preguntar por talleres con las artesanas."
+      },
+      {
+        "q": "¿Qué busco de cerca?",
+        "a": "Observa las uniones entre módulos de ganchillo desde el borde de la instalación."
+      },
+      {
+        "q": "¿Quién ofrece información sobre la técnica?",
+        "a": "El colectivo Cielo Tejido reúne a las artesanas de Etzatlán; consulta con ellas si hay taller durante tu visita."
+      }
+    ]
+  },
+  "etzatlan-convento": {
+    "body": "El conjunto franciscano marca la relación entre el antiguo convento y la plaza de Etzatlán. Observa el paso de la calle abierta al atrio y de allí al interior de culto. Ese cambio de espacios explica mejor su función que una fotografía aislada de la torre.",
+    "route": "Sal de los portales de la plaza hacia el atrio. Observa primero la portada desde el extremo opuesto, acércate por el paso peatonal y entra sólo si la parroquia recibe visitantes.",
+    "management": "La parroquia de la Purísima Concepción organiza culto y acceso al templo. Un acceso abierto a la iglesia no implica acceso a dependencias conventuales.",
+    "faq": [
+      {
+        "q": "¿Puedo visitar durante una misa?",
+        "a": "Para mirar arquitectura espera a que termine el oficio; durante el culto conserva libres la entrada y el pasillo."
+      },
+      {
+        "q": "¿Es el mismo templo que el de Amatitán?",
+        "a": "No. La referencia para esta visita es el conjunto franciscano junto a la plaza de Etzatlán."
+      },
+      {
+        "q": "¿Desde dónde se aprecia la portada completa?",
+        "a": "Aléjate hasta el extremo del atrio antes de acercarte al umbral."
+      }
+    ]
+  },
+  "cruz-quezada": {
+    "body": "La cruz identifica un mirador sobre Etzatlán. Desde el casco urbano cuesta apreciar el límite entre las manzanas y los terrenos agrícolas; desde arriba se ve cómo se abre el valle detrás del poblado. Busca la torre de la parroquia para orientarte antes de seguir la línea del horizonte.",
+    "route": "Pregunta en el centro por el acceso actual a la Cruz de Quezada. Sube desde el comienzo indicado, detente junto a la cruz en terreno firme y desciende por el mismo acceso.",
+    "management": "La oficina de turismo de Etzatlán orienta sobre el mirador y las condiciones del camino; sigue los avisos de paso de quienes atienden el acceso.",
+    "faq": [
+      {
+        "q": "¿Es el mismo cerro que el de Amatitán?",
+        "a": "Busca Cruz de Quezada en Etzatlán. Cerro de la Cruz en Amatitán lleva a otro municipio."
+      },
+      {
+        "q": "¿Cómo identificar el pueblo desde arriba?",
+        "a": "Busca la torre de la parroquia y sigue el trazado de las manzanas hacia los campos."
+      },
+      {
+        "q": "¿Conviene empezar tarde?",
+        "a": "Cuenta el descenso por la misma senda y regresa con luz suficiente para reconocer el acceso."
+      }
+    ]
+  },
+  "palacio-ocomo": {
+    "body": "El patio hundido organiza un conjunto de planta rectangular de la tradición Grillo. El Ayuntamiento de Etzatlán sitúa esa tradición entre 450 y 900 d.C. Después de ver los círculos de Guachimontones, sigue mentalmente los bordes rectos del patio para comparar dos maneras de ordenar el espacio ceremonial del occidente de México.",
+    "route": "Llega primero a Oconahua. Confirma con el responsable local qué área se puede ver; desde el punto permitido identifica el perímetro y las escalinatas antes de regresar al poblado.",
+    "management": "El patrimonio arqueológico corresponde al INAH; el proyecto y el municipio intervienen en el acceso local. Trabajos de investigación pueden limitar el recorrido.",
+    "faq": [
+      {
+        "q": "¿Puedo entrar directamente al patio?",
+        "a": "Sólo si el equipo del sitio habilita ese paso. La visita se puede hacer observando el trazado desde el perímetro autorizado."
+      },
+      {
+        "q": "¿En qué poblado está?",
+        "a": "Está en Oconahua, dentro del municipio de Etzatlán; no en la plaza de la cabecera municipal."
+      },
+      {
+        "q": "¿Qué forma debo buscar?",
+        "a": "El patio hundido rectangular distingue este conjunto de los círculos de Guachimontones."
+      }
+    ]
+  },
+  "gruta-aves": {
+    "body": "Bajo el entorno de la plaza de Amatitán hay cavidades y depósitos de agua vinculados al abastecimiento histórico de la población. La gruta permite cambiar de escala: desde la plaza abierta se pasa a un espacio donde importan el nivel del agua, las paredes húmedas y la entrada de luz.",
+    "route": "Ve primero al jardín central y pregunta por la entrada de la Gruta de las Aves. Baja únicamente si está habilitada; detente en el punto seco desde el que se ve el estanque y regresa a la plaza.",
+    "management": "El ayuntamiento de Amatitán informa sobre el acceso municipal a las grutas. La persona encargada de la entrada indica qué sección puede recorrerse ese día.",
+    "faq": [
+      {
+        "q": "¿Debo buscar la gruta en el monte?",
+        "a": "Este recorrido se inicia en el jardín del centro de Amatitán; no se dirige al Cerro de la Cruz."
+      },
+      {
+        "q": "¿Qué relación tiene con el agua?",
+        "a": "Las cavidades y estanques del centro han servido al abastecimiento de la población."
+      },
+      {
+        "q": "¿Y si la bajada está cerrada?",
+        "a": "Quédate en el jardín y consulta la próxima apertura. No pruebes vías de servicio."
+      }
+    ]
+  },
+  "presa-santa-rosa": {
+    "body": "El río Santiago discurre encajonado en esta parte de Jalisco. La presa introduce una lámina de agua más quieta entre laderas pronunciadas. Desde un punto elevado compara la anchura del embalse con el paso estrecho del río; esa lectura del relieve ayuda a entender el emplazamiento de una obra hidroeléctrica.",
+    "route": "Desde Amatitán confirma el acceso público al mirador de la presa. Camina desde el punto de bajada hasta la vista autorizada, observa el eje del valle y vuelve sin seguir los caminos de servicio.",
+    "management": "CONAGUA coordina la operación de Santa Rosa con la Comisión Federal de Electricidad. Consulta al municipio de Amatitán sobre el acceso turístico y respeta los límites de la central.",
+    "faq": [
+      {
+        "q": "¿La ruta incluye cruzar la cortina?",
+        "a": "La visita propuesta termina en un mirador público. No cuentes con cruzar el muro ni entrar a la central."
+      },
+      {
+        "q": "¿Es la presa junto a Teuchitlán?",
+        "a": "Presa de la Vega es la de Teuchitlán. Santa Rosa pertenece al recorrido del río Santiago."
+      },
+      {
+        "q": "¿Qué paisaje se ve mejor desde arriba?",
+        "a": "La transición del cauce encajonado al agua embalsada entre laderas."
+      }
+    ]
+  },
+  "barranca-achio": {
+    "body": "La barranca permite ver el relieve profundo que interrumpe los valles agaveros cerca de Amatitán. Observa cómo cambian la pendiente y la vegetación desde el borde hacia el fondo. La excursión puede limitarse a un punto alto; una bajada al cauce es otra actividad con accesos y tiempos diferentes.",
+    "route": "En Amatitán pide la entrada al mirador de Achío. Sigue el acceso local hasta terreno abierto con vista al corte del valle. Regresa por la misma senda antes de cualquier descenso pronunciado.",
+    "management": "Turismo de Amatitán orienta sobre la barranca; cada predio controla el paso por sus caminos. Un punto de mapa del cañón no constituye autorización de ingreso.",
+    "faq": [
+      {
+        "q": "¿Es necesario bajar al río?",
+        "a": "El desnivel y la forma del valle se aprecian desde arriba. Para una bajada se necesita confirmar una ruta distinta con un guía local."
+      },
+      {
+        "q": "¿Qué nombre pongo en el mapa?",
+        "a": "Introduce Barranca de Achío, Amatitán. Confirma el acceso del mirador antes de tomar caminos rurales."
+      },
+      {
+        "q": "¿Qué observar desde el borde?",
+        "a": "Sigue las variaciones de pendiente y vegetación entre la parte alta y el fondo."
+      }
+    ]
+  },
+  "museo-calavera": {
+    "body": "La antigua hacienda tequilera alberga un museo que interpreta el paisaje como un conjunto de campos, industrias, poblaciones y saberes. La sede también es parte de la exposición: sus espacios de trabajo explican por qué una bebida llega a transformar un territorio entero. Empieza por la sala que presenta la inscripción en la UNESCO.",
+    "route": "Busca la entrada en Laura Elena Cortéz s/n, Centro, El Arenal. Pasa primero por la presentación del paisaje, sigue la sección sobre trabajo agrícola y vuelve al patio para comparar la explicación con el edificio.",
+    "management": "El Sistema de Información Cultural registra el museo bajo la Secretaría de Cultura del Estado de Jalisco. Indica martes a domingo de 09:00 a 15:00 y lunes cerrado; confirma cambios con el recinto.",
+    "faq": [
+      {
+        "q": "¿Es una degustación de tequila?",
+        "a": "Se trata de un museo de interpretación. Las salas explican paisaje y patrimonio; para una cata hay que reservar con una destilería."
+      },
+      {
+        "q": "¿Abre los lunes?",
+        "a": "El directorio cultural señala cierre los lunes. Confirma cualquier apertura especial con el museo."
+      },
+      {
+        "q": "¿Dónde está la entrada?",
+        "a": "En Laura Elena Cortéz s/n, Centro, El Arenal, código postal 45350."
+      }
+    ]
+  },
+  "el-arenal-plaza": {
+    "body": "Los plantíos de agave dan paso a las calles y al jardín cívico de El Arenal. En la plaza se pueden leer juntos el frente parroquial, las fachadas comerciales y los senderos que los comunican. Es un buen lugar para situar el museo La Calavera antes de salir a las antiguas haciendas.",
+    "route": "Comienza por la acera frente a la parroquia. Cruza al jardín, sigue una vuelta por el perímetro y regresa por el lateral comercial; para el museo busca después la calle Laura Elena Cortéz.",
+    "management": "El ayuntamiento de El Arenal atiende el jardín público. El templo y el museo cercano tienen sus propios responsables y horarios.",
+    "faq": [
+      {
+        "q": "¿La plaza está dentro de La Calavera?",
+        "a": "Son dos paradas urbanas distintas. La plaza es un espacio abierto y el museo se visita en la antigua hacienda."
+      },
+      {
+        "q": "¿Qué sirve de referencia al llegar?",
+        "a": "Busca el frente parroquial junto al jardín y comienza desde la acera opuesta."
+      },
+      {
+        "q": "¿Se necesita transporte para rodearla?",
+        "a": "La vuelta al perímetro se hace a pie. Para visitar haciendas fuera del centro calcula otro traslado."
+      }
+    ]
+  },
+  "piedras-bola": {
+    "body": "En el bosque de la Sierra del Águila aparecen grandes rocas redondeadas entre pinos y encinos. Son formaciones naturales de una zona protegida, distintas de los círculos arqueológicos de Teuchitlán. Observa desde el sendero la relación entre las esferas que sobresalen y las que siguen parcialmente enterradas.",
+    "route": "Busca el acceso del km 14,1 de la carretera Ahualulco–Ameca. Desde allí una brecha de casi cinco kilómetros llega al área de esferas. Calcula también el regreso y confirma con el ejido el estado del camino.",
+    "management": "El área se protege como Formación Natural de Interés Municipal y ocupa suelo común del ejido Santa Cruz de Bárcenas. Atiende las indicaciones del ejido y del municipio.",
+    "faq": [
+      {
+        "q": "¿El punto del mapa marca dónde aparcar?",
+        "a": "El punto de las esferas queda monte adentro. Navega al inicio del sendero y reserva tiempo para la brecha de ida y vuelta."
+      },
+      {
+        "q": "¿Son esculturas arqueológicas?",
+        "a": "Son formaciones geológicas en un área natural protegida; no pertenecen a un recinto ceremonial."
+      },
+      {
+        "q": "¿Es corta la caminata desde la carretera?",
+        "a": "La brecha llega a casi cinco kilómetros por sentido. Prevé agua y tiempo para regresar."
+      }
+    ]
+  },
+  "ahualulco-plaza": {
+    "body": "El jardín central permite leer Ahualulco como población de mercado. La parroquia, las calles comerciales y el antiguo Parián dan pistas sobre la concentración de culto, intercambio y paseo en pocas manzanas. La plaza es un espacio completo para recorrer a pie, distinto del letrero de colores que identifica el municipio.",
+    "route": "Partiendo del jardín identifica el frente parroquial. Recorre el lado comercial hasta encontrar la dirección del Parián y vuelve por la acera opuesta para comparar el jardín con las fachadas.",
+    "management": "El ayuntamiento de Ahualulco de Mercado atiende la plaza; la actividad de los puestos y los accesos del templo siguen horarios distintos.",
+    "faq": [
+      {
+        "q": "¿Debo usar el pin de las letras monumentales?",
+        "a": "Usa Plaza Principal de Ahualulco de Mercado para llegar al jardín, no el punto fotográfico de las letras."
+      },
+      {
+        "q": "¿Qué añade el Parián al paseo?",
+        "a": "Ayuda a reconocer la función comercial histórica de las calles junto al jardín."
+      },
+      {
+        "q": "¿Puedo combinar la plaza con Piedras Bola?",
+        "a": "Son paradas distintas. La plaza es urbana; Piedras Bola requiere traslado y una caminata aparte."
+      }
+    ]
+  },
+  "hacienda-el-carmen": {
+    "body": "La hacienda remonta su historia a 1573 y hoy funciona como hotel y restaurante. El paso del acceso a los corredores y al patio ayuda a distinguir la antigua organización de una finca rural de los usos hoteleros actuales. Observa cómo las galerías dan sombra y conectan las dependencias.",
+    "route": "Reserva con Hacienda El Carmen y llega a recepción. Sigue el itinerario autorizado por el corredor del patio; detente en los espacios comunes y vuelve a recepción sin pasar a habitaciones.",
+    "management": "Hacienda El Carmen Hotel & Spa gestiona el predio y las reservas. El restaurante indica que se reserva el derecho de admisión.",
+    "faq": [
+      {
+        "q": "¿Puedo recorrer el hotel sin alojarme?",
+        "a": "Pregunta al hotel por una reserva de restaurante o visita con acceso a los patios. Una mesa no da acceso general a todas las dependencias."
+      },
+      {
+        "q": "¿Quién recibe a visitantes?",
+        "a": "La recepción del hotel comprueba la reserva e indica las dependencias habilitadas."
+      },
+      {
+        "q": "¿Qué parte muestra la distribución antigua?",
+        "a": "El patio y sus corredores permiten ver cómo se comunicaban las dependencias rurales."
+      }
+    ]
+  },
+  "providencia-ruinas": {
+    "body": "San Juanito de Escobedo vincula la antigua fábrica con la marca regional de tequila Providencia. Los restos ofrecen otra lectura de la industria: aquí interesan la escala de los muros, los vanos de carga y la relación del edificio con el campo. No es una destilería preparada para catas regulares.",
+    "route": "Confirma con turismo local el acceso a las ruinas de San Juanito. Desde un tramo público observa primero el conjunto, luego los huecos de la fachada; regresa por el mismo frente sin atravesar estructuras.",
+    "management": "La ficha patrimonial la publica el ayuntamiento de San Juanito de Escobedo. Para pasar al predio se requiere autorización de quien lo custodia.",
+    "faq": [
+      {
+        "q": "¿Es la hacienda del mismo nombre en El Arenal?",
+        "a": "No. Incluye San Juanito de Escobedo en la búsqueda para identificar estas ruinas concretas."
+      },
+      {
+        "q": "¿Hay catas en las ruinas?",
+        "a": "La ficha municipal describe restos históricos. Organiza cualquier cata por separado en una destilería que la anuncie."
+      },
+      {
+        "q": "¿Qué observo sin entrar?",
+        "a": "Desde el frente visible compara los huecos de carga y la altura de los muros con las construcciones agrícolas próximas."
+      }
+    ]
+  },
+  "laguna-colorada": {
+    "body": "En una región que suele recorrerse por las antiguas haciendas, la laguna introduce una pausa para leer el agua y el terreno agrícola. Fíjate en la franja de vegetación entre la tierra firme y el agua abierta. Su anchura cambia con las condiciones de la temporada y modifica el lugar desde el que conviene observar.",
+    "route": "Desde San Juanito confirma el acceso actual a Laguna Colorada. Baja en la orilla habilitada y sigue el borde firme hasta una abertura en la vegetación. Vuelve antes del primer límite de parcela.",
+    "management": "Turismo municipal de San Juanito informa sobre la laguna. Los accesos que pasan por terrenos de cultivo dependen de autorización de los titulares.",
+    "faq": [
+      {
+        "q": "¿Puedo usar el acceso a Laguna de Magdalena?",
+        "a": "Son lagunas distintas. Selecciona Laguna Colorada, San Juanito de Escobedo, antes de salir."
+      },
+      {
+        "q": "¿Siempre se llega hasta el agua?",
+        "a": "La vegetación y el suelo húmedo cambian el límite practicable. Da la vuelta cuando termine el terreno firme."
+      },
+      {
+        "q": "¿Es una visita al centro de San Juanito?",
+        "a": "La laguna es una parada de ribera; comprueba por separado el traslado desde la cabecera."
+      }
+    ]
+  },
+  "parroquia-pueblito": {
+    "body": "La advocación del Pueblito identifica la parroquia de San Juanito de Escobedo. En un municipio frecuentado por sus haciendas, el templo permite conocer el centro habitado actual. Mira cómo el atrio media entre la calle y el espacio de culto y cómo la torre señala la iglesia desde las calles vecinas.",
+    "route": "Ve al centro de San Juanito y busca la entrada parroquial. Cruza el atrio, detente frente a la portada y entra si no hay oficio. Regresa por la acera lateral para ver el volumen de la nave.",
+    "management": "La parroquia de Nuestra Señora del Pueblito organiza los actos religiosos y decide el acceso a la nave.",
+    "faq": [
+      {
+        "q": "¿Conviene empezar por dentro?",
+        "a": "Desde el atrio puedes reconocer la portada sin interrumpir un oficio y decidir después si es buen momento para entrar."
+      },
+      {
+        "q": "¿Cuál es la advocación?",
+        "a": "La parroquia está dedicada a Nuestra Señora del Pueblito, nombre que ayuda a localizarla en San Juanito."
+      },
+      {
+        "q": "¿Desde dónde ver la nave de perfil?",
+        "a": "Al regresar del atrio sigue la acera lateral en lugar de quedarte delante de la portada."
+      }
+    ]
+  },
+  "hacienda-gavilana": {
+    "body": "La Gavilana se encuentra en La Estancita, dentro de la región productora de tequila. El municipio la identifica como hacienda colonial y fábrica. La lectura más reveladora desde el acceso es la relación entre campos, puerta de entrada y construcciones productivas, antes de pensar en una visita de degustación.",
+    "route": "Llega a La Estancita y localiza el acceso rotulado. Detente en la puerta para solicitar permiso; si hay visita, sigue al anfitrión por las dependencias abiertas y vuelve al mismo punto de encuentro.",
+    "management": "El operador de La Gavilana controla el predio y cualquier recorrido productivo. El municipio documenta su interés histórico.",
+    "faq": [
+      {
+        "q": "¿La fábrica recibe sin cita?",
+        "a": "Consulta con la propiedad antes de desplazarte. La mención en la ruta patrimonial no incluye una reserva de fábrica."
+      },
+      {
+        "q": "¿A qué localidad debo ir?",
+        "a": "La Estancita, municipio de San Juanito de Escobedo."
+      },
+      {
+        "q": "¿Es la Estancia de Ayllones?",
+        "a": "Se trata de otra hacienda. Ayllones está junto a la mina de La Mazata."
+      }
+    ]
+  },
+  "estancia-ayllones": {
+    "body": "La antigua estancia se encuentra junto a la mina de La Mazata, en el borde del valle de Magdalena. Esa vecindad permite leer juntos dos usos del suelo, minero y rural. Antes de acercarte al conjunto mira dónde termina la llanura cultivada y cómo cambia el relieve hacia la mina.",
+    "route": "Pide en San Juanito el acceso público hacia Estancia de Ayllones. Desde el camino observa las construcciones de la estancia y su posición junto al valle. Regresa sin tomar desvíos hacia las labores mineras.",
+    "management": "El ayuntamiento de San Juanito publica la ficha de la estancia. El permiso para pasar a fincas o instalaciones mineras corresponde a sus responsables.",
+    "faq": [
+      {
+        "q": "¿Incluye la mina de La Mazata?",
+        "a": "La mina sirve de referencia geográfica. El itinerario exterior de la estancia no incluye entrar en instalaciones mineras."
+      },
+      {
+        "q": "¿En qué parte del valle está?",
+        "a": "Se localiza en el borde del valle de Magdalena, según la ficha patrimonial municipal."
+      },
+      {
+        "q": "¿Qué paisaje puedo comparar desde fuera?",
+        "a": "Observa el cambio entre la llanura agrícola y el terreno hacia la antigua zona minera."
+      }
+    ]
+  },
+  "teuchitlan-parroquia": {
+    "body": "La iglesia del centro ofrece una pausa urbana después del recorrido arqueológico. Desde la plaza puedes reconocer la orientación de la fachada y entender cómo el atrio separa la circulación de la calle del espacio litúrgico. Cambia de punto de vista al volver: desde la acera lateral se percibe mejor la profundidad de la nave.",
+    "route": "Sal de la plaza principal hacia el frente de la parroquia. Cruza el atrio, observa la entrada y espera a que termine cualquier ceremonia para entrar. Regresa por el borde del jardín.",
+    "management": "La parroquia del Señor de la Ascensión, de la Arquidiócesis de Guadalajara, organiza el culto y el acceso a la nave. El ayuntamiento atiende la plaza contigua.",
+    "faq": [
+      {
+        "q": "¿Se entra con el boleto de Guachimontones?",
+        "a": "Es un templo activo del pueblo, con entrada independiente del sitio arqueológico y del centro interpretativo."
+      },
+      {
+        "q": "¿Desde dónde empieza el paseo?",
+        "a": "La plaza principal da una referencia cercana para orientarse hacia el frente de la iglesia."
+      },
+      {
+        "q": "¿Qué puedo ver si hay ceremonia?",
+        "a": "Quédate en el exterior para observar el atrio y el perfil de la nave desde la calle lateral."
+      }
+    ]
+  }
+}

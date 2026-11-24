@@ -1,0 +1,401 @@
+{
+  "calle-jose-cuervo": {
+    "body": "Two different accounts of tequila-making occupy this street. The museum at number 33 interprets the drink and the trades behind it. The industrial frontages farther along recall a time when the town centre was a workplace. Compare the scale of the gates with neighbouring domestic doorways.",
+    "route": "Leave the main square for Calle José Cuervo. Find the museum, then walk to the signed entrance of La Rojeña. Retrace the street to see the opposite frontage.",
+    "management": "The municipality looks after the public street. La Rojeña books its own distillery tours, and the museum has a separate entrance.",
+    "faq": [
+      {
+        "q": "Must I book the street walk?",
+        "a": "You can walk the street freely. Book separately to see production inside the distillery."
+      },
+      {
+        "q": "Where is the museum?",
+        "a": "Look for number 33. The factory entrance is separate."
+      },
+      {
+        "q": "What reveals the industrial use?",
+        "a": "Compare the width of loading gates with the domestic doorways."
+      }
+    ]
+  },
+  "magdalena-plaza": {
+    "body": "In a town known for opals, the square connects the trade in polished stone with religious and civic life. From the garden, locate the Señor de los Milagros church before exploring the workshop streets. The pieces displayed in shop windows have already been cut and polished.",
+    "route": "Start beside the church, cross into the garden and walk its perimeter. Find a shop marked as a workshop to compare rough and finished pieces, then return to the garden.",
+    "management": "Magdalena municipality manages the civic space. Workshops are independent businesses with their own hours.",
+    "faq": [
+      {
+        "q": "Is there a mine in the garden?",
+        "a": "The garden introduces the town’s stone trade. A mine visit is a separate outing beyond the centre."
+      },
+      {
+        "q": "Where should I start?",
+        "a": "The Señor de los Milagros church is a recognisable landmark by the garden walk."
+      },
+      {
+        "q": "Where can I ask about opal polishing?",
+        "a": "Look for signed workshops in the central shopping streets and ask to see pieces at different stages."
+      }
+    ]
+  },
+  "laguna-magdalena": {
+    "body": "The lake basin reveals the topography around the mining town. Rain changes the extent of visible water and the shoreline vegetation. Ground that looked dry in a different season can flood. Start by tracing the outline of the valley to distinguish the basin from neighbouring fields.",
+    "route": "Ask in Magdalena which shoreline access is open. Walk from the drop-off along firm ground to an open view across the valley. Turn back where the path approaches crops.",
+    "management": "Municipal tourism staff advise on approaches from town. Individual landholders control access across their fields.",
+    "faq": [
+      {
+        "q": "Can I walk the whole shore?",
+        "a": "A continuous public right of way cannot be assumed. Plan an out-and-back walk from the access open that day."
+      },
+      {
+        "q": "Why does the lake look different in photos?",
+        "a": "The visible water area varies with rainfall and season."
+      },
+      {
+        "q": "What helps with viewing?",
+        "a": "Binoculars let you follow the far shoreline without crossing fields."
+      }
+    ]
+  },
+  "cielo-tejido": {
+    "body": "Etzatlán’s makers join crochet motifs into a canopy suspended between buildings. Their collective earned a record in 2019 with a 2,850-square-metre pavilion. Look at how the modules join, then step back until individual pieces merge into bands of colour.",
+    "route": "From the Plaza de Armas, locate the installed section. Walk beneath its edge to compare the fabric and its shadow, then return on the opposite pavement for a side view.",
+    "management": "The Cielo Tejido collective makes the panels. Etzatlán tourism staff can confirm installation streets and dates.",
+    "faq": [
+      {
+        "q": "Is the record-setting pavilion up all year?",
+        "a": "The record dates to 2019. Check the current installation before travelling, and ask about workshops with the makers."
+      },
+      {
+        "q": "What should I look at close up?",
+        "a": "Look for the joins between crochet panels from the installation’s edge."
+      },
+      {
+        "q": "Who can explain the technique?",
+        "a": "The Cielo Tejido collective brings together Etzatlán’s makers. Ask whether a workshop coincides with your visit."
+      }
+    ]
+  },
+  "etzatlan-convento": {
+    "body": "The Franciscan complex anchors the relationship between Etzatlán’s convent and main square. Follow the transition from street to atrium to worship space. That sequence explains how the building works more clearly than a photograph of its tower alone.",
+    "route": "Leave the square’s arcades for the atrium. View the portal from across the forecourt, approach by the pedestrian path and enter only when the parish admits visitors.",
+    "management": "Purísima Concepción parish arranges worship and church access. An open church door does not grant access to convent rooms.",
+    "faq": [
+      {
+        "q": "Can I visit during Mass?",
+        "a": "Wait until the service ends to tour the architecture. Keep the entrance and aisle free during worship."
+      },
+      {
+        "q": "Is this the church in Amatitán?",
+        "a": "This visit is to the Franciscan complex by Etzatlán’s main square."
+      },
+      {
+        "q": "Where can I see the whole portal?",
+        "a": "Stand at the far end of the atrium before approaching the threshold."
+      }
+    ]
+  },
+  "cruz-quezada": {
+    "body": "A cross marks this lookout over Etzatlán. At street level the boundary between town blocks and farmland is difficult to read. From the overlook, the valley opens out beyond the town. Find the parish tower first to orient the rest of the skyline.",
+    "route": "Ask in town for the current approach to Cruz de Quezada. Walk up from the indicated start, stop on firm ground beside the cross and descend the way you came.",
+    "management": "Etzatlán’s tourism office advises on the lookout and approach conditions. Observe access notices at the trail entrance.",
+    "faq": [
+      {
+        "q": "Is it the cross hill in Amatitán?",
+        "a": "Search for Cruz de Quezada in Etzatlán. Cerro de la Cruz in Amatitán leads to a different municipality."
+      },
+      {
+        "q": "How do I orient the town below?",
+        "a": "Locate the parish tower, then follow the blocks outward toward the fields."
+      },
+      {
+        "q": "Is a late start advisable?",
+        "a": "Allow time to retrace the trail while you still have light to recognise the approach."
+      }
+    ]
+  },
+  "palacio-ocomo": {
+    "body": "A sunken court organises this rectangular complex of the Grillo tradition, which Etzatlán municipality dates to AD 450–900. After the circles at Guachimontones, trace the court’s straight edges with your eye. The contrast reveals two different ways of organising ceremonial space in western Mexico.",
+    "route": "Travel first to Oconahua. Ask the local custodian what is open. From the authorised viewing point, identify the outline and steps before walking back into the settlement.",
+    "management": "INAH oversees archaeological heritage. The project and municipality coordinate local access, which fieldwork may limit.",
+    "faq": [
+      {
+        "q": "Can I step into the sunken court?",
+        "a": "Only if site staff open that route. You can read the layout from the authorised perimeter."
+      },
+      {
+        "q": "Which settlement is it in?",
+        "a": "It is in Oconahua within Etzatlán municipality, away from the main town square."
+      },
+      {
+        "q": "Which shape should I look for?",
+        "a": "The rectangular sunken court distinguishes it from the circles at Guachimontones."
+      }
+    ]
+  },
+  "gruta-aves": {
+    "body": "Cavities and pools around Amatitán’s central square are associated with the town’s historical water supply. The grotto changes the scale of the visit. The broad plaza gives way to an enclosed space where water level, damp walls and the direction of daylight become visible.",
+    "route": "Start at the central garden and ask for the Gruta de las Aves entrance. Descend only when it is open. Stop at a dry viewing point above the pool and return to the square.",
+    "management": "Amatitán municipality provides access information. Entrance staff can tell you which section of the grotto is open that day.",
+    "faq": [
+      {
+        "q": "Is the grotto on a mountain trail?",
+        "a": "This visit starts at the central garden of Amatitán. It does not use the Cerro de la Cruz trail."
+      },
+      {
+        "q": "How is it linked to water?",
+        "a": "Cavities and pools in the central area have helped supply the settlement with water."
+      },
+      {
+        "q": "What if the descent is closed?",
+        "a": "Remain in the garden and ask when it reopens. Do not try service entrances."
+      }
+    ]
+  },
+  "presa-santa-rosa": {
+    "body": "The Santiago River cuts through steep country here. The dam introduces a stretch of still water between the slopes. From above, compare the reservoir’s width with the narrower river passage. The shape of the valley helps explain the siting of hydroelectric works.",
+    "route": "In Amatitán, confirm a public approach to the reservoir viewpoint. Walk from the drop-off to the authorised outlook, trace the valley axis and return without taking service roads.",
+    "management": "CONAGUA coordinates the operation of Santa Rosa with the Federal Electricity Commission. Ask Amatitán municipality about visitor access and respect the power station boundaries.",
+    "faq": [
+      {
+        "q": "Does the walk cross the dam crest?",
+        "a": "The suggested walk ends at a public viewpoint. It does not require crossing the dam or entering the power station."
+      },
+      {
+        "q": "Is this the reservoir beside Teuchitlán?",
+        "a": "Presa de la Vega is the reservoir at Teuchitlán. Santa Rosa is on the Santiago River itinerary."
+      },
+      {
+        "q": "What is clearest from above?",
+        "a": "The transition from the confined river channel to the wider impounded water."
+      }
+    ]
+  },
+  "barranca-achio": {
+    "body": "Achío reveals the deeply cut terrain that interrupts the agave valleys near Amatitán. Look for changes in slope and vegetation from rim to canyon floor. An outing can end at an upper lookout. Descending toward the water is a separate undertaking with different access and timing.",
+    "route": "Ask in Amatitán for the Achío overlook approach. Follow the local access to open ground facing the valley cut. Return along the same path before any steep descent.",
+    "management": "Amatitán tourism staff advise on the canyon. Landholders control paths across their land, so a map pin alone does not establish a right of entry.",
+    "faq": [
+      {
+        "q": "Do I need to descend to the river?",
+        "a": "The relief and shape of the valley are visible from above. Arrange a separate route with a local guide for a descent."
+      },
+      {
+        "q": "What should I put in the map?",
+        "a": "Search for Barranca de Achío, Amatitán. Confirm the lookout approach before taking rural roads."
+      },
+      {
+        "q": "What should I look for from the rim?",
+        "a": "Trace the changes in slope and vegetation between the upper rim and the canyon floor."
+      }
+    ]
+  },
+  "museo-calavera": {
+    "body": "An old tequila estate houses a museum about the relationship between fields, industry, settlements and knowledge. Its former working spaces are part of the evidence. They help explain how production of one drink shaped an entire region. Start with the gallery on World Heritage inscription.",
+    "route": "Find the entrance at Laura Elena Cortéz s/n in central El Arenal. Begin with the landscape introduction, continue to the agricultural material and return to the courtyard to relate the exhibits to the building.",
+    "management": "Mexico’s cultural information system lists the Jalisco State Culture Secretariat. It gives Tuesday–Sunday 09:00–15:00, closed Monday. Check for changes with the museum.",
+    "faq": [
+      {
+        "q": "Is this a tequila tasting?",
+        "a": "It is an interpretation museum. Galleries cover landscape and heritage. Book separately with a distillery for a tasting."
+      },
+      {
+        "q": "Is it open Monday?",
+        "a": "The cultural directory lists Monday closure. Ask the museum about exceptions."
+      },
+      {
+        "q": "Where is the entrance?",
+        "a": "At Laura Elena Cortéz s/n, Centro, El Arenal, postcode 45350."
+      }
+    ]
+  },
+  "el-arenal-plaza": {
+    "body": "At El Arenal, the agave fields give way to streets and a civic garden. In the square the parish frontage, shopfronts and paths linking them fit into one view. It is a practical place to locate La Calavera museum before heading for the former estates.",
+    "route": "Start on the pavement opposite the parish. Cross into the garden, circle the perimeter and return along the shopfront side. For the museum, continue toward Calle Laura Elena Cortéz.",
+    "management": "El Arenal municipality looks after the public garden. The church and nearby museum have separate operators and hours.",
+    "faq": [
+      {
+        "q": "Is the square inside La Calavera?",
+        "a": "They are separate stops. The square is an open civic space. The museum occupies the former hacienda."
+      },
+      {
+        "q": "What landmark helps on arrival?",
+        "a": "Find the parish frontage by the garden and start on the opposite pavement."
+      },
+      {
+        "q": "Do I need transport to circle it?",
+        "a": "Walk the garden perimeter. Allow a separate transfer for estates outside the centre."
+      }
+    ]
+  },
+  "piedras-bola": {
+    "body": "Large rounded rocks emerge among pines and oaks in the Sierra del Águila. These are natural formations in a protected area, distinct from Teuchitlán’s archaeological circles. From the path, compare exposed spheres with those still partly embedded in the ground.",
+    "route": "Look for the access near km 14.1 on the Ahualulco–Ameca road. From there a track runs almost five kilometres to the spheres. Allow for the return and ask the ejido about trail conditions.",
+    "management": "The site is designated a natural formation of municipal interest on common land of the Santa Cruz de Bárcenas ejido. Follow the ejido’s and municipality’s access directions.",
+    "faq": [
+      {
+        "q": "Does the map pin mark the car park?",
+        "a": "The spheres lie inland beyond the road. Navigate to the trailhead and allow time for the out-and-back track."
+      },
+      {
+        "q": "Are the spheres archaeological sculptures?",
+        "a": "They are geological formations in a protected natural area, outside any ceremonial complex."
+      },
+      {
+        "q": "Is it a short roadside stop?",
+        "a": "The track is almost five kilometres each way. Allow water and time for the return."
+      }
+    ]
+  },
+  "ahualulco-plaza": {
+    "body": "The central garden introduces Ahualulco as a market town. The parish, shopping streets and old Parián show how worship, trade and recreation shared a few blocks. The square is a walkable space in its own right, separate from the painted town-name sign.",
+    "route": "From the garden, locate the parish frontage. Follow the commercial side toward the old Parián, then return on the opposite pavement to compare the garden with the façades.",
+    "management": "Ahualulco de Mercado municipality maintains the square. Market stalls and church access follow different hours.",
+    "faq": [
+      {
+        "q": "Should I use the town-sign pin?",
+        "a": "Use Plaza Principal de Ahualulco de Mercado for the garden. The letters identify a separate photo stop."
+      },
+      {
+        "q": "What does the Parián add?",
+        "a": "It reveals the historical trading role of the streets around the garden."
+      },
+      {
+        "q": "Can I combine it with Piedras Bola?",
+        "a": "They are separate stops. The square is urban. Piedras Bola requires a transfer and a separate hike."
+      }
+    ]
+  },
+  "hacienda-el-carmen": {
+    "body": "The estate traces its history to 1573 and now operates as a hotel and restaurant. The progression from entrance to corridors and courtyard helps distinguish the organisation of a rural estate from present-day hospitality use. Look at how the galleries shade and connect different rooms.",
+    "route": "Book with Hacienda El Carmen and start at reception. Follow the authorised route along the courtyard corridor, stop in the common spaces and return without entering guest rooms.",
+    "management": "Hacienda El Carmen Hotel & Spa manages the property and reservations. The restaurant reserves the right of admission.",
+    "faq": [
+      {
+        "q": "Can I tour without staying overnight?",
+        "a": "Ask the hotel about a restaurant booking or visit that includes courtyard access. A table does not grant access to every part of the estate."
+      },
+      {
+        "q": "Who receives visitors?",
+        "a": "Hotel reception checks the reservation and identifies the accessible sections."
+      },
+      {
+        "q": "Which feature reveals the estate layout?",
+        "a": "The courtyard and its corridors show how the estate buildings connected."
+      }
+    ]
+  },
+  "providencia-ruinas": {
+    "body": "San Juanito de Escobedo links the former factory with the regional Providencia tequila brand. The ruins show a different side of the industry. Look at the scale of the walls, loading openings and relationship to surrounding fields. This is not a distillery set up for routine tastings.",
+    "route": "Confirm the approach to the San Juanito ruins with local tourism staff. From public ground look at the whole complex and then the openings in the wall. Retrace the frontage without passing through structures.",
+    "management": "San Juanito de Escobedo municipality publishes the heritage record. Entry to the property requires the custodian’s permission.",
+    "faq": [
+      {
+        "q": "Is this the estate of the same name in El Arenal?",
+        "a": "Include San Juanito de Escobedo in your search. The El Arenal namesake is a separate estate."
+      },
+      {
+        "q": "Are tastings offered in the ruins?",
+        "a": "The municipal record describes historical remains. Arrange any tasting separately at a distillery offering one."
+      },
+      {
+        "q": "What can I see from outside?",
+        "a": "From the visible frontage compare loading openings and wall height with nearby farm buildings."
+      }
+    ]
+  },
+  "laguna-colorada": {
+    "body": "On an itinerary usually associated with former estates, the lagoon shifts attention to water and farmland. Look at the band of vegetation between firm ground and open water. Its width changes seasonally, shifting the best place to observe the shore.",
+    "route": "From San Juanito confirm the current Laguna Colorada access. Start at the authorised shore and follow firm ground to an opening in the vegetation. Turn back before the first field boundary.",
+    "management": "San Juanito’s tourism office provides lagoon information. Approaches crossing agricultural land require the landholder’s permission.",
+    "faq": [
+      {
+        "q": "Can I use the Lake Magdalena approach?",
+        "a": "They are different lakes. Set the destination to Laguna Colorada, San Juanito de Escobedo, before leaving."
+      },
+      {
+        "q": "Can I always reach the water’s edge?",
+        "a": "Vegetation and wet ground change the passable edge. Turn back where firm ground ends."
+      },
+      {
+        "q": "Is this a town-centre visit?",
+        "a": "The lagoon is a shoreline stop. Check the transfer from the municipal centre separately."
+      }
+    ]
+  },
+  "parroquia-pueblito": {
+    "body": "The dedication to Nuestra Señora del Pueblito identifies San Juanito de Escobedo’s parish. In a municipality known for haciendas, this church introduces the living town centre. Observe how the forecourt mediates between street and worship space, and how the tower identifies the church from neighbouring streets.",
+    "route": "Go to central San Juanito and find the parish entrance. Cross the forecourt, pause at the portal and enter if no service is in progress. Return along the side pavement to see the nave’s profile.",
+    "management": "Nuestra Señora del Pueblito parish organises worship and controls access to the nave.",
+    "faq": [
+      {
+        "q": "Should I start inside?",
+        "a": "From the forecourt you can study the portal without interrupting a service, then decide whether it is appropriate to enter."
+      },
+      {
+        "q": "What is the dedication?",
+        "a": "The church is dedicated to Nuestra Señora del Pueblito. Use that name to locate it in San Juanito."
+      },
+      {
+        "q": "Where can I see the nave in profile?",
+        "a": "On leaving the forecourt, follow the side pavement instead of staying in front of the portal."
+      }
+    ]
+  },
+  "hacienda-gavilana": {
+    "body": "La Gavilana stands in La Estancita within the tequila-producing region. The municipality describes a colonial estate and factory. From the approach, first look for the relationship between fields, entrance gate and production buildings before considering a tasting visit.",
+    "route": "Travel to La Estancita and locate the signed entrance. Ask permission at the gate. If a visit is available, follow the host through the open sections and return to the meeting point.",
+    "management": "La Gavilana’s operator controls the property and any production tour. The municipality records its historical significance.",
+    "faq": [
+      {
+        "q": "Does the factory admit walk-ins?",
+        "a": "Ask the property before travelling. Inclusion on the heritage route does not include a factory booking."
+      },
+      {
+        "q": "Which settlement should I head for?",
+        "a": "La Estancita, in the municipality of San Juanito de Escobedo."
+      },
+      {
+        "q": "Is this the Estancia de Ayllones?",
+        "a": "They are separate estates. Ayllones lies beside La Mazata mine."
+      }
+    ]
+  },
+  "estancia-ayllones": {
+    "body": "The former estate stands beside La Mazata mine at the edge of the Magdalena valley. The setting brings agricultural and mining land use into one view. Before approaching, trace the end of the cultivated plain and the changing relief toward the mine.",
+    "route": "Ask in San Juanito for the public approach to Estancia de Ayllones. From the road, view the estate buildings and their position beside the valley. Return without turning onto mine tracks.",
+    "management": "San Juanito municipality publishes the estate’s record. Permission to enter estate land or mine facilities rests with their respective operators.",
+    "faq": [
+      {
+        "q": "Does the visit include La Mazata mine?",
+        "a": "The mine is a geographical reference. The exterior estate walk does not include mine facilities."
+      },
+      {
+        "q": "Which part of the valley is it in?",
+        "a": "The municipal heritage record places it at the edge of the Magdalena valley."
+      },
+      {
+        "q": "Which landscapes can I compare from outside?",
+        "a": "Look for the transition from agricultural plain to terrain leading into the former mining area."
+      }
+    ]
+  },
+  "teuchitlan-parroquia": {
+    "body": "The town-centre church offers an urban stop after the archaeological circuit. From the square, identify the orientation of the front and the way the atrium separates street traffic from worship. Change viewpoint on the return. From the side pavement the depth of the nave is easier to read.",
+    "route": "Leave the main square toward the church front. Cross the courtyard and study the entrance. Wait for any ceremony to finish before entering, then return along the garden edge.",
+    "management": "Señor de la Ascensión parish manages worship and access to the nave within the Archdiocese of Guadalajara. The municipality maintains the adjoining square.",
+    "faq": [
+      {
+        "q": "Is it covered by the Guachimontones ticket?",
+        "a": "This is the town’s active church, with access independent of the archaeological site and interpretation centre."
+      },
+      {
+        "q": "Where does the walk start?",
+        "a": "The main square is a nearby landmark for orienting yourself toward the church front."
+      },
+      {
+        "q": "What can I see during a ceremony?",
+        "a": "Stay outside for the forecourt and the nave’s profile from the side street."
+      }
+    ]
+  }
+}

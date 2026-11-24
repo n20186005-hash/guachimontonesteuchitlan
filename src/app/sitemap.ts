@@ -1,3 +1,4 @@
+import valleyPlaces from '@/lib/valles/index.json';
 import { MetadataRoute } from 'next';
 import { SITE } from '@/config';
 import { exploreSlugs } from '@/lib/explore';
@@ -39,7 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
       });
     }
-    for (const slug of nearbySlugs) {
+    for (const slug of [...nearbySlugs, ...valleyPlaces.map(p => p.slug)]) {
       sitemap.push({ url: `${baseUrl}/${locale}/nearby/${slug}`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.8 });
     }
     // 法律页

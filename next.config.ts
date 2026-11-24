@@ -7,6 +7,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 // output: 'standalone' 让 next build 产出 .next/standalone，供
 // opennextjs-cloudflare build --skipNextBuild 打包 Worker。
 const nextConfig: NextConfig = {
+  experimental: { cpus: 1 },
   output: 'standalone',
 };
 
